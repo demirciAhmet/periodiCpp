@@ -7,6 +7,7 @@
 #### In the Periodic Table Interface
 
 - Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek.
+- Kullanıcı seçtiği elementin özelliklerini görecek.
 - Kullanıcı, listeden seçtiği özelliğe bağlı olarak farklı özelliklere göre elementleri listeleyebilecek.
 
 
