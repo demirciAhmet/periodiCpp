@@ -4,7 +4,7 @@
 
 - Kullanıcı, kullanmak istediği özelliği menüden seçecek:
   - Menü:
-    - Home (Periyodik tablo)
+    - Periyodik Tablo Bölümü
       - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
         - Category
         - Block
@@ -29,6 +29,8 @@
           - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
         - Zamana karşı mod:
           - Süre ve soru zorluğu olarak çeşitli zorluk seçenekleri: kolay, orta, zor, imkansız...  (30 saniye, 1 dakika, ...)
+    - Kimyasal Reaksiyon Denkleştirme:
+      - Ör: H20 + HCOOH input olarak girilir, sonuç gözükür.
     - Daily Challange
     - Achievements (Quizlerle alakalı başarımlar)
       - Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
@@ -72,7 +74,8 @@
       - Crystal Structure
       - Speed of Sound
       - CAS Number
-    - SHOW ISOTOPES (Elementin Izotoplarını göstermek için buton)
+    - İzotopları gösterme butonu (Elementin Izotoplarını göstermek için buton)
+    - Olası bileşikleri gösterme butonu (seçilen elemente olası bileşik örnekleri verir)
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek.
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
