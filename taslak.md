@@ -31,8 +31,9 @@
           - Süre ve soru zorluğu olarak çeşitli zorluk seçenekleri: kolay, orta, zor, imkansız...  (30 saniye, 1 dakika, ...)
     - Daily Challange
     - Achievements (Quizlerle alakalı başarımlar)
-      - Level modununu tamamlamak
-      - Zamana karşı modda  
+      - Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
+      - Level modununu tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
+      - Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistery Master")
 
 #### Periodic Table Interface
 
