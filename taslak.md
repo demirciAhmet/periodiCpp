@@ -2,7 +2,28 @@
 
 #### In the General Application Interface
 
-- Kullanıcı, kullanmak istediği özelliği seçecek (periyodik tablo/quiz)
+- Kullanıcı, kullanmak istediği özelliği menüden seçecek:
+  - Menü:
+    - Home (Periyodik tablo)
+      - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
+        - Category
+        - Block
+        - Metallic
+        - Atomic Weight
+        - Electron Configuration
+        - Common Oxidations
+        - Melting Point
+        - Boiling Point
+        - Density
+        - Phase
+        - Radioactivity
+        - Discovery Year
+        - CAS Number
+    - Quiz
+      - Quiz by levels:
+        - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
+      - Challange eklebilir
+      - Quiz vs. time (zamana karşı yarış modu)
 
 #### In the Periodic Table Interface
 
