@@ -3,7 +3,6 @@
 #### General Application Interface
 
 - Kullanıcı, kullanmak istediği özelliği menüden seçecek:
-  - Home
   - Menü:
     - Home (Periyodik tablo)
       - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
