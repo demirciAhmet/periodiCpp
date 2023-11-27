@@ -29,6 +29,14 @@
           - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
         - Zamana karşı mod:
           - Süre ve soru zorluğu olarak çeşitli zorluk seçenekleri: kolay, orta, zor, imkansız...  (30 saniye, 1 dakika, ...)
+    - Custom Quiz Bölümü
+      - Public olarak veya private olarak oluşturma 
+      - Quiz modu seçimi (ör. zamana karşı modda custom quiz oluşturma)
+        - Seçilen moda göre soru ekleme özelliği
+      - Sorular için özellikler:
+        - Şık ekleme
+        - Süre belirleme
+        - Puanlama sistemi
     - Daily Challange
     - Achievements (Quizlerle alakalı başarımlar)
       - Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
