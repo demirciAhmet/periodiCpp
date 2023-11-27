@@ -19,6 +19,8 @@
         - Radioactivity
         - Discovery Year
         - CAS Number
+    - Search Bar: (elementler listeli olarak gözükür, oradan seçilebilir veya element aratılabilir)
+    - Özellikleri Öğrenme Bölümü: (bu bölümde yukarıdaki periyodik tablo özellikleri hakkın ayrı ayrı öğretici bölümler vardır)
     - Quiz Bölümü (Çeşitli quiz modları)
       - Kullanıcı burada seçeceği soru sayısına bağlı olarak elementlerin kısaltmasıyla alakalı bir quiz çözecek.
       - Otomatik kayıt sistemi olacak, kullanıcı uygulamayı kapatsa bile yeniden açtığında kaldığı yerden quizleri çözmeye devam edebilecek.
@@ -36,6 +38,10 @@
       - Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
       - Level modununu tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
       - Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistery Master")
+    - Favoriler (elementler favori olarak eklenebilir ve bu bölümde gözükür)
+    - Settings
+      - Themes
+      - Report a bug
 
 #### Periodic Table Interface
 
@@ -80,3 +86,9 @@
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
 # Non-Functional Requirements
+
+# Notes
+
+- görseller için images-of-elements.com
+- Element özellikleri nested olarak olacak
+- 
