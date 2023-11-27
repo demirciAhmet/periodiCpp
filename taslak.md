@@ -3,6 +3,7 @@
 #### In the General Application Interface
 
 - Kullanıcı, kullanmak istediği özelliği menüden seçecek:
+  - Home
   - Menü:
     - Home (Periyodik tablo)
       - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
@@ -19,11 +20,15 @@
         - Radioactivity
         - Discovery Year
         - CAS Number
-    - Quiz
-      - Quiz by levels:
+    - Quiz Bölümü (Çeşitli quiz modları)
+      - Level modu:
         - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
-      - Challange eklebilir
-      - Quiz vs. time (zamana karşı yarış modu)
+      - Zamana karşı mod:
+        - Süre ve soru zorluğu olarak çeşitli zorluk seçenekleri: kolay, orta, zor, imkansız...
+    - Daily Challange
+    - Achievements (Quizlerle alakalı başarımlar)
+      - Level modununu tamamlamak
+      - Zamana karşı modda  
 
 #### In the Periodic Table Interface
 
