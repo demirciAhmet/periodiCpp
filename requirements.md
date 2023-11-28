@@ -111,8 +111,6 @@
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek.
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
-# Non-Functional Requirements
-
 # Notes
 
 - görseller için images-of-elements.com
