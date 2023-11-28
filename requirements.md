@@ -103,8 +103,8 @@
       - CAS Number
     - İzotopları gösterme butonu olacak( Elementin Izotoplarını göstermek için buton)
     - Olası bileşikleri gösterme butonu olacak (seçilen elemente olası bileşik örnekleri verir)
-- Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek.
-- Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
+- Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek (ör. metaller'e basınca metaller renkli diğer elementler sönük. Ekstra elementin ne kadar metalik özellik gösterdiğine göre renk opaklaşabilir)
+- Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını liste şeklinde görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
 #### Periyodik Tablo Bölümü İçin Notlar:
 - Element özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
