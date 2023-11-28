@@ -116,4 +116,7 @@
 - görseller için images-of-elements.com
 - interaktif site https://ptable.com/#Properties
 - Element özellikleri nested olarak olacak
-- 
+
+# Görseller
+
+- !(resim1)[https://www.webelements.com/_media/periodicity/tables/periodicity_cityscape_white/abund_crust_city_w.png]
