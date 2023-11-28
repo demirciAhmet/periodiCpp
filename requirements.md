@@ -3,7 +3,7 @@
 #### General Application Requirements (as Interface)
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
-  - **Periyodik Tablo Bölümü**
+  - **Periyodik Tablo Bölümü (default)**
     - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
       - Category
       - Block
