@@ -36,7 +36,6 @@
     - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
     - örnek2: Level modununu tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
     - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistery Master")
-  - **Favoriler Bölümü** (elementler favori olarak eklenebilir ve bu bölümde gözükür)
   - **Settings Bölümü**
     - Themes
     - Report a bug
