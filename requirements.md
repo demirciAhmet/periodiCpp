@@ -61,10 +61,6 @@
 - Server işine girmezsek kazandığımız zamanı GUI gelişimine harcayabiliriz.
 - Oyun projesi geliştirenler oyun hakkında düşünerek çok zaman kaybediyorlar, biz ise bu zamanı proje detaylarına harcayarak çok güzel bir proje çıkartabiliriz.
 
-
-
-
--Kullanıcı, çeşitli seçeneklerle karşılaşacak: Hazır Quizler, Community Quizzes
 #### Periodic Table Interface
 - Tasarım iki çeşit olacak, periyodik tablo menüden ilk seçildiğinde minimal bir tablo olacak.
 - Kullanıcı isterse detaylı moda geçebilecek
@@ -108,6 +104,11 @@
     - Olası bileşikleri gösterme butonu olacak (seçilen elemente olası bileşik örnekleri verir)
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek.
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
+
+#### Periyodik Tablo Bölümü İçin Notlar:
+- Element özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
+- Periyodik tablo özellikleri için en az uğraştıracak olanlar seçilebilir, böylelikle hem genel proje detaylı gözükür hem biz az uğraşırız
+- 
 
 # Notes
 
