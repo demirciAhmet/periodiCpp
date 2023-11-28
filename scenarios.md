@@ -3,7 +3,7 @@
 Eren kimya dersine meraklı olan bir lise öğrencisidir. Periyodik tabloyu ve elementleri daha yakından öğrenmek isteyen Eren periodiC++ adlı uygulamayı kullanmaya başlar. Bu uygulamada periyodik tablodaki elementleri farklı özelliklerine göre sıralar ve inceler. Merak ettiği element hakkındaki bilgileri doğrudan inceleyebilir. Periyodik sistemde aradığı elementi bulmak için ise arama çubuğunu kullanır.
 
 
-##### senerio 2 
+##### scenerio - 2 
 
 Eren, öğrendiği bilgileri pekiştirmek için uygulamanın quiz modunu açar. Burada ister zamana karşı isterse de seviyeye göre zorluğu artan quizleri çözer. Bu quizlerde Eren'in skoru, kaydı ve en yüksek skoru database'de tutulur. Çözdüğü quizlere bağlı olarak çeşitli başarılar elde eder. Bu başarılar da database de tutulur. 
 ##### scenario 3
