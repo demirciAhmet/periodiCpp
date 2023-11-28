@@ -5,7 +5,7 @@ Eren kimya dersine meraklı olan bir lise öğrencisidir. Periyodik tabloyu ve e
 
 ##### senerio 2 
 
-Eren, öğrendiği bilgileri pekiştirmek için uygulamanın quiz modunu açar. Burada ister zamana karşı isterse de seviyeye göre zorluğu artan quizleri çözer. Bu quizlerde skor tutucu Eren'in skorunu, kaydını ve en yüksek skorunu database'de tutar. Çözdüğü quizlere bağlı olarak çeşitli başarılar elde eder. Bu başarılar da database de tutulur. 
+Eren, öğrendiği bilgileri pekiştirmek için uygulamanın quiz modunu açar. Burada ister zamana karşı isterse de seviyeye göre zorluğu artan quizleri çözer. Bu quizlerde Eren'in skoru, kaydı ve en yüksek skoru database'de tutulur. Çözdüğü quizlere bağlı olarak çeşitli başarılar elde eder. Bu başarılar da database de tutulur. 
 ##### scenario 3
 
 (tam olmayan bi özellikle karşılaşınca ne olacak)
