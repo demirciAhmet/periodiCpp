@@ -68,7 +68,9 @@
 
 -Kullanıcı, çeşitli seçeneklerle karşılaşacak: Hazır Quizler, Community Quizzes
 #### Periodic Table Interface
-
+- Tasarım iki çeşit olacak, periyodik tablo menüden ilk seçildiğinde minimal bir tablo olacak.
+- Kullanıcı isterse detaylı moda geçebilecek
+  - Detaylı modda elementlerin bilgileri sol tarafta gözükecek
 - Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek.
   - En tepede elementin resmi olacak, resmin üzerine tıklayınca elementin modeli çıkacak, bir daha 
   - Kullanıcı seçtiği elementin özelliklerini görecek:    - INFO:
