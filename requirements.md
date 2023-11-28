@@ -121,6 +121,10 @@
 
 - !(resim1)[https://www.webelements.com/_media/periodicity/tables/periodicity_cityscape_white/abund_crust_city_w.png]
 
+# Olası Özellikler
+  - Multiple language desteği (çeviri yapmamıza gerek yok sadece projeyi çoklu dili destekleyecek şekilde geliştirmek)
+  - Tema desteği - karanlık- light tema (sadece arayüz için)
+  - 
 # Silinen Özellikler
   - Eksikleim bölümü
   - Favorilerim bölümü
