@@ -40,18 +40,6 @@
     - Themes
     - Report a bug
 
-#### Olası Quiz Bölümü 1
-  - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Hazır quizler ve Topluluk Quizleri.
-    - Topluluk quizleri için yıldız verme sistemi olacak, quiz hazırlamak için kullanıcının giriş yapması gerekmektedir.
-
-#### Olası Quiz Bölümü 2
-  - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Hazır quizler ve Özel Quizler.
-    - Daha önce biri (ör. bir öğretmen) quiz hazırlayacak ve bu hazırlanan quiz veri olarak sunucuda depolanacak, hazır link hazırlayana verilecek ve paylaştığı kişilere bu linki verip quiz çözdürebilecek
-
-#### Olası Quiz Bölümü 3
-  - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Quizler ve Soru Hazırlayıcı.
-    - Kullanıcı soru hazırlayıcıyı kullanarak kendi bilgisayarına indirmek üzere soru hazırlayabilecek (bu bölümün aktif olması için kullanıcıya başlangıçta kullanım amacı sorulabilir: öğrenci, öğretmen, kimya meraklısı. Kullanıcı öğretmeni seçerse buton aktif olabilir.
-
 #### Olası Quiz Bölümü 4
   - Sadece hazır quizler olacak, kullanıcının karşısına modlar çıkacak: level modu, zamana karşı mod...
 
@@ -128,3 +116,15 @@
 # Silinen Özellikler
   - Eksikleim bölümü
   - Favorilerim bölümü
+  #### Olası Quiz Bölümü 1
+    - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Hazır quizler ve Topluluk Quizleri.
+      - Topluluk quizleri için yıldız verme sistemi olacak, quiz hazırlamak için kullanıcının giriş yapması gerekmektedir.
+  
+  #### Olası Quiz Bölümü 2
+    - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Hazır quizler ve Özel Quizler.
+      - Daha önce biri (ör. bir öğretmen) quiz hazırlayacak ve bu hazırlanan quiz veri olarak sunucuda depolanacak, hazır link hazırlayana verilecek ve paylaştığı kişilere bu linki verip quiz çözdürebilecek
+  
+  #### Olası Quiz Bölümü 3
+    - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Quizler ve Soru Hazırlayıcı.
+      - Kullanıcı soru hazırlayıcıyı kullanarak kendi bilgisayarına indirmek üzere soru hazırlayabilecek (bu bölümün aktif olması için kullanıcıya başlangıçta kullanım amacı sorulabilir: öğrenci, öğretmen, kimya meraklısı. Kullanıcı öğretmeni seçerse buton aktif olabilir.
+
