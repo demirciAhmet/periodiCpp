@@ -70,8 +70,8 @@
 #### Periodic Table Interface
 
 - Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek.
-  - Kullanıcı seçtiği elementin özelliklerini görecek:
-    - INFO:
+  - En tepede elementin resmi olacak, resmin üzerine tıklayınca elementin modeli çıkacak, bir daha 
+  - Kullanıcı seçtiği elementin özelliklerini görecek:    - INFO:
       - Name
       - Description
       - Keşfeden kişi
@@ -114,5 +114,6 @@
 # Notes
 
 - görseller için images-of-elements.com
+- interaktif site https://ptable.com/#Properties
 - Element özellikleri nested olarak olacak
 - 
