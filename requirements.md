@@ -118,3 +118,7 @@
 # Görseller
 
 - !(resim1)[https://www.webelements.com/_media/periodicity/tables/periodicity_cityscape_white/abund_crust_city_w.png]
+
+# Silinen Özellikler
+  - Eksikleim bölümü
+  - Favorilerim bölümü
