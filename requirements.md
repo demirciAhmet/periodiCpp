@@ -67,7 +67,8 @@
   - Detaylı modda elementlerin bilgileri sol tarafta gözükecek
 - Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek.
   - En tepede elementin resmi olacak, resmin üzerine tıklayınca elementin modeli çıkacak, bir daha 
-  - Kullanıcı seçtiği elementin özelliklerini görecek:    - INFO:
+  - Kullanıcı seçtiği elementin özelliklerini görecek:
+    - INFO:
       - Name
       - Description
       - Keşfeden kişi
@@ -108,7 +109,7 @@
 #### Periyodik Tablo Bölümü İçin Notlar:
 - Element özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
 - Periyodik tablo özellikleri için en az uğraştıracak olanlar seçilebilir, böylelikle hem genel proje detaylı gözükür hem biz az uğraşırız
-- 
+- Search bar periyodik tabloya entegre olarak da eklenebilir
 
 # Notes
 
