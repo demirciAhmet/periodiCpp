@@ -3,40 +3,45 @@
 #### General Application Requirements (as Interface)
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
-  - **Periyodik Tablo Bölümü (default)**
-    - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek:
-      - Category
-      - Block
+  - **Tablo Section (default)**
+    - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek, her bir seçenek için özel renklendirme olacak
+      - Categories
+      - Blocks
       - Metallic
-      - Atomic Weight
-      - Electron Configuration
-      - Common Oxidations
-      - Melting Point
-      - Boiling Point
-      - Density
       - Phase
       - Radioactivity
-      - Discovery Year
-      - CAS Number
-  - **Search Bar Bölümü** (burada elementler listeli olarak gözükür, oradan element seçilebilir veya element aratılabilir)
-  - **Tablo Özelliklerini Öğrenme Bölümü:** (bu bölümde yukarıdaki periyodik tablo özellikleri hakkında ayrı ayrı öğretici bölümler vardır)
-  - **Quiz Bölümü** (Çeşitli quiz modları)
+  - Kullanıcı tablodaki elementleri, seçeceği özelliklerden biri doğrultusunda görüntüleyecek (elementin altında yazacak kısmı belirleyecek) (Bu kısımda elementler :
+    - Element name (Default)
+    - Atomic weight
+    - Electron configuration
+    - Elements per shell
+    - Common oxidations
+    - Melting Point
+    - Boiling Point
+    - Density
+    - Discovery Year
+    - Cas Number
+  - **Search Section** (burada elementler listeli olarak gözükür, oradan element seçilebilir veya element aratılabilir)
+  - **Learn Section:** (bu bölümde yukarıdaki periyodik tablo özellikleri hakkında ayrı ayrı öğretici bölümler vardır)
+  - **Quiz Section** (Çeşitli quiz modları)
     - Çeşitli quiz modları olacak:
-      - Level modu:
+      1. Levels:
         - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
-      - Zamana karşı mod:
-        - Süre ve soru zorluğu olarak çeşitli zorluk seçenekleri: kolay, orta, zor, imkansız...  (30 saniye, 1 dakika, ...)
+      2. Challange Mode:
+        - Süre kısıtlaması olan bu modda en yüksek puanı elde etmeye çalışın!
     - Otomatik kayıt sistemi olacak, kullanıcı uygulamayı kapatsa bile yeniden açtığında kaldığı level'dan devam edebilecek.
     - Skor tutucu kullanıcının doğru bildiği element ve süreye göre bir skor verecek.
     - Skor rekoru ise tüm zamanların en yüksek skorunu verecek.
-  - **Kimyasal Reaksiyon Denkleştirme Bölümü**
-    - Ör: H20 + HCOOH input olarak girilir, sonuç gözükür.
-  - **Achievements Bölümü** (Quizlerle alakalı başarımlar)
+  - **Compounds Section**
+    - Ör: H ve O girilir, girilen elementlerden oluşabilecek bileşikler gözükür.
+  - **Achievements Section** (Quizlerle alakalı başarımlar)
     - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
     - örnek2: Level modununu tamamlamak (olası başarım ismi: "")
     - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
-  - **Settings Bölümü**
-    - Themes
+  - **Settings Section**
+    - Dark-Light mode
+    - Language
+    - Window mode: fullscreen, windowed...
     - Report a bug
 
 #### Olası Quiz Bölümü 4
