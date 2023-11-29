@@ -31,7 +31,6 @@
     - Skor rekoru ise tüm zamanların en yüksek skorunu verecek.
   - **Kimyasal Reaksiyon Denkleştirme Bölümü**
     - Ör: H20 + HCOOH input olarak girilir, sonuç gözükür.
-  - **Daily Challanges Bölümü**
   - **Achievements Bölümü** (Quizlerle alakalı başarımlar)
     - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
     - örnek2: Level modununu tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
@@ -116,6 +115,8 @@
 # Silinen Özellikler
   - Eksikleim bölümü
   - Favorilerim bölümü
+  - Daily Challanges Bölümü
+
   #### Olası Quiz Bölümü 1
     - Kullanıcı quiz bölümüne girdiğinde 2 seçenek karşısına çıkacak: Hazır quizler ve Topluluk Quizleri.
       - Topluluk quizleri için yıldız verme sistemi olacak, quiz hazırlamak için kullanıcının giriş yapması gerekmektedir.
