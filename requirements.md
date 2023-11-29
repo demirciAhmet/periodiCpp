@@ -32,9 +32,9 @@
   - **Kimyasal Reaksiyon Denkleştirme Bölümü**
     - Ör: H20 + HCOOH input olarak girilir, sonuç gözükür.
   - **Achievements Bölümü** (Quizlerle alakalı başarımlar)
-    - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "Hiç fena değil.")
-    - örnek2: Level modununu tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
-    - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistery Master")
+    - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
+    - örnek2: Level modununu tamamlamak (olası başarım ismi: "")
+    - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
   - **Settings Bölümü**
     - Themes
     - Report a bug
