@@ -29,6 +29,4 @@ Users should be able to customize quiz parameters easily.
 9-Visualization:
 The periodic table interface should provide clear and visually appealing representations of element properties.
 
-10-Sorting Efficiency:
-Element sorting based on selected properties should be efficient, even with a large dataset.
 These non-functional requirements ensure that the application not only performs specific functions but also meets user expectations regarding speed, reliability, and overall user experience.
