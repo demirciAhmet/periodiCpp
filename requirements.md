@@ -71,11 +71,11 @@
 
 - Listelenmiş bir şekilde elementleri görüntüleyebilecek
 - İstediği elementi aratabilecek
-# Learn Section
+# Learn Section Requirements
 
 - Kullanıcının periyodik tablo özelliklerini öğrenebileceği bir bölüm olacak.
 - Bilgi alınabilecek özellikler ayrı ayrı hazırlanacak, kullanıcı seçeceği özellik hakkında bilgi sahibi olacak
-# Quiz Section
+# Quiz Section Requirements
 
 - Çeşitli Quiz modları olacak, kullanıcı modlardan birini seçecek:
       1. Levels:
