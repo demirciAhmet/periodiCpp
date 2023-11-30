@@ -1,8 +1,10 @@
+
+
 # Functional Requirements
 
 # General Application Requirements
 
-- Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
+- There will be a menu, the user will be able to select the desired section from the menu:
   - **Table Section (Default)**
   - **Search Section**
   - **Learn Section**
@@ -13,89 +15,90 @@
 
 # Periodic Table Section Requirements
 
-- Kullanıcı, periyodik tabloda istediği özelliklere göre periyodik tablo renklendirmesini seçebilecek, her bir seçenek için özel renklendirme olacak
-      - Classes (Default)
-      - Blocks
-      - Metallic
-      - Phase
+- The user will be able to choose the periodic table colouring according to the properties they want in the periodic table, there will be special colouring for each option.
+  - Classes (Default)
+  - Blocks
+  - Metallic
+  - Phase
+  - Radioactivity
+- The user will determine which property he/she wants to display the elements in the table
+  - Simple
+  - Detailed   
+  - Element name (Default)
+  - Atomic weight
+  - Discovery Year
+  - Electron configuration
+  - Elements per shell
+  - Common oxidations
+  - Melting Point
+  - Boiling Point
+  - Density
+  - Cas Number
+- There will be two different modes for viewing the periodic table:
+- In Default mode, the element information mode will be pop-up and more detailed.
+- In Wide mode, the element information will be simplified on the left side.
+- The user will be able to select the element he/she wants to obtain information from the periodic table:
+  - In the pop-up window, the picture or the model of the element can be changed, and clicking on it will switch between the two.
+  - In the window that opens, there will be information about the element. Some possible informations:
+    - Brief Information Part:
+      - Name
+      - Description
+      - Discovered by
+      - Discovery Tear
+    - Element Properties Part:
+      - Atom Number
+      - Atomic Weight
+      - Group Number
+      - Period
+      - Block
       - Radioactivity
-  - Elementleri tabloda hangi özellik ile görüntülemek istediğini kullanıcı belirleyecek
-    - Simple
-    - Detailed   
-    - Element name (Default)
-    - Atomic weight
-    - Discovery Year
-    - Electron configuration
-    - Elements per shell
-    - Common oxidations
-    - Melting Point
-    - Boiling Point
-    - Density
-    - Cas Number
-- Periyodik tabloyu görüntülemek için iki farklı mod olacak:
-  - Default modda element bilgilendirme kipi açılır pencere şekilde olacak ve daha detaylı olacak.
-  - Wide modda elementin bilgileri basitleştirilmiş şekilde sol tarafta gözükecek.
-- Kullanıcı, bilgisini edinmek istediği elementi periyodik tablo üzerinden seçebilecek:
-    - Açılan pencerede elementin resmi veya modeli değiştirilebilir şekilde olacak, üstüne tıklayınca ikisi arasında geçiş yapılabilir olacak.
-    - Açılan pencerede Element hakkında bilgiler olacak. Olası bazı bilgiler:
-      - Brief Information Part:
-        - Name
-        - Description
-        - Keşfeden kişi
-        - Discovery Tear
-      - Element Properties Part:
-        - Atom Number
-        - Atomic Weight
-        - Group Number
-        - Periot
-        - Block
-        - Radyoaktivite
-      - Atomic Properties Part:
-        - Electron configuration
-        - Electrons Per Shell
-        - Oxidation States
-        - Common Oxidation States
-        - Electronegativity 
-        - Covalent Radius
-        - Van der Waals Radius
-      - Physical Properties Part:
-        - Appearance
-        - Phase
-        - Melting Point
-        - Density
-        - Heat of Fusion
-        - Heat of Vaporization
-        - Molar Heat Capacity
+    - Atomic Properties Part:
+      - Electron configuration
+      - Electrons Per Shell
+      - Oxidation States
+      - Common Oxidation States
+      - Electronegativity 
+      - Covalent Radius
+      - Van der Waals Radius
+    - Physical Properties Part:
+      - Appearance
+      - Phase
+      - Melting Point
+      - Density
+      - Heat of Fusion
+      - Heat of Vaporization
+      - Molar Heat Capacity
 
 # Search Section Requirements
 
-- Listelenmiş bir şekilde elementleri görüntüleyebilecek
-- İstediği elementi aratabilecek
+- Display elements in a listed form.
+- The user will be able to search for the desired element
+
 # Learn Section Requirements
 
-- Kullanıcının periyodik tablo özelliklerini öğrenebileceği bir bölüm olacak.
-- Bilgi alınabilecek özellikler ayrı ayrı hazırlanacak, kullanıcı seçeceği özellik hakkında bilgi sahibi olacak
+- There will be a section where the user can learn the properties of the periodic table.
+ 
 # Quiz Section Requirements
 
-- Çeşitli Quiz modları olacak, kullanıcı modlardan birini seçecek:
+- There will be various Quiz modes, the user will choose one of the modes:
       1. Levels:
-        - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
+        - level1, level2, level3, level4 (as the user finishes levels, others are unlocked, basic questions about elements)
       2. Challange Mode:
-        - Süre kısıtlaması olan bu modda en yüksek puanı elde etmeye çalışın!
-- Otomatik kayıt sistemi olacak, kullanıcı uygulamayı kapatsa bile yeniden açtığında kaldığı level'dan devam edebilecek.
-- Challange modu için skor tutucu kullanıcının doğru bildiği element ve süreye göre bir skor verecek.
-- Rekoru ise tüm zamanların en yüksek skorunu verecek.
+        - Try to get the highest score in this time-limited mode!
+- There will be an automatic recording system, even if the user closes the application, he will be able to continue from the level he left when he reopens it.
+- The scorekeeper for Challange mode will give a score according to the element and time the user knows correctly.
+- The user will be able to see the highest score of all times.
 
 # Compounds Section Requirements
 
-- Ör: H ve O girilir, girilen elementlerden oluşabilecek bileşikler gözükür.
+- Example: H and O are entered, the compounds that can be formed from the entered elements are displayed.
 
 # Achievements Section Requirements
 
-- Quizler ile alakalı başarımlar olacak.
-- örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
-- örnek2: Level modununu tamamlamak (olası başarım ismi: "")
-- örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
+- There will be achievements related to quizzes.
+- example1: Completing level 1 in Level mode (possible achievement name: "fire, water, earth, wood!")
+- example2: Completing all Levels (possible achievement name: "")
+- example3: In challange mode, reach score at least 1000 (possible achievement name: "Chemistry Master")
 
 # Settings Section Requirements
 
