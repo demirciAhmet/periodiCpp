@@ -13,7 +13,6 @@ The system should handle an increasing number of users and quizzes without signi
 
 4-Security:
 Private quizzes should be securely stored and accessible only to authorized users.
-User data should be protected to prevent unauthorized access.
 
 5-Compatibility:
 The application should be compatible with various devices and operating systems.
