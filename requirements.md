@@ -1,17 +1,28 @@
 # Functional Requirements
 
-#### General Application Requirements
+# General Application Requirements
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
-  - **Table Section (default)**
-    - Kullanıcı, periyodik tabloda istediği özelliklere göre periyodik tablo renklendirmesini seçebilecek, her bir seçenek için özel renklendirme olacak
+  - **Table Section (Default)**
+  - **Search Section
+  - **Learn Section**
+  - **Quiz Section**
+  - **Compounds Section**
+  - **Achievements Section** 
+  - **Settings Section**
+
+# Periodic Table Section Requirements
+
+- Kullanıcı, periyodik tabloda istediği özelliklere göre periyodik tablo renklendirmesini seçebilecek, her bir seçenek için özel renklendirme olacak
       - Classes (Default)
       - Blocks
       - Metallic
       - Phase
       - Radioactivity
-  - Periyodik tablo kipinde elementin altında yazacak bilgilendirmeyi kullanıcı belirleyecek:
+  - Elementleri tabloda hangi özellik ile görüntülemek istediğini kullanıcı belirleyecek
     - Element name (Default)
+    - Simple
+    - Detailed
     - Atomic weight
     - Electron configuration
     - Elements per shell
@@ -21,39 +32,6 @@
     - Density
     - Discovery Year
     - Cas Number
-  - **Search Section** (burada elementler listeli olarak gözükür, oradan element seçilebilir veya element aratılabilir)
-  - **Learn Section:** (bu bölümde yukarıdaki periyodik tablo özellikleri hakkında ayrı ayrı öğretici bölümler vardır)
-  - **Quiz Section** (Çeşitli quiz modları)
-    - Çeşitli quiz modları olacak:
-      1. Levels:
-        - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
-      2. Challange Mode:
-        - Süre kısıtlaması olan bu modda en yüksek puanı elde etmeye çalışın!
-    - Otomatik kayıt sistemi olacak, kullanıcı uygulamayı kapatsa bile yeniden açtığında kaldığı level'dan devam edebilecek.
-    - Skor tutucu kullanıcının doğru bildiği element ve süreye göre bir skor verecek.
-    - Skor rekoru ise tüm zamanların en yüksek skorunu verecek.
-  - **Compounds Section**
-    - Ör: H ve O girilir, girilen elementlerden oluşabilecek bileşikler gözükür.
-  - **Achievements Section** (Quizlerle alakalı başarımlar)
-    - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
-    - örnek2: Level modununu tamamlamak (olası başarım ismi: "")
-    - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
-  - **Settings Section**
-    - Dark-Light mode
-    - Language
-    - Window mode: fullscreen, windowed...
-    - Report a bug
-
-#### Olası Quiz Bölümü 4
-  - Sadece hazır quizler olacak, kullanıcının karşısına modlar çıkacak: level modu, zamana karşı mod...
-
-#### Quiz Bölümü İçin Notlar: 
-- Veri tutmak için bulut sistemlerinden birinde server açılabilir: aws, gcs, microsoft azure vb.
-- Server işine girersek temel düzeyde server öğrenmiş oluruz ve bu bize epey fayda salar fakat biraz zamanımızı alabilir.
-- Server işine girmezsek kazandığımız zamanı GUI gelişimine harcayabiliriz.
-- Oyun projesi geliştirenler oyun hakkında düşünerek çok zaman kaybediyorlar, biz ise bu zamanı proje detaylarına harcayarak çok güzel bir proje çıkartabiliriz.
-
-#### Periodic Table Section Requirements
 - Periyodik tabloyu görüntülemek için iki farklı mod olacak:
   - Default modda açılır pencere şekilde element hakkında bilgi edinilebilecek.
   - Diğer modda elementin bilgileri basitleştirilmiş şekilde sol tarafta gözükecek.
@@ -96,32 +74,65 @@
         - CAS Number
     - İzotopları gösterme butonu olacak( Elementin Izotoplarını göstermek için buton)
     - Olası bileşikleri gösterme butonu olacak (seçilen elemente olası bileşik örnekleri verir)
-- Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek (ör. metaller'e basınca metaller renkli diğer elementler sönük. Ekstra elementin ne kadar metalik özellik gösterdiğine göre renk opaklaşabilir)
-- Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını liste şeklinde görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
 # Search Section Requirements
 
+- Listelenmiş bir şekilde elementleri görüntüleyebilecek
+- İstediği elementi aratabilecek
+# Learn Section
 
----
+- Kullanıcının periyodik tablo özelliklerini öğrenebileceği bir bölüm olacak.
+- Bilgi alınabilecek özellikler ayrı ayrı hazırlanacak, kullanıcı seçeceği özellik hakkında bilgi sahibi olacak
+# Quiz Section
 
-#### Periyodik Tablo Bölümü İçin Notlar:
-- Element özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
-- Periyodik tablo özellikleri için en az uğraştıracak olanlar seçilebilir, böylelikle hem genel proje detaylı gözükür hem biz az uğraşırız
+- Çeşitli Quiz modları olacak, kullanıcı modlardan birini seçecek:
+      1. Levels:
+        - level1, level2, level3, level4 (kullanıcı levelleri bitirdikçe diğerlerinin kilidi açılır, elementler ile ilgili temel sorular)
+      2. Challange Mode:
+        - Süre kısıtlaması olan bu modda en yüksek puanı elde etmeye çalışın!
+- Otomatik kayıt sistemi olacak, kullanıcı uygulamayı kapatsa bile yeniden açtığında kaldığı level'dan devam edebilecek.
+- Challange modu için skor tutucu kullanıcının doğru bildiği element ve süreye göre bir skor verecek.
+- Rekoru ise tüm zamanların en yüksek skorunu verecek.
+
+# Compounds Section
+
+- Ör: H ve O girilir, girilen elementlerden oluşabilecek bileşikler gözükür.
+
+# Achievements Section
+
+- Quizler ile alakalı başarımlar olacak.
+- örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
+- örnek2: Level modununu tamamlamak (olası başarım ismi: "")
+- örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
+
+# Settings Section
+
+- Dark-Light mode
+- Language
+- Window mode: fullscreen, windowed...
+- Report a bug
+
+
+
+
+
+
 
 # Notes
 
-- görseller için images-of-elements.com
-- interaktif site https://ptable.com/#Properties
-- Element özellikleri nested olarak olacak
-
+- Periyodik Tablo Bölümü İçinElement özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
+- Periyodik tablo özellikleri için en az uğraştıracak olanlar seçilebilir, böylelikle hem genel proje detaylı gözükür hem biz az uğraşırız
+- Multiple language desteği: (çeviri yapmamıza gerek yok sadece projeyi çoklu dili destekleyecek şekilde geliştirmek)
+***Quiz Bölümü İçin Notlar: ***
+- Veri tutmak için bulut sistemlerinden birinde server açılabilir: aws, gcs, microsoft azure vb.
+- Server işine girersek temel düzeyde server öğrenmiş oluruz ve bu bize epey fayda salar fakat biraz zamanımızı alabilir.
+- Server işine girmezsek kazandığımız zamanı GUI gelişimine harcayabiliriz.
+- Oyun projesi geliştirenler oyun hakkında düşünerek çok zaman kaybediyorlar, biz ise bu zamanı proje detaylarına harcayarak çok güzel bir proje çıkartabiliriz.
 # Görseller
 
-- !(resim1)[https://www.webelements.com/_media/periodicity/tables/periodicity_cityscape_white/abund_crust_city_w.png]
+- görseller için images-of-elements.com
+- [https://www.webelements.com/_media/periodicity/tables/periodicity_cityscape_white/abund_crust_city_w.png]
 
-# Olası Özellikler
-  - Multiple language desteği (çeviri yapmamıza gerek yok sadece projeyi çoklu dili destekleyecek şekilde geliştirmek)
-  - Tema desteği - karanlık- light tema (sadece arayüz için)
-  - 
 # Silinen Özellikler
   - Eksikleim bölümü
   - Favorilerim bölümü
