@@ -1,4 +1,4 @@
-In this project, we are developing a periodic table-based application that includes features such as the periodic table, quizzes, elements, and properties of elements. The properties of the elements encompass details like Element Name (default), Atomic Weight, Discovery Year, Electron Configuration, Electrons Per Shell, Common Oxidations, Melting Point, Boiling Point, Density, and CAS Number.
+In this project, we are developing a periodic table-based application that includes features such as the periodic table, quizzes, elements, and properties of elements. The properties of the elements encompass details like Element Name , Atomic Weight, Discovery Year, Electron Configuration, Electrons Per Shell, Common Oxidations, Melting Point, Boiling Point, Density, and CAS Number.
 
 This report includes introduction, requirements, system models, and conclusion sections. System models cover scenarios, use cases, user interfaces, object, and class models.
 
