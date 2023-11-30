@@ -17,6 +17,6 @@ Scenario 1:Ahmet, who started to take chemistry lessons, would like to get more 
 
 Scenario 2:İlham, who needs element properties in his chemistry assignment, quickly accesses detailed knowledge of the elements by opening periodiC++.
 
-Scenario 3:Eren turns on the app's quiz mode to reinforce the information she has learned. Here, it solves quizs with increasing difficulty, whether against time or by level. In these quises, Eren's score, record and highest score are kept. He achieves various achievements depending on the quiz he solves.
+Scenario 3:Eren turns on the app's quiz mode to reinforce the information he has learned. Here, it solves quizs with increasing difficulty, whether against time or by level. In these quises, Eren's score, record and highest score are kept. He achieves various achievements depending on the quiz he solves.
 
 Scenario 4:Ali, who opens the periodic table program, notices that he is missing information about some properties while navigating between the elements in the table. In order to compensate for the lack of knowledge, he enters the learning section and completes the parts he does not know or knows missing.
