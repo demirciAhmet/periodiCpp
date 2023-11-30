@@ -6,7 +6,7 @@ Elementlerin değişen özelliklerini görünce elementler hakkındaki merakı a
 Periodic tablonun element özelliklerinin değişimini daha net görebilmek için programda var olan 
 özelliğe göre sıralama özelliğini kullanır.
 
-2-	Kimya ödevinde element özelliklerine ihtiyaç duyan İlham, periodiC++ ı açarak hızlıca elementlerin ayrıntılı bilgisine ulaşır.
+2-	Musab Kimya ödevinde demir, oksijen ve berilyum elementlerinin özelliklerine ihtiyaç duyar. İnternetten teker teker aratmak yerine hızlıca peridiC++ ı açar ve tek tıkla elementlerin özelliklerine ulaşır.
 
 3-Eren, öğrendiği bilgileri pekiştirmek için uygulamanın quiz modunu açar. Burada ister zamana karşı isterse de seviyeye göre zorluğu artan quizleri çözer. Bu quizlerde Eren'in skoru, kaydı ve en yüksek skoru  tutulur. Çözdüğü quizlere bağlı olarak çeşitli başarılar elde eder. 
 
@@ -15,7 +15,7 @@ Periodic tablonun element özelliklerinin değişimini daha net görebilmek içi
 -------------------
 Scenario 1:Ahmet, who started to take chemistry lessons, would like to get more information about the periodic table and periodic table elements. For this, it opens periodiC++ and clicks on these elements in order to learn more about the few elements it sees after examining the periodic table that appears. When he sees the changing properties of the elements, his curiosity about the elements increases. In order to see more clearly the change of the element properties of the periodic table, it uses the sorting feature according to the existing feature in the program.
 
-Scenario 2:İlham, who needs element properties in his chemistry assignment, quickly accesses detailed knowledge of the elements by opening periodiC++.
+Scenario 2:Musab Chemistry needs the properties of iron, oxygen and beryllium elements in his homework. Instead of searching the internet one by one, it quickly opens peridiC++ and reaches the properties of the elements with one click.
 
 Scenario 3:Eren turns on the app's quiz mode to reinforce the information he has learned. Here, it solves quizs with increasing difficulty, whether against time or by level. In these quises, Eren's score, record and highest score are kept. He achieves various achievements depending on the quiz he solves.
 
