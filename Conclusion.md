@@ -1,0 +1,3 @@
+In this project, we are developing a periodic table-based application that includes features such as the periodic table, quizzes, elements, and properties of elements. The properties of the elements encompass details like Element Name (default), Atomic Weight, Discovery Year, Electron Configuration, Electrons Per Shell, Common Oxidations, Melting Point, Boiling Point, Density, and CAS Number.
+
+We aim to advance the project collaboratively, ensuring that everyone contributes equally to the effort. The goal is to avoid a complete separation of duties and foster a shared responsibility for the project's success.
