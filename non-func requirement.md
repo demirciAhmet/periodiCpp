@@ -1,32 +1,7 @@
-Non-Functional Requirements:
+#Non-Functional Requirements:
 
-1-Performance:
-The application should respond quickly to user interactions.
-Quiz questions should load without noticeable delays.
-
-2-Usability:
-The interface should be user-friendly.
-Elements in the periodic table should be easily accessible and identifiable.
-
-3-Scalability:
-The system should handle an increasing number of users and quizzes without significant performance degradation.
-
-4-Security:
-Private quizzes should be securely stored and accessible only to authorized users.
-
-5-Compatibility:
-The application should be compatible with various devices and operating systems.
-
-6-Response Time:
-The system should provide quick responses to user actions, especially in time-sensitive quiz modes.
-
-7-Scoring Accuracy:
-The scoring system should accurately reflect user performance in quizzes.
-
-8-Customization:
-Users should be able to customize quiz parameters easily.
-
-9-Visualization:
-The periodic table interface should provide clear and visually appealing representations of element properties.
-
-These non-functional requirements ensure that the application not only performs specific functions but also meets user expectations regarding speed, reliability, and overall user experience.
+-The application should respond quickly to user interactions.
+-Quiz questions should load without noticeable delays.
+-Elements in the periodic table should be easily accessible and identifiable.
+-The periodic table interface should provide clear and visually appealing representations of element properties.
+-The scoring system should accurately reflect user performance in quizzes.
