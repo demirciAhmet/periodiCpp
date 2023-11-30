@@ -4,7 +4,7 @@
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
   - **Table Section (Default)**
-  - **Search Section
+  - **Search Section**
   - **Learn Section**
   - **Quiz Section**
   - **Compounds Section**
