@@ -1,5 +1,1 @@
-In this project, we are developing a periodic table-based application that includes features such as the periodic table, quizzes, elements, and properties of elements. The properties of the elements encompass details like Element Name , Atomic Weight, Discovery Year, Electron Configuration, Electrons Per Shell, Common Oxidations, Melting Point, Boiling Point, Density, and CAS Number.
-
-This report includes introduction, requirements, system models, and conclusion sections. System models cover scenarios, use cases, user interfaces, object, and class models.
-
-We aim to advance the project collaboratively, ensuring that everyone contributes equally to the effort. The goal is to avoid a complete separation of duties and foster shared responsibility for the project's success. Everyone worked collaboratively during the preparation of the presentation.
+In this report, we created an outline of the project. We decided which sections will be in the project, how these sections will be designed and how the general interface will look like. We wrote 2 use cases related to the project and created an object and class model based on them. When we were designing the project, we agreed that everyone would work collaboratively in all phases of the project in the later stages of the project.
