@@ -1,16 +1,16 @@
 # Functional Requirements
 
-#### General Application Requirements (as Interface)
+#### General Application Requirements
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
-  - **Tablo Section (default)**
+  - **Table Section (default)**
     - Kullanıcı, periyodik tabloda istediği özelliklere göre periyodik tablo renklendirmesini seçebilecek, her bir seçenek için özel renklendirme olacak
       - Classes (Default)
       - Blocks
       - Metallic
       - Phase
       - Radioactivity
-  - Kullanıcı tablodaki elementleri, seçeceği özelliklerden biri doğrultusunda görüntüleyecek (elementin altında yazacak kısmı belirleyecek) (Bu kısımda elementler :
+  - Periyodik tablo kipinde elementin altında yazacak bilgilendirmeyi kullanıcı belirleyecek:
     - Element name (Default)
     - Atomic weight
     - Electron configuration
@@ -53,55 +53,60 @@
 - Server işine girmezsek kazandığımız zamanı GUI gelişimine harcayabiliriz.
 - Oyun projesi geliştirenler oyun hakkında düşünerek çok zaman kaybediyorlar, biz ise bu zamanı proje detaylarına harcayarak çok güzel bir proje çıkartabiliriz.
 
-#### Periodic Table Interface
-- Tasarım iki çeşit olacak, periyodik tablo menüden ilk seçildiğinde minimal bir tablo olacak.
-- Kullanıcı isterse detaylı moda geçebilecek
-  - Detaylı modda elementlerin bilgileri sol tarafta gözükecek
-- Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek.
-  - En tepede elementin resmi olacak, resmin üzerine tıklayınca elementin modeli çıkacak, bir daha 
-  - Kullanıcı seçtiği elementin özelliklerini görecek:
-    - INFO:
-      - Name
-      - Description
-      - Keşfeden kişi
-      - Discovery Tear
-    - Element Properties:
-      - Atom Number
-      - Atomic Weight
-      - Group Number
-      - Periot
-      - Block
-      - Eadyoaktivite
-    - Atomic Properties:
-      - Elementin görseli (figür olarak)  
-      - Electron configuration
-      - Electrons Per Shell
-      - Oxidation States
-      - Common Oxidation States
-      - Electronegativity 
-      - Covalent Radius
-      - Van der Waals Radius
-    - Physical Properties:
-      - Appearance
-      - Phase
-      - Melting Point
-      - Density
-      - Heat of Fusion
-      - Heat of Vaporization
-      - Molar Heat Capacity
-    - Other properties:
-      - Crystal Structure
-      - Speed of Sound
-      - CAS Number
+#### Periodic Table Section Requirements
+- Periyodik tabloyu görüntülemek için iki farklı mod olacak:
+  - Default modda açılır pencere şekilde element hakkında bilgi edinilebilecek.
+  - Diğer modda elementin bilgileri basitleştirilmiş şekilde sol tarafta gözükecek.
+- Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek:
+  - Default modda açılan pencerede:
+    - Elementin resmi veya modeli değiştirilebilir şekilde olacak, üstüne tıklayınca ikisi arasında geçiş yapılabilir olacak.
+    - Element hakkında bilgiler olacak. Olası bazı bilgiler:
+      - INFO:
+        - Name
+        - Description
+        - Keşfeden kişi
+        - Discovery Tear
+      - Element Properties:
+        - Atom Number
+        - Atomic Weight
+        - Group Number
+        - Periot
+        - Block
+        - Eadyoaktivite
+      - Atomic Properties:
+        - Elementin görseli (figür olarak)  
+        - Electron configuration
+        - Electrons Per Shell
+        - Oxidation States
+        - Common Oxidation States
+        - Electronegativity 
+        - Covalent Radius
+        - Van der Waals Radius
+      - Physical Properties:
+        - Appearance
+        - Phase
+        - Melting Point
+        - Density
+        - Heat of Fusion
+        - Heat of Vaporization
+        - Molar Heat Capacity
+      - Other properties:
+        - Crystal Structure
+        - Speed of Sound
+        - CAS Number
     - İzotopları gösterme butonu olacak( Elementin Izotoplarını göstermek için buton)
     - Olası bileşikleri gösterme butonu olacak (seçilen elemente olası bileşik örnekleri verir)
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementleri periyodik tablo üzerinden görebilecek (ör. metaller'e basınca metaller renkli diğer elementler sönük. Ekstra elementin ne kadar metalik özellik gösterdiğine göre renk opaklaşabilir)
 - Kullanıcı, seçtiği özelliğe bağlı olarak elementlerin sıralamasını liste şeklinde görebilecek ( ör. en radyoaktif elementten en aza doğru sıralama)
 
+# Search Section Requirements
+
+
+---
+
 #### Periyodik Tablo Bölümü İçin Notlar:
 - Element özelliklerini bilgi alacağımız kaynağa göre seçersek çok daha az uğraşmış oluruz.
 - Periyodik tablo özellikleri için en az uğraştıracak olanlar seçilebilir, böylelikle hem genel proje detaylı gözükür hem biz az uğraşırız
-- Search bar periyodik tabloya entegre olarak da eklenebilir
 
 # Notes
 
