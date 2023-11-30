@@ -4,8 +4,8 @@
 
 - Menü olacak, kullanıcı menüden istediği bölümü seçebilecek:
   - **Tablo Section (default)**
-    - Kullanıcı, periyodik tabloda istediği özelliklere göre elementleri görebilecek, her bir seçenek için özel renklendirme olacak
-      - Categories (Default)
+    - Kullanıcı, periyodik tabloda istediği özelliklere göre periyodik tablo renklendirmesini seçebilecek, her bir seçenek için özel renklendirme olacak
+      - Classes (Default)
       - Blocks
       - Metallic
       - Phase
