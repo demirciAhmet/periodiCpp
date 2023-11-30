@@ -86,18 +86,18 @@
 - Challange modu için skor tutucu kullanıcının doğru bildiği element ve süreye göre bir skor verecek.
 - Rekoru ise tüm zamanların en yüksek skorunu verecek.
 
-# Compounds Section
+# Compounds Section Requirements
 
 - Ör: H ve O girilir, girilen elementlerden oluşabilecek bileşikler gözükür.
 
-# Achievements Section
+# Achievements Section Requirements
 
 - Quizler ile alakalı başarımlar olacak.
 - örnek1: Level modunda 1 bölümü tamamlamak (olası başarım ismi: "ateş, su, toprak, tahta!")
 - örnek2: Level modununu tamamlamak (olası başarım ismi: "")
 - örnek3: Zamana karşı modda imkansız zorluğu tamamlamak (olası başarım ismi: "Chemistry Master")
 
-# Settings Section
+# Settings Section Requirements
 
 - Dark-Light mode
 - Language
