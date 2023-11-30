@@ -11,5 +11,5 @@ periodiC++ ı açarak hızlıca elementlerin ayrıntılı bilgisine ulaşır.
 
 3-Eren, öğrendiği bilgileri pekiştirmek için uygulamanın quiz modunu açar. Burada ister zamana karşı isterse de seviyeye göre zorluğu artan quizleri çözer. Bu quizlerde Eren'in skoru, kaydı ve en yüksek skoru  tutulur. Çözdüğü quizlere bağlı olarak çeşitli başarılar elde eder. 
 
-4-
+4-Periodik tablo programını açan Ali tabloda ki elementler arasında gezinirken bazı özellikler hakkında bilgisinin eksik olduğunu farkeder. Bilgi eksikliğini gidermek amacıyla learning kısmına girer ve bilmediği veya eksik bildiği kısımları tamamlar.
 
