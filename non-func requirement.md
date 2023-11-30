@@ -1,4 +1,4 @@
-#Non-Functional Requirements:
+# Non-Functional Requirements:
 
     -The application should respond quickly to user interactions.
     -Quiz questions should load without noticeable delays.
