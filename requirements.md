@@ -20,39 +20,37 @@
       - Phase
       - Radioactivity
   - Elementleri tabloda hangi özellik ile görüntülemek istediğini kullanıcı belirleyecek
-    - Element name (Default)
     - Simple
-    - Detailed
+    - Detailed   
+    - Element name (Default)
     - Atomic weight
+    - Discovery Year
     - Electron configuration
     - Elements per shell
     - Common oxidations
     - Melting Point
     - Boiling Point
     - Density
-    - Discovery Year
     - Cas Number
 - Periyodik tabloyu görüntülemek için iki farklı mod olacak:
-  - Default modda açılır pencere şekilde element hakkında bilgi edinilebilecek.
-  - Diğer modda elementin bilgileri basitleştirilmiş şekilde sol tarafta gözükecek.
-- Kullanıcı, görmek istediği elementi periyodik tablo üzerinden seçebilecek:
-  - Default modda açılan pencerede:
-    - Elementin resmi veya modeli değiştirilebilir şekilde olacak, üstüne tıklayınca ikisi arasında geçiş yapılabilir olacak.
-    - Element hakkında bilgiler olacak. Olası bazı bilgiler:
-      - INFO:
+  - Default modda element bilgilendirme kipi açılır pencere şekilde olacak ve daha detaylı olacak.
+  - Wide modda elementin bilgileri basitleştirilmiş şekilde sol tarafta gözükecek.
+- Kullanıcı, bilgisini edinmek istediği elementi periyodik tablo üzerinden seçebilecek:
+    - Açılan pencerede elementin resmi veya modeli değiştirilebilir şekilde olacak, üstüne tıklayınca ikisi arasında geçiş yapılabilir olacak.
+    - Açılan pencerede Element hakkında bilgiler olacak. Olası bazı bilgiler:
+      - Brief Information Part:
         - Name
         - Description
         - Keşfeden kişi
         - Discovery Tear
-      - Element Properties:
+      - Element Properties Part:
         - Atom Number
         - Atomic Weight
         - Group Number
         - Periot
         - Block
-        - Eadyoaktivite
-      - Atomic Properties:
-        - Elementin görseli (figür olarak)  
+        - Radyoaktivite
+      - Atomic Properties Part:
         - Electron configuration
         - Electrons Per Shell
         - Oxidation States
@@ -60,7 +58,7 @@
         - Electronegativity 
         - Covalent Radius
         - Van der Waals Radius
-      - Physical Properties:
+      - Physical Properties Part:
         - Appearance
         - Phase
         - Melting Point
@@ -68,12 +66,6 @@
         - Heat of Fusion
         - Heat of Vaporization
         - Molar Heat Capacity
-      - Other properties:
-        - Crystal Structure
-        - Speed of Sound
-        - CAS Number
-    - İzotopları gösterme butonu olacak( Elementin Izotoplarını göstermek için buton)
-    - Olası bileşikleri gösterme butonu olacak (seçilen elemente olası bileşik örnekleri verir)
 
 # Search Section Requirements
 
@@ -114,6 +106,9 @@
 
 
 
+# Noted Specifications:
+
+- 
 
 
 
