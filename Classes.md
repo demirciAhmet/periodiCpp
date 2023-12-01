@@ -4,6 +4,7 @@
 - MainApplication
 	- PeriodicTable
 		- PeriodicProperty (abstract)
+  		- ElementProperty (abstract) 	
 	- Search
 	- Learn
 		- LearnBlock (abstract)
@@ -17,8 +18,7 @@
 		- Element(abstract)
 	- Compounds 
 		- Compound (abstract)
-	- Settings (abstract)
+	- Setting (abstract)
 
-# Olası Claslar
 
 
