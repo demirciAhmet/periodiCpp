@@ -8,10 +8,10 @@
 	- Search
 	- Learn
 		- LearnBlock (abstract)
-	- Quizzes
-		- LevelMode
+	- Quiz (abstract)
+		- LevelMode <extends>
 			- Level (abstract)
-		- ChallengeMode
+		- ChallengeMode <extends>
 		- Achievement (abstract)
 	- Elements
 		- Element(abstract)
