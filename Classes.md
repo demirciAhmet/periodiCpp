@@ -1,15 +1,24 @@
-# Possible Classes
+# Classes
 
 
 - MainApplication
 	- PeriodicTable
+		- PeriodicProperty (abstract)
 	- Search
 	- Learn
+		- LearnBlock (abstract)
 	- Quizzes
 		- LevelMode
-		- ChallangeMode
+			- Level (abstract)
+		- ChallengeMode
+			- Score
 		- Achievement (abstract)
-	- PeriodicProperty (abstract)
-	- Element (abstract)
-	- Compound (abstract)
-	- Settings
+	- Elements
+		- Element(abstract)
+	- Compounds 
+		- Compound (abstract)
+	- Settings (abstract)
+
+# Olası Claslar
+
+
