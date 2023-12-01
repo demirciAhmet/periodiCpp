@@ -12,7 +12,6 @@
 		- LevelMode
 			- Level (abstract)
 		- ChallengeMode
-			- Score
 		- Achievement (abstract)
 	- Elements
 		- Element(abstract)
