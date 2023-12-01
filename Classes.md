@@ -9,9 +9,9 @@
 	- Learn
 		- LearnBlock (abstract)
 	- Quiz (abstract)
-		- LevelMode <extends>
+		- LevelMode extends
 			- Level (abstract)
-		- ChallengeMode <extends>
+		- ChallengeMode extends
 		- Achievement (abstract)
 	- Elements
 		- Element(abstract)
