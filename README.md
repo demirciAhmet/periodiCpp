@@ -1,6 +1,8 @@
 # periodiCpp-Storage
 (çöplük olarak kullanmalık repo)
 
+[MAIN REPO](https://github.com/terrabladex/periodiCpp)
+
 [Requirements](https://github.com/terrabladex/periodiCpp-Storage/blob/main/STAGE1-2/Functional-Requirements.md)
 
 ![Report 2](https://github.com/terrabladex/periodiCpp-Storage/blob/main/STAGE1-2/LASTEDITONTEMPLATE---FINAL.pdf)
