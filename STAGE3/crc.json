@@ -6,14 +6,14 @@
     "type": 1,
     "responsibilities": [
       "Get main window",
-      "Get menu"
+      "Get menu items"
     ],
     "collaborators": [
-      "PeriodicTable",
-      "SearchBar",
-      "Learn",
-      "Quiz",
-      "Setting"
+      "TableSection",
+      "SearchSection",
+      "LearnSection",
+      "QuizSection",
+      "SettingsSection"
     ]
   },
   {
@@ -34,25 +34,26 @@
     ],
     "collaborators": [
       "MainApplication",
-      "PeriodicProperty",
-      "ElementProperty",
+      "LearnSection",
+      "SearchSection",
       "Element",
-      "Learn",
-      "SearchBar"
+      "PeriodicProperty",
+      "ElementProperty"
     ]
   },
   {
-    "name": "ElementProperty",
-    "superclasses": "PeriodicTable",
+    "name": "Element",
+    "superclasses": "",
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Represent different element properties",
-      "Return different element representation for each element",
+      "Return Element information",
       ""
     ],
     "collaborators": [
-      ""
+      "TableSection",
+      "PeriodicProperty",
+      "ElementProperty"
     ]
   },
   {
@@ -67,14 +68,29 @@
       ""
     ],
     "collaborators": [
-      "PeriodicTable",
+      "TableSection",
+      "Element"
+    ]
+  },
+  {
+    "name": "ElementProperty",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Represent different element properties",
+      "Return different element representation for each element",
+      ""
+    ],
+    "collaborators": [
+      "TableSection",
       "Element"
     ]
   },
   {
     "name": "LearnSection",
     "superclasses": "",
-    "subclasses": "LearnBlock",
+    "subclasses": "",
     "type": 1,
     "responsibilities": [
       "Get learn blocks",
@@ -116,19 +132,6 @@
     ]
   },
   {
-    "name": "Element",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 1,
-    "responsibilities": [
-      "Return Element information",
-      ""
-    ],
-    "collaborators": [
-      "PeriodicTable"
-    ]
-  },
-  {
     "name": "QuizSection",
     "superclasses": "",
     "subclasses": "",
@@ -145,8 +148,8 @@
   {
     "name": "QuizMode",
     "superclasses": "",
-    "subclasses": "",
-    "type": 1,
+    "subclasses": "LevelMode, ChallangeMode",
+    "type": 2,
     "responsibilities": [
       "Return quiz modes",
       "Save the score on automatic registration system",
@@ -161,22 +164,8 @@
     ]
   },
   {
-    "name": "LevelMode",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 1,
-    "responsibilities": [
-      "Difficulty of questions increases",
-      "Level increases"
-    ],
-    "collaborators": [
-      "Quiz",
-      "Level"
-    ]
-  },
-  {
     "name": "ChallengeMode",
-    "superclasses": "",
+    "superclasses": "QuizMode",
     "subclasses": "",
     "type": 1,
     "responsibilities": [
@@ -185,8 +174,24 @@
       "Shows the questions"
     ],
     "collaborators": [
+      "QuizMode",
       "Question",
-      "Quiz"
+      ""
+    ]
+  },
+  {
+    "name": "LevelMode",
+    "superclasses": "QuizMode",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Difficulty of questions increases",
+      "Level increases"
+    ],
+    "collaborators": [
+      "QuizMode",
+      "Level",
+      "Question"
     ]
   },
   {
@@ -216,7 +221,7 @@
     ]
   },
   {
-    "name": "Achievement",
+    "name": "AchievementsSection",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
@@ -224,7 +229,57 @@
       "There will be achievements related to quizzes (Exp. Level 1 is \"fire, water, earth, wood!\")"
     ],
     "collaborators": [
-      "Quiz"
+      "MainApplication",
+      "QuizMode"
+    ]
+  },
+  {
+    "name": "Achievement",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      ""
+    ],
+    "collaborators": [
+      "AchievementsSection"
+    ]
+  },
+  {
+    "name": "SettinsSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "Setting"
+    ]
+  },
+  {
+    "name": "Setting",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      ""
+    ],
+    "collaborators": [
+      "SettingsSection"
+    ]
+  },
+  {
+    "name": "User",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      ""
+    ],
+    "collaborators": [
+      "MainApplication"
     ]
   }
 ]
