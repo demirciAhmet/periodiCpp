@@ -1,0 +1,235 @@
+[
+  {
+    "name": "MainApplication",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get table",
+      "Get learn",
+      "Get search",
+      "Get quiz",
+      "Get achievements",
+      "Get settings",
+      ""
+    ],
+    "collaborators": [
+      "PeriodicTable",
+      "SearchBar",
+      "Learn",
+      "Quiz",
+      "Setting"
+    ]
+  },
+  {
+    "name": "PeriodicTable",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Show the elements",
+      "Select an element",
+      "Get element properties",
+      "Select the element property",
+      "Get periodic property",
+      "Select the periodic property",
+      "Change view",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "PeriodicProperty",
+      "ElementProperty",
+      "Element",
+      "Learn",
+      "SearchBar"
+    ]
+  },
+  {
+    "name": "ElementProperty",
+    "superclasses": "PeriodicTable",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Represent different element properties",
+      "Return different element representation for each element",
+      ""
+    ],
+    "collaborators": [
+      ""
+    ]
+  },
+  {
+    "name": "PeriodicProperty",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Represent different periodic properties",
+      "Return different color schema for each periodic property.",
+      "Return legend (The section that shows what the colors used on a map represent is typically called the \"legend\")",
+      ""
+    ],
+    "collaborators": [
+      "PeriodicTable",
+      "Element"
+    ]
+  },
+  {
+    "name": "Learn",
+    "superclasses": "",
+    "subclasses": "LearnBlock",
+    "type": 1,
+    "responsibilities": [
+      "Get learn blocks",
+      "Select a learn block"
+    ],
+    "collaborators": [
+      "MainApplication",
+      "PeriodicTable",
+      "LearnBlock"
+    ]
+  },
+  {
+    "name": "LearnBlock",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Return information of selected block"
+    ],
+    "collaborators": [
+      "Learn"
+    ]
+  },
+  {
+    "name": "SearchBar",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display elements in a listed form",
+      "Search an element",
+      "Select an element",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "PeriodicTable"
+    ]
+  },
+  {
+    "name": "Element",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Return Element information",
+      ""
+    ],
+    "collaborators": [
+      "PeriodicTable"
+    ]
+  },
+  {
+    "name": "Quiz",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Return quiz modes",
+      "Save the score on automatic registration system",
+      "Gets the record for the highest score of all time"
+    ],
+    "collaborators": [
+      "MainApplication",
+      "LevelMode",
+      "ChallengeMode",
+      "Achievement",
+      ""
+    ]
+  },
+  {
+    "name": "QuizSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get quiz modes"
+    ],
+    "collaborators": [
+      "MainApplication",
+      "Quiz",
+      ""
+    ]
+  },
+  {
+    "name": "Achievement",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "There will be achievements related to quizzes (Exp. Level 1 is \"fire, water, earth, wood!\")"
+    ],
+    "collaborators": [
+      "Quiz"
+    ]
+  },
+  {
+    "name": "LevelMode",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Difficulty of questions increases",
+      "Level increases"
+    ],
+    "collaborators": [
+      "Quiz",
+      "Level"
+    ]
+  },
+  {
+    "name": "ChallengeMode",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Shows time limit",
+      "Shows the scores",
+      "Shows the questions"
+    ],
+    "collaborators": [
+      "Question",
+      "Quiz"
+    ]
+  },
+  {
+    "name": "LevelMode",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 2,
+    "responsibilities": [
+      "Categories questions according to difficulty level"
+    ],
+    "collaborators": [
+      "LevelMode",
+      "Question"
+    ]
+  },
+  {
+    "name": "Question",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Includes Chemistry questions"
+    ],
+    "collaborators": [
+      "Level",
+      "Challenge Mode"
+    ]
+  }
+]
