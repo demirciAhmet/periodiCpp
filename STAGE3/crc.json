@@ -5,13 +5,8 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Get table",
-      "Get learn",
-      "Get search",
-      "Get quiz",
-      "Get achievements",
-      "Get settings",
-      ""
+      "Get main window",
+      "Get menu"
     ],
     "collaborators": [
       "PeriodicTable",
@@ -22,7 +17,7 @@
     ]
   },
   {
-    "name": "PeriodicTable",
+    "name": "TableSection",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
@@ -50,7 +45,7 @@
     "name": "ElementProperty",
     "superclasses": "PeriodicTable",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
       "Represent different element properties",
       "Return different element representation for each element",
@@ -64,7 +59,7 @@
     "name": "PeriodicProperty",
     "superclasses": "",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
       "Represent different periodic properties",
       "Return different color schema for each periodic property.",
@@ -77,7 +72,7 @@
     ]
   },
   {
-    "name": "Learn",
+    "name": "LearnSection",
     "superclasses": "",
     "subclasses": "LearnBlock",
     "type": 1,
@@ -95,7 +90,7 @@
     "name": "LearnBlock",
     "superclasses": "",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
       "Return information of selected block"
     ],
@@ -104,7 +99,7 @@
     ]
   },
   {
-    "name": "SearchBar",
+    "name": "SearchSection",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
@@ -124,31 +119,13 @@
     "name": "Element",
     "superclasses": "",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
       "Return Element information",
       ""
     ],
     "collaborators": [
       "PeriodicTable"
-    ]
-  },
-  {
-    "name": "Quiz",
-    "superclasses": "",
-    "subclasses": "",
-    "type": 2,
-    "responsibilities": [
-      "Return quiz modes",
-      "Save the score on automatic registration system",
-      "Gets the record for the highest score of all time"
-    ],
-    "collaborators": [
-      "MainApplication",
-      "LevelMode",
-      "ChallengeMode",
-      "Achievement",
-      ""
     ]
   },
   {
@@ -166,15 +143,21 @@
     ]
   },
   {
-    "name": "Achievement",
+    "name": "QuizMode",
     "superclasses": "",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
-      "There will be achievements related to quizzes (Exp. Level 1 is \"fire, water, earth, wood!\")"
+      "Return quiz modes",
+      "Save the score on automatic registration system",
+      "Gets the record for the highest score of all time"
     ],
     "collaborators": [
-      "Quiz"
+      "MainApplication",
+      "LevelMode",
+      "ChallengeMode",
+      "Achievement",
+      ""
     ]
   },
   {
@@ -207,10 +190,10 @@
     ]
   },
   {
-    "name": "LevelMode",
+    "name": "Level",
     "superclasses": "",
     "subclasses": "",
-    "type": 2,
+    "type": 1,
     "responsibilities": [
       "Categories questions according to difficulty level"
     ],
@@ -230,6 +213,18 @@
     "collaborators": [
       "Level",
       "Challenge Mode"
+    ]
+  },
+  {
+    "name": "Achievement",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "There will be achievements related to quizzes (Exp. Level 1 is \"fire, water, earth, wood!\")"
+    ],
+    "collaborators": [
+      "Quiz"
     ]
   }
 ]
