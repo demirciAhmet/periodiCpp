@@ -6,7 +6,9 @@
     "type": 1,
     "responsibilities": [
       "Get main window",
-      "Get menu items"
+      "Get menu items",
+      "Display menu",
+      "Get user"
     ],
     "collaborators": [
       "TableSection",
@@ -22,12 +24,14 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Show the elements",
+      "Get elements",
+      "Display the periodic table",
+      "Display legend (The section that shows what the colors used on a map represent is typically called the \"legend\")",
       "Select an element",
       "Get element properties",
-      "Select the element property",
-      "Get periodic property",
-      "Select the periodic property",
+      "Select a element property",
+      "Get periodic properties",
+      "Select a periodic property",
       "Change view",
       "",
       ""
@@ -47,7 +51,11 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Return Element information",
+      "Generate element",
+      "Get element property",
+      "Get periodic property",
+      "Return Element informations",
+      "Return Element image",
       ""
     ],
     "collaborators": [
@@ -64,8 +72,7 @@
     "responsibilities": [
       "Represent different periodic properties",
       "Return different color schema for each periodic property.",
-      "Return legend (The section that shows what the colors used on a map represent is typically called the \"legend\")",
-      ""
+      "Return legend"
     ],
     "collaborators": [
       "TableSection",
@@ -151,9 +158,9 @@
     "subclasses": "LevelMode, ChallangeMode",
     "type": 2,
     "responsibilities": [
-      "Return quiz modes",
-      "Save the score on automatic registration system",
-      "Gets the record for the highest score of all time"
+      "Generate quiz mode",
+      "Start quiz ",
+      ""
     ],
     "collaborators": [
       "MainApplication",
@@ -169,9 +176,19 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Shows time limit",
-      "Shows the scores",
-      "Shows the questions"
+      "Display time",
+      "Display score",
+      "Get questions",
+      "Display the questions",
+      "Set time limit",
+      "Get remaining time",
+      "Get random question",
+      "Get highest score",
+      "Get current score",
+      "Check score",
+      "Calculate score",
+      "",
+      ""
     ],
     "collaborators": [
       "QuizMode",
@@ -185,8 +202,10 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Difficulty of questions increases",
-      "Level increases"
+      "Display levels",
+      "Select level",
+      "Get target",
+      "Set target"
     ],
     "collaborators": [
       "QuizMode",
@@ -200,7 +219,9 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Categories questions according to difficulty level"
+      "Generate level",
+      "Check if unlocked",
+      "Get questions"
     ],
     "collaborators": [
       "LevelMode",
@@ -213,7 +234,10 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "Includes Chemistry questions"
+      "Generate question",
+      "Generate options",
+      "Display question",
+      "Check correct option"
     ],
     "collaborators": [
       "Level",
@@ -226,7 +250,13 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      "There will be achievements related to quizzes (Exp. Level 1 is \"fire, water, earth, wood!\")"
+      "Display achievements as list",
+      "Get unlocked achievements",
+      "Get locked achievements",
+      "Check conditions",
+      "",
+      "",
+      ""
     ],
     "collaborators": [
       "MainApplication",
@@ -239,6 +269,9 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
+      "Get achievement informations",
+      "Generate achievement",
+      "Check the achievement situation",
       ""
     ],
     "collaborators": [
@@ -246,11 +279,13 @@
     ]
   },
   {
-    "name": "SettinsSection",
+    "name": "SettingsSection",
     "superclasses": "",
     "subclasses": "",
     "type": 1,
     "responsibilities": [
+      "Display settings",
+      "Select setting",
       ""
     ],
     "collaborators": [
@@ -264,6 +299,8 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
+      "Get setting informations",
+      "Generate setting",
       ""
     ],
     "collaborators": [
@@ -276,7 +313,9 @@
     "subclasses": "",
     "type": 1,
     "responsibilities": [
-      ""
+      "Generate user",
+      "Save user data",
+      "Load user data"
     ],
     "collaborators": [
       "MainApplication"
