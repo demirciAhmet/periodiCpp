@@ -1,0 +1,324 @@
+[
+  {
+    "name": "MainApplication",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get main window",
+      "Get menu items",
+      "Display menu",
+      "Get user"
+    ],
+    "collaborators": [
+      "TableSection",
+      "SearchSection",
+      "LearnSection",
+      "QuizSection",
+      "SettingsSection"
+    ]
+  },
+  {
+    "name": "TableSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get elements",
+      "Display the periodic table",
+      "Display legend (The section that shows what the colors used on a map represent is typically called the \"legend\")",
+      "Select an element",
+      "Get element properties",
+      "Select a element property",
+      "Get periodic properties",
+      "Select a periodic property",
+      "Change view",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "LearnSection",
+      "SearchSection",
+      "Element",
+      "PeriodicProperty",
+      "ElementProperty"
+    ]
+  },
+  {
+    "name": "Element",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Generate element",
+      "Get element property",
+      "Get periodic property",
+      "Return Element informations",
+      "Return Element image",
+      ""
+    ],
+    "collaborators": [
+      "TableSection",
+      "PeriodicProperty",
+      "ElementProperty"
+    ]
+  },
+  {
+    "name": "PeriodicProperty",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Represent different periodic properties",
+      "Return different color schema for each periodic property.",
+      "Return legend"
+    ],
+    "collaborators": [
+      "TableSection",
+      "Element"
+    ]
+  },
+  {
+    "name": "ElementProperty",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Represent different element properties",
+      "Return different element representation for each element",
+      ""
+    ],
+    "collaborators": [
+      "TableSection",
+      "Element"
+    ]
+  },
+  {
+    "name": "LearnSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get learn blocks",
+      "Select a learn block"
+    ],
+    "collaborators": [
+      "MainApplication",
+      "PeriodicTable",
+      "LearnBlock"
+    ]
+  },
+  {
+    "name": "LearnBlock",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Return information of selected block"
+    ],
+    "collaborators": [
+      "Learn"
+    ]
+  },
+  {
+    "name": "SearchSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display elements in a listed form",
+      "Search an element",
+      "Select an element",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "PeriodicTable"
+    ]
+  },
+  {
+    "name": "QuizSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get quiz modes"
+    ],
+    "collaborators": [
+      "MainApplication",
+      "Quiz",
+      ""
+    ]
+  },
+  {
+    "name": "QuizMode",
+    "superclasses": "",
+    "subclasses": "LevelMode, ChallangeMode",
+    "type": 2,
+    "responsibilities": [
+      "Generate quiz mode",
+      "Start quiz ",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "LevelMode",
+      "ChallengeMode",
+      "Achievement",
+      ""
+    ]
+  },
+  {
+    "name": "ChallengeMode",
+    "superclasses": "QuizMode",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display time",
+      "Display score",
+      "Get questions",
+      "Display the questions",
+      "Set time limit",
+      "Get remaining time",
+      "Get random question",
+      "Get highest score",
+      "Get current score",
+      "Check score",
+      "Calculate score",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "QuizMode",
+      "Question",
+      ""
+    ]
+  },
+  {
+    "name": "LevelMode",
+    "superclasses": "QuizMode",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display levels",
+      "Select level",
+      "Get target",
+      "Set target"
+    ],
+    "collaborators": [
+      "QuizMode",
+      "Level",
+      "Question"
+    ]
+  },
+  {
+    "name": "Level",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Generate level",
+      "Check if unlocked",
+      "Get questions"
+    ],
+    "collaborators": [
+      "LevelMode",
+      "Question"
+    ]
+  },
+  {
+    "name": "Question",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Generate question",
+      "Generate options",
+      "Display question",
+      "Check correct option"
+    ],
+    "collaborators": [
+      "Level",
+      "Challenge Mode"
+    ]
+  },
+  {
+    "name": "AchievementsSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display achievements as list",
+      "Get unlocked achievements",
+      "Get locked achievements",
+      "Check conditions",
+      "",
+      "",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "QuizMode"
+    ]
+  },
+  {
+    "name": "Achievement",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get achievement informations",
+      "Generate achievement",
+      "Check the achievement situation",
+      ""
+    ],
+    "collaborators": [
+      "AchievementsSection"
+    ]
+  },
+  {
+    "name": "SettingsSection",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Display settings",
+      "Select setting",
+      ""
+    ],
+    "collaborators": [
+      "MainApplication",
+      "Setting"
+    ]
+  },
+  {
+    "name": "Setting",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Get setting informations",
+      "Generate setting",
+      ""
+    ],
+    "collaborators": [
+      "SettingsSection"
+    ]
+  },
+  {
+    "name": "User",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Generate user",
+      "Save user data",
+      "Load user data"
+    ],
+    "collaborators": [
+      "MainApplication"
+    ]
+  }
+]
