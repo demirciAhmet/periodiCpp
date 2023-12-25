@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-30758b69e2d71cdc34f3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Periodicpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Periodicpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Periodicpp-Debug-934554386dfcaf9c696c.json",
+					"name" : "Periodicpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Periodicpp_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Periodicpp_autogen-Debug-2c17006c1dcf3ff426cb.json",
+					"name" : "Periodicpp_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Periodicpp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Periodicpp_autogen_timestamp_deps-Debug-5f5099f0359202926754.json",
+					"name" : "Periodicpp_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-Periodicpp-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+		"source" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/Periodicpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
