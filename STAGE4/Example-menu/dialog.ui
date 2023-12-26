@@ -31,9 +31,9 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(67, 68, 77);
-border-color: rgb(67, 68, 77);
-alternate-background-color: rgb(67, 68, 77);</string>
+   <string notr="true">background-color: rgb(42, 42, 42);
+border-color: rgb(42, 42, 42);
+alternate-background-color: rgb(42, 42, 42);</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout">
    <property name="spacing">
@@ -52,7 +52,7 @@ alternate-background-color: rgb(67, 68, 77);</string>
     <number>0</number>
    </property>
    <item>
-    <widget class="QTabWidget" name="tabWidget_2">
+    <widget class="QTabWidget" name="tabWidget_1">
      <property name="font">
       <font>
        <family>Roboto Slab</family>
@@ -65,8 +65,16 @@ alternate-background-color: rgb(67, 68, 77);</string>
      <property name="focusPolicy">
       <enum>Qt::TabFocus</enum>
      </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">selection-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+selection-background-color: rgb(35, 35, 35);</string>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Triangular</enum>
      </property>
      <property name="currentIndex">
       <number>0</number>
@@ -74,7 +82,7 @@ alternate-background-color: rgb(67, 68, 77);</string>
      <property name="tabBarAutoHide">
       <bool>false</bool>
      </property>
-     <widget class="QWidget" name="tab_3">
+     <widget class="QWidget" name="tab_1">
       <property name="styleSheet">
        <string notr="true"/>
       </property>
@@ -107,7 +115,7 @@ alternate-background-color: rgb(67, 68, 77);</string>
        </property>
       </widget>
      </widget>
-     <widget class="QWidget" name="tab_4">
+     <widget class="QWidget" name="tab_2">
       <attribute name="title">
        <string>Tab 2</string>
       </attribute>
