@@ -69,9 +69,7 @@ alternate-background-color: rgb(42, 42, 42);</string>
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">selection-color: rgb(255, 255, 255);
-background-color: rgb(255, 255, 255);
-selection-background-color: rgb(35, 35, 35);</string>
+      <string notr="true"/>
      </property>
      <property name="tabShape">
       <enum>QTabWidget::Triangular</enum>
