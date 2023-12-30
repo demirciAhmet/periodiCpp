@@ -3,13 +3,10 @@
 
 QVector<Element*> Table::elements;
 
-void Table::SetFileName(const QString &fileName) {
-    this->CSVFile.setFileName(fileName);
-}
+void Table::CSVToElements() {
 
-QFile& Table::GetFile() {return QFile;}
+    QFile CSVFile(":/forms/Element-Data.ui");
 
-void Table::CSVToElements(QFile &CSVFile) {
     if (CSVFile.open(QIODevice::ReadOnly)) {
         QTextStream *stream = new QTextStream(&CSVFile);
         QString line;

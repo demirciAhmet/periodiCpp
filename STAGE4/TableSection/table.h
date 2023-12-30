@@ -8,13 +8,9 @@
 
 class Table
 {
-private:
-    QFile CSVFile;
 public:
     static QVector<Element*> elements;
-    void SetFileName(const QString &fileName);
-    void CSVToElements(QFile &CSVFile);
-    QFile& GetFile();
+    void CSVToElements();
 };
 
 #endif // TABLE_H

@@ -27,7 +27,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         element.h element.cpp
         elementdialog.h elementdialog.cpp
         elementdialog.h elementdialog.cpp elementdialog.ui
-        Element-Data.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TableSection APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
