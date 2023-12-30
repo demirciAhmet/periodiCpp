@@ -38,7 +38,6 @@ private:
     QImage bohrModel3d;
 
 public:
-    Element(QObject *parent = nullptr);
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
             int period,int group,QString summary,QString category,QString metallicProperty,
             char block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,

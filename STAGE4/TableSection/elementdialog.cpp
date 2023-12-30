@@ -1,17 +1,21 @@
 #include "elementdialog.h"
 #include <QVBoxLayout>
+#include "./ui_elementdialog.h"
 
-ElementDialog::ElementDialog(const Element& element, QWidget *parent)
-    : QDialog(parent)
+ElementDialog::ElementDialog(const Element &element, QWidget *parent)
+    : QDialog(parent), ui(new Ui::ElementDialog)
 {
+    ui->setupUi(this);
     /*setupUi();
-    setupLabels(element);*/
+    setupLabels(element);
     //QLabels:
-    AtomicNumberLabel = new QLabel("Atomic Number: " + QString::number(element.getAtomicNumber()), this);
+    AtomicNumberLabel = new QLabel("Atomic Number: " + QString::number(element.getAtomicNumber()),
+                                   this);
     SymbolLabel = new QLabel("Symbol: " + element.getSymbol(), this);
     NameLabel = new QLabel("Name: " + element.getName(), this);
     AtomicMassLabel = new QLabel("Atomic Mass: " + QString::number(element.getAtomicMass()), this);
-    AtomicRadiusLabel = new QLabel("Atomic Radius: " + QString::number(element.getAtomicRadius()), this);
+    AtomicRadiusLabel = new QLabel("Atomic Radius: " + QString::number(element.getAtomicRadius()),
+                                   this);
     PeriodLabel = new QLabel("Period: " + QString::number(element.getPeriod()), this);
     GroupLabel = new QLabel("Group: " + QString::number(element.getGroup()), this);
     SummaryLabel = new QLabel("Summary: " + element.getSummary(), this);
@@ -19,19 +23,30 @@ ElementDialog::ElementDialog(const Element& element, QWidget *parent)
     MetallicPropertyLabel = new QLabel("Metallic Property: " + element.getMetallicProperty(), this);
     BlockLabel = new QLabel("Block: " + QString(element.getBlock()), this);
     PhaseLabel = new QLabel("Phase: " + element.getPhase(), this);
-    BoilingPointLabel = new QLabel("Boiling Point: " + QString::number(element.getBoilingPoint()), this);
-    MeltingPointLabel = new QLabel("Melting Point: " + QString::number(element.getMeltingPoint()), this);
-    ElectronicConfigurationLabel = new QLabel("Electronic Configuration: " + element.getElectronicConfiguration(), this);
-    ElectronegativityLabel = new QLabel("Electronegativity: " + QString::number(element.getElectronegativity()), this);
+    BoilingPointLabel = new QLabel("Boiling Point: " + QString::number(element.getBoilingPoint()),
+                                   this);
+    MeltingPointLabel = new QLabel("Melting Point: " + QString::number(element.getMeltingPoint()),
+                                   this);
+    ElectronicConfigurationLabel = new QLabel("Electronic Configuration: "
+                                                  + element.getElectronicConfiguration(),
+                                              this);
+    ElectronegativityLabel = new QLabel("Electronegativity: "
+                                            + QString::number(element.getElectronegativity()),
+                                        this);
     OxidationStatesLabel = new QLabel("Oxidation States: " + element.getOxidationStates(), this);
-    IonizationEnergyLabel = new QLabel("Ionization Energy: " + QString::number(element.getIonizationEnergy()), this);
-    ElectronAffinityLabel = new QLabel("Electron Affinity: " + QString::number(element.getElectronAffinity()), this);
+    IonizationEnergyLabel = new QLabel("Ionization Energy: "
+                                           + QString::number(element.getIonizationEnergy()),
+                                       this);
+    ElectronAffinityLabel = new QLabel("Electron Affinity: "
+                                           + QString::number(element.getElectronAffinity()),
+                                       this);
     DensityLabel = new QLabel("Density: " + QString::number(element.getDensity()), this);
-    DiscoveryYearLabel = new QLabel("Discovery Year: " + QString::number(element.getDiscoveryYear()), this);
+    DiscoveryYearLabel = new QLabel("Discovery Year: " + QString::number(element.getDiscoveryYear()),
+                                    this);
     DiscoveredByLabel = new QLabel("Discovered By: " + element.getDiscoveredBy(), this);
 
     //QLayouts:
-    QVBoxLayout* MainLayout = new QVBoxLayout(this);
+    QVBoxLayout *MainLayout = new QVBoxLayout(this);
     //QWidgets:
     MainWidget = new QWidget;
 
@@ -68,12 +83,13 @@ ElementDialog::ElementDialog(const Element& element, QWidget *parent)
     //this->setWindowIcon(QIcon(":/icons/Icon.png"));
     this->setWindowFlag(Qt::MSWindowsFixedSizeDialogHint);
     //Show Dialog:
-    this->show();
-
+    this->show();*/
 }
 
 ElementDialog::~ElementDialog()
 {
+    delete ui;
+    /*
     delete AtomicNumberLabel;
     delete SymbolLabel;
     delete NameLabel;
@@ -96,5 +112,5 @@ ElementDialog::~ElementDialog()
     delete DensityLabel;
     delete DiscoveryYearLabel;
     delete DiscoveredByLabel;
-    delete MainWidget;
+    delete MainWidget;*/
 }

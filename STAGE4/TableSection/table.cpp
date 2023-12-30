@@ -1,9 +1,14 @@
 #include "table.h"
 #include <QTextStream>
 
-Table::Table() {}
-QFile Table::GetCSVFile() {return CSVFile*;}
-void Table::SetCSVFile(QFile &CSVFile) {}
+QVector<Element*> Table::elements;
+
+void Table::SetFileName(const QString &fileName) {
+    this->CSVFile.setFileName(fileName);
+}
+
+QFile& Table::GetFile() {return QFile;}
+
 void Table::CSVToElements(QFile &CSVFile) {
     if (CSVFile.open(QIODevice::ReadOnly)) {
         QTextStream *stream = new QTextStream(&CSVFile);
@@ -63,11 +68,5 @@ void Table::CSVToElements(QFile &CSVFile) {
         }
         CSVFile.close();
     }
-}/*
-QVector<Element*> Table::GetElements() {return elements*;}
-void Table::SetElements(QVector<Element*> &elements) {}
-void Table::SortElementsByAtomicNumber() {
-    std::sort(elements.begin(), elements.end(), [](Element* a, Element* b) -> bool {
-        return a->getAtomicNumber() < b->getAtomicNumber();
-    });
-}*/
+}
+
