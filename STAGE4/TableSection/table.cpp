@@ -29,7 +29,7 @@ void Table::CSVToElements() {
             QString summary = list[7];
             QString category = list[8];
             QString metallicProperty = list[9];
-            char block = list[10].toStdString()[0];
+            QString block = list[10];
             QString phase = list[11];
             double boilingPoint = list[12].toDouble();
             double meltingPoint = list[13].toDouble();

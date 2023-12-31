@@ -10,7 +10,7 @@ Element::Element(int atomicNumber,
                  QString summary,
                  QString category,
                  QString metallicProperty,
-                 char block,
+                 QString block,
                  QString phase,
                  double boilingPoint,
                  double meltingPoint,
@@ -64,7 +64,7 @@ int Element::getGroup() const { return group; }
 QString Element::getSummary() const { return summary; }
 QString Element::getCategory() const { return category; }
 QString Element::getMetallicProperty() const { return metallicProperty; }
-char Element::getBlock() const { return block; }
+QString Element::getBlock() const { return block; }
 QString Element::getPhase() const { return phase; }
 double Element::getBoilingPoint() const { return boilingPoint; }
 double Element::getMeltingPoint() const { return meltingPoint; }

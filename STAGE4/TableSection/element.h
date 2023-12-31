@@ -21,7 +21,7 @@ private:
     QString summary;
     QString category;
     QString metallicProperty;
-    char block;
+    QString block;
     QString phase;
     double boilingPoint;
     double meltingPoint;
@@ -39,7 +39,7 @@ private:
 public:
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
             int period,int group,QString summary,QString category,QString metallicProperty,
-            char block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
+            QString block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
             double density,int discoveryYear,QString discoveredBy,QString bohrModelmage,
             QString bohrModel3d,QObject *parent = nullptr);
@@ -54,7 +54,7 @@ public:
     QString getSummary() const ;
     QString getCategory() const ;
     QString getMetallicProperty() const ;
-    char getBlock() const ;
+    QString getBlock() const ;
     QString getPhase() const ;
     double getBoilingPoint() const ;
     double getMeltingPoint() const ;
