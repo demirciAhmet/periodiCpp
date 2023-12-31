@@ -35,7 +35,7 @@ void TableSection::on_btnHydrogen_clicked()
 
 void TableSection::on_btnHelium_clicked()
 {
-    ElementDialog heliumDialog(*Table::elements[100],this);
+    ElementDialog heliumDialog(*Table::elements[23],this);
     heliumDialog.setModal(true);
     heliumDialog.exec();
 }

@@ -247,7 +247,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Element</string>
+         <string>-</string>
         </property>
        </widget>
       </item>
@@ -276,7 +276,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>He</string>
+         <string>Dynamic Element</string>
         </property>
        </widget>
       </item>
@@ -289,7 +289,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>H</string>
+         <string>Manuel Element</string>
         </property>
        </widget>
       </item>
@@ -302,7 +302,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Li</string>
+         <string>Empty Element</string>
         </property>
        </widget>
       </item>

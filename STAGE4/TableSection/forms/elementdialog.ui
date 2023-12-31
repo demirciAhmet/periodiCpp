@@ -13,10 +13,10 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout_10">
+  <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0">
-     <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
         <widget class="QLabel" name="label">
@@ -25,16 +25,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblAtomicNumber">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="lblAtomicNumber">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
         <widget class="QLabel" name="label_2">
@@ -43,16 +43,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblSymbol">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="lblSymbol">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_3">
        <item>
         <widget class="QLabel" name="label_3">
@@ -61,16 +61,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblName">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="lblName">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_23">
        <item>
         <widget class="QLabel" name="label_10">
@@ -79,22 +79,22 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblSummary">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="3" column="1">
+      <widget class="QLabel" name="lblSummary">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_4">
        <item>
         <widget class="QLabel" name="label_4">
@@ -103,16 +103,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblAtomicMass">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="4" column="1">
+      <widget class="QLabel" name="lblAtomicMass">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_5">
        <item>
         <widget class="QLabel" name="label_5">
@@ -121,16 +121,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblAtomicRadius">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="5" column="1">
+      <widget class="QLabel" name="lblAtomicRadius">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_13">
        <item>
         <widget class="QLabel" name="label_13">
@@ -139,16 +139,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblBoil">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="6" column="1">
+      <widget class="QLabel" name="lblBoil">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_6">
        <item>
         <widget class="QLabel" name="label_6">
@@ -157,16 +157,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblPeriod">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="lblPeriod">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_16">
        <item>
         <widget class="QLabel" name="label_16">
@@ -175,16 +175,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblMelt">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="lblMelt">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_8">
        <item>
         <widget class="QLabel" name="label_8">
@@ -193,52 +193,16 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblGroup">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_17">
-       <item>
-        <widget class="QLabel" name="label_17">
-         <property name="text">
-          <string>Electron Configuration:</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lblElectronConfiguration">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+     <item row="9" column="1">
+      <widget class="QLabel" name="lblGroup">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
      </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_14">
-       <item>
-        <widget class="QLabel" name="label_14">
-         <property name="text">
-          <string>Electronegativity:</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lblElectronegativity">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
+     <item row="12" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_12">
        <item>
         <widget class="QLabel" name="label_12">
@@ -247,34 +211,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblCategory">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_15">
-       <item>
-        <widget class="QLabel" name="label_15">
-         <property name="text">
-          <string>Oxidation States:</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="lblOxidationStates">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
-     </item>
-     <item>
+     <item row="14" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_11">
        <item>
         <widget class="QLabel" name="label_11">
@@ -283,16 +222,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblMetallicProperty">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="15" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_18">
        <item>
         <widget class="QLabel" name="label_18">
@@ -301,16 +233,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblIonizationEnergy">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="16" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_7">
        <item>
         <widget class="QLabel" name="label_7">
@@ -319,16 +244,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblBlock">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="17" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_21">
        <item>
         <widget class="QLabel" name="label_21">
@@ -337,16 +255,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblElectronAffinity">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="18" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_9">
        <item>
         <widget class="QLabel" name="label_9">
@@ -355,16 +266,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblPhase">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="19" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_22">
        <item>
         <widget class="QLabel" name="label_22">
@@ -373,16 +277,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblDensity">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="20" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_19">
        <item>
         <widget class="QLabel" name="label_19">
@@ -391,16 +288,9 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="lblDiscoveryYear">
-         <property name="text">
-          <string>-</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
-     <item>
+     <item row="21" column="0">
       <layout class="QHBoxLayout" name="horizontalLayout_20">
        <item>
         <widget class="QLabel" name="label_20">
@@ -409,14 +299,124 @@
          </property>
         </widget>
        </item>
+      </layout>
+     </item>
+     <item row="10" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
        <item>
-        <widget class="QLabel" name="lblDiscoveredBy">
+        <widget class="QLabel" name="label_17">
          <property name="text">
-          <string>-</string>
+          <string>Electron Configuration:</string>
          </property>
         </widget>
        </item>
       </layout>
+     </item>
+     <item row="10" column="1">
+      <widget class="QLabel" name="lblElectronConfiguration">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_14">
+       <item>
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Electronegativity:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="11" column="1">
+      <widget class="QLabel" name="lblElectronegativity">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="lblCategory">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <layout class="QHBoxLayout" name="horizontalLayout_15">
+       <item>
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Oxidation States:</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="lblOxidationStates">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="lblMetallicProperty">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="lblIonizationEnergy">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="16" column="1">
+      <widget class="QLabel" name="lblBlock">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="17" column="1">
+      <widget class="QLabel" name="lblElectronAffinity">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="18" column="1">
+      <widget class="QLabel" name="lblPhase">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="19" column="1">
+      <widget class="QLabel" name="lblDensity">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="20" column="1">
+      <widget class="QLabel" name="lblDiscoveryYear">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
+     </item>
+     <item row="21" column="1">
+      <widget class="QLabel" name="lblDiscoveredBy">
+       <property name="text">
+        <string>---------</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </item>

@@ -16,7 +16,7 @@ set(PROJECT_SOURCES
         main.cpp
         tablesection.cpp
         tablesection.h
-
+        forms/tablesection.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -25,12 +25,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         table.h table.cpp
         element.h element.cpp
-        elementdialog.h elementdialog.cpp
-        elementdialog.h elementdialog.cpp
-        forms/Element-Data.csv forms/elementdialog.ui
-        forms/tablesection.ui
-
-
+        elementdialog.h elementdialog.cpp forms/elementdialog.ui
+        resources.qrc
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TableSection APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

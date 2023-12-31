@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/resources">
+        <file>resources/Element-Data.csv</file>
+    </qresource>
+    <qresource prefix="/images"/>
+</RCC>
