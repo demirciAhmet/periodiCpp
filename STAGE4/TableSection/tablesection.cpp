@@ -8,6 +8,7 @@ TableSection::TableSection(QWidget *parent)
     , ui(new Ui::TableSection)
 {
     ui->setupUi(this);
+    ui->Categories->setChecked(true);
     Table periodicTable = Table(this);
     QFont font;
     font.setPointSize(16);
