@@ -43,7 +43,7 @@
        <height>100</height>
       </size>
      </property>
-     <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5,5">
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5,2,5,3">
       <property name="sizeConstraint">
        <enum>QLayout::SetDefaultConstraint</enum>
       </property>
@@ -107,6 +107,22 @@
       </item>
       <item>
        <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox"/>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_5">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -223,7 +239,7 @@
      </property>
      <layout class="QGridLayout" name="gridLayout">
       <item row="1" column="2">
-       <widget class="QPushButton" name="Element_2">
+       <widget class="QPushButton" name="btnBerilium">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -252,7 +268,7 @@
        </spacer>
       </item>
       <item row="0" column="2">
-       <widget class="QPushButton" name="Element">
+       <widget class="QPushButton" name="btnHelium">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -260,12 +276,12 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Element</string>
+         <string>He</string>
         </property>
        </widget>
       </item>
       <item row="0" column="0">
-       <widget class="QPushButton" name="Element_4">
+       <widget class="QPushButton" name="btnHydrogen">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -273,12 +289,12 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Element</string>
+         <string>H</string>
         </property>
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QPushButton" name="Element_3">
+       <widget class="QPushButton" name="btnLithium">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -286,7 +302,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Element</string>
+         <string>Li</string>
         </property>
        </widget>
       </item>

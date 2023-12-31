@@ -5,7 +5,6 @@
 #include <QObject>
 #include <QString>
 
-using namespace std;
 
 class Element : public QObject
 {
@@ -34,41 +33,41 @@ private:
     double density;
     int discoveryYear;
     QString discoveredBy;
-    QImage bohrModelmage;
-    QImage bohrModel3d;
+    QString bohrModelmage;
+    QString bohrModel3d;
 
 public:
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
             int period,int group,QString summary,QString category,QString metallicProperty,
             char block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
-            double density,int discoveryYear,QString discoveredBy,QImage bohrModelmage,
-            QImage bohrModel3d,QObject *parent = nullptr);
+            double density,int discoveryYear,QString discoveredBy,QString bohrModelmage,
+            QString bohrModel3d,QObject *parent = nullptr);
     //getters
-    int getAtomicNumber();
-    QString getSymbol();
-    QString getName();
-    double getAtomicMass();
-    double getAtomicRadius();
-    int getPeriod();
-    int getGroup();
-    QString getSummary();
-    QString getCategory();
-    QString getMetallicProperty();
-    char getBlock();
-    QString getPhase();
-    double getBoilingPoint();
-    double getMeltingPoint();
-    QString getElectronicConfiguration();
-    double getElectronegativity();
-    QString getOxidationStates();
-    int getIonizationEnergy();
-    int getElectronAffinity();
-    double getDensity();
-    int getDiscoveryYear();
-    QString getDiscoveredBy();
-    QImage getBohrModelmage();
-    QImage getBohrModel3d();
+    int getAtomicNumber() const;
+    QString getSymbol() const ;
+    QString getName() const ;
+    double getAtomicMass() const ;
+    double getAtomicRadius() const ;
+    int getPeriod() const ;
+    int getGroup() const ;
+    QString getSummary() const ;
+    QString getCategory() const ;
+    QString getMetallicProperty() const ;
+    char getBlock() const ;
+    QString getPhase() const ;
+    double getBoilingPoint() const ;
+    double getMeltingPoint() const ;
+    QString getElectronicConfiguration() const ;
+    double getElectronegativity() const ;
+    QString getOxidationStates() const ;
+    int getIonizationEnergy() const ;
+    int getElectronAffinity() const ;
+    double getDensity() const ;
+    int getDiscoveryYear() const ;
+    QString getDiscoveredBy() const ;
+    QString getBohrModelmage() const ;
+    QString getBohrModel3d() const ;
 
 signals:
 };

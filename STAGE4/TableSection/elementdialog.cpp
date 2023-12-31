@@ -1,19 +1,17 @@
 #include "elementdialog.h"
-#include <QVBoxLayout>
-#include "./ui_elementdialog.h"
-
-ElementDialog::ElementDialog(const Element &element, QWidget *parent)
-    : QDialog(parent), ui(new Ui::ElementDialog)
+#include "forms/ui_elementdialog.h"
+ElementDialog::ElementDialog(QWidget *parent) : QDialog(parent), ui(new Ui::ElementDialog){
+    ui->setupUi(this);
+}
+ElementDialog::ElementDialog(const Element &element, QWidget *parent) : QDialog(parent), ui(new Ui::ElementDialog)
 {
     ui->setupUi(this);
-    /*setupUi();
-    setupLabels(element);
     //QLabels:
-    AtomicNumberLabel = new QLabel("Atomic Number: " + QString::number(element.getAtomicNumber()),
-                                   this);
-    SymbolLabel = new QLabel("Symbol: " + element.getSymbol(), this);
-    NameLabel = new QLabel("Name: " + element.getName(), this);
-    AtomicMassLabel = new QLabel("Atomic Mass: " + QString::number(element.getAtomicMass()), this);
+    ui->lblAtomicNumber->setText(QString::number(element.getAtomicMass()));
+    ui->lblSymbol->setText(element.getSymbol());
+    ui->lblName->setText(element.getName());
+
+    /*AtomicMassLabel = new QLabel("Atomic Mass: " + QString::number(element.getAtomicMass()), this);
     AtomicRadiusLabel = new QLabel("Atomic Radius: " + QString::number(element.getAtomicRadius()),
                                    this);
     PeriodLabel = new QLabel("Period: " + QString::number(element.getPeriod()), this);
@@ -43,13 +41,10 @@ ElementDialog::ElementDialog(const Element &element, QWidget *parent)
     DensityLabel = new QLabel("Density: " + QString::number(element.getDensity()), this);
     DiscoveryYearLabel = new QLabel("Discovery Year: " + QString::number(element.getDiscoveryYear()),
                                     this);
-    DiscoveredByLabel = new QLabel("Discovered By: " + element.getDiscoveredBy(), this);
+    DiscoveredByLabel = new QLabel("Discovered By: " + element.getDiscoveredBy(), this);*/
 
     //QLayouts:
-    QVBoxLayout *MainLayout = new QVBoxLayout(this);
-    //QWidgets:
-    MainWidget = new QWidget;
-
+    /*QVBoxLayout *MainLayout = new QVBoxLayout(this);
     //Setup Layouts:
     MainLayout->addWidget(AtomicNumberLabel);
     MainLayout->addWidget(SymbolLabel);
@@ -82,16 +77,15 @@ ElementDialog::ElementDialog(const Element &element, QWidget *parent)
     this->setFixedSize(300, 500);
     //this->setWindowIcon(QIcon(":/icons/Icon.png"));
     this->setWindowFlag(Qt::MSWindowsFixedSizeDialogHint);
+    */
     //Show Dialog:
-    this->show();*/
 }
 
 ElementDialog::~ElementDialog()
 {
     delete ui;
-    /*
-    delete AtomicNumberLabel;
-    delete SymbolLabel;
+    /*delete lblAtomicNumber;
+    /*delete SymbolLabel;
     delete NameLabel;
     delete AtomicMassLabel;
     delete AtomicRadiusLabel;

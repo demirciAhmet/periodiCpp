@@ -17,6 +17,13 @@ public:
     TableSection(QWidget *parent = nullptr);
     ~TableSection();
 
+private slots:
+    void on_btnHydrogen_clicked();
+
+    void on_btnHelium_clicked();
+
+    void on_btnLithium_clicked();
+
 private:
     Ui::TableSection *ui;
 };

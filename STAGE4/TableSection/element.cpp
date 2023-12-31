@@ -22,8 +22,8 @@ Element::Element(int atomicNumber,
                  double density,
                  int discoveryYear,
                  QString discoveredBy,
-                 QImage bohrModelmage,
-                 QImage bohrModel3d,
+                 QString bohrModelmage,
+                 QString bohrModel3d,
                  QObject *parent
                  ) : QObject{parent}
 {
@@ -54,27 +54,27 @@ Element::Element(int atomicNumber,
 }
 
 //getters
-int Element::getAtomicNumber() { return atomicNumber; }
-QString Element::getSymbol() { return symbol; }
-QString Element::getName() { return name; }
-double Element::getAtomicMass() { return atomicMass; }
-double Element::getAtomicRadius() { return atomicRadius; }
-int Element::getPeriod() { return period; }
-int Element::getGroup() { return group; }
-QString Element::getSummary() { return summary; }
-QString Element::getCategory() { return category; }
-QString Element::getMetallicProperty() { return metallicProperty; }
-char Element::getBlock() { return block; }
-QString Element::getPhase() { return phase; }
-double Element::getBoilingPoint() { return boilingPoint; }
-double Element::getMeltingPoint() { return meltingPoint; }
-QString Element::getElectronicConfiguration() { return electronicConfiguration; }
-double Element::getElectronegativity() { return electronegativity; }
-QString Element::getOxidationStates() { return oxidationStates; }
-int Element::getIonizationEnergy() { return ionizationEnergy; }
-int Element::getElectronAffinity() { return electronAffinity; }
-double Element::getDensity() { return density; }
-int Element::getDiscoveryYear() { return discoveryYear; }
-QString Element::getDiscoveredBy() { return discoveredBy; }
-QImage Element::getBohrModelmage() { return bohrModelmage; }
-QImage Element::getBohrModel3d() { return bohrModel3d; }
+int Element::getAtomicNumber() const { return atomicNumber; }
+QString Element::getSymbol() const { return symbol; }
+QString Element::getName() const { return name; }
+double Element::getAtomicMass() const { return atomicMass; }
+double Element::getAtomicRadius() const { return atomicRadius; }
+int Element::getPeriod() const { return period; }
+int Element::getGroup() const { return group; }
+QString Element::getSummary() const { return summary; }
+QString Element::getCategory() const { return category; }
+QString Element::getMetallicProperty() const { return metallicProperty; }
+char Element::getBlock() const { return block; }
+QString Element::getPhase() const { return phase; }
+double Element::getBoilingPoint() const { return boilingPoint; }
+double Element::getMeltingPoint() const { return meltingPoint; }
+QString Element::getElectronicConfiguration() const { return electronicConfiguration; }
+double Element::getElectronegativity() const { return electronegativity; }
+QString Element::getOxidationStates() const { return oxidationStates; }
+int Element::getIonizationEnergy() const { return ionizationEnergy; }
+int Element::getElectronAffinity() const { return electronAffinity; }
+double Element::getDensity() const { return density; }
+int Element::getDiscoveryYear() const { return discoveryYear; }
+QString Element::getDiscoveredBy() const { return discoveredBy; }
+QString Element::getBohrModelmage() const { return bohrModelmage; }
+QString Element::getBohrModel3d() const { return bohrModel3d; }

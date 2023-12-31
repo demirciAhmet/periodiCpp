@@ -3,6 +3,12 @@
 
 QVector<Element*> Table::elements;
 
+Table::Table(QObject *parent)
+    : QObject{parent}
+{
+    CSVToElements();
+}
+
 void Table::CSVToElements() {
 
     QFile CSVFile(":/forms/Element-Data.ui");
@@ -35,8 +41,8 @@ void Table::CSVToElements() {
             double density = list[19].toDouble();
             int discoveryYear = list[20].toInt();
             QString discoveredBy = list[21];
-            QImage bohrModelmage = QImage(list[22]);
-            QImage bohrModel3d = QImage(list[23]);
+            QString bohrModelmage = QString(list[22]);
+            QString bohrModel3d = QString(list[23]);
             Element* element = new Element(atomicNumber,
                                            symbol,
                                            name,
