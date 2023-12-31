@@ -38,29 +38,7 @@ ElementDialog::ElementDialog(const Element &element, QWidget *parent) : QDialog(
 ElementDialog::~ElementDialog()
 {
     delete ui;
-    /*
-    delete lblAtomicNumber;
-    delete SymbolLabel;
-    delete NameLabel;
-    delete AtomicMassLabel;
-    delete AtomicRadiusLabel;
-    delete PeriodLabel;
-    delete GroupLabel;
-    delete SummaryLabel;
-    delete CategoryLabel;
-    delete MetallicPropertyLabel;
-    delete BlockLabel;
-    delete PhaseLabel;
-    delete BoilingPointLabel;
-    delete MeltingPointLabel;
-    delete ElectronicConfigurationLabel;
-    delete ElectronegativityLabel;
-    delete OxidationStatesLabel;
-    delete IonizationEnergyLabel;
-    delete ElectronAffinityLabel;
-    delete DensityLabel;
-    delete DiscoveryYearLabel;
-    delete DiscoveredByLabel;
-    delete MainWidget;
-    */
+
+    //delete lblAtomicNumber;-
+
 }

@@ -11,7 +11,7 @@ Table::Table(QObject *parent)
 
 void Table::CSVToElements() {
 
-    QFile CSVFile(":/forms/Element-Data.ui");
+    QFile CSVFile("/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/TableSection/forms/Element-Data.csv");
 
     if (CSVFile.open(QIODevice::ReadOnly)) {
         QTextStream *stream = new QTextStream(&CSVFile);

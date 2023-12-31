@@ -8,9 +8,9 @@ TableSection::TableSection(QWidget *parent)
     , ui(new Ui::TableSection)
 {
     ui->setupUi(this);
+    Table periodicTable = Table(this);
     QFont font;
     font.setPointSize(16);
-
     ui->btnHydrogen->setFont(font);
     ui->btnHydrogen->setStyleSheet("background-color: blue; color: white;");
     ui->btnHelium->setFont(font);
@@ -35,7 +35,7 @@ void TableSection::on_btnHydrogen_clicked()
 
 void TableSection::on_btnHelium_clicked()
 {
-    ElementDialog heliumDialog(*Table::elements[2],this);
+    ElementDialog heliumDialog(*Table::elements[100],this);
     heliumDialog.setModal(true);
     heliumDialog.exec();
 }
