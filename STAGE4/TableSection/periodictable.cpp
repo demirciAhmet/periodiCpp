@@ -1,16 +1,16 @@
-#include "table.h"
+#include "periodictable.h"
 #include <QDebug>
 #include <QTextStream>
 
-QVector<Element*> Table::elements;
+QVector<Element*> PeriodicTable::elements;
 
-Table::Table(QObject *parent)
+PeriodicTable::PeriodicTable(QObject *parent)
     : QObject{parent}
 {
     CSVToElements();
 }
 
-void Table::CSVToElements() {
+void PeriodicTable::CSVToElements() {
 
     QFile CSVFile(":/resources/resources/Element-Data.csv");
 

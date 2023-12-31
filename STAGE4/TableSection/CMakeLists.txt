@@ -23,7 +23,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(TableSection
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        table.h table.cpp
+        periodictable.h periodictable.cpp
         element.h element.cpp
         elementdialog.h elementdialog.cpp forms/elementdialog.ui
         resources.qrc

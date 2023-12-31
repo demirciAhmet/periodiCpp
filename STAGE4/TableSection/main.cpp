@@ -1,4 +1,3 @@
-#include "elementdialog.h"
 #include "tablesection.h"
 
 #include <QApplication>

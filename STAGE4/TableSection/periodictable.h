@@ -1,18 +1,18 @@
-#ifndef TABLE_H
-#define TABLE_H
+#ifndef PERIODICTABLE_H
+#define PERIODICTABLE_H
 
 #include <QFile>
 #include <QVector>
 #include "element.h"
 #include <QObject>
 
-class Table : public QObject
+class PeriodicTable : public QObject
 {
     Q_OBJECT
 public:
-    explicit Table(QObject *parent = nullptr);
+    explicit PeriodicTable(QObject *parent = nullptr);
     static QVector<Element*> elements;
     void CSVToElements();
 };
 
-#endif // TABLE_H
+#endif // PERIODICTABLE_H

@@ -1,6 +1,6 @@
 #include "tablesection.h"
 #include "forms/ui_tablesection.h"
-#include "table.h"
+#include "periodictable.h"
 #include "elementdialog.h"
 
 TableSection::TableSection(QWidget *parent)
@@ -9,7 +9,7 @@ TableSection::TableSection(QWidget *parent)
 {
     ui->setupUi(this);
     ui->Categories->setChecked(true);
-    Table periodicTable = Table(this);
+    PeriodicTable periodicTable = PeriodicTable(this);
     QFont font;
     font.setPointSize(16);
     ui->btnHydrogen->setFont(font);
@@ -36,7 +36,7 @@ void TableSection::on_btnHydrogen_clicked()
 
 void TableSection::on_btnHelium_clicked()
 {
-    ElementDialog heliumDialog(*Table::elements[110],this);
+    ElementDialog heliumDialog(*PeriodicTable::elements[110],this);
     heliumDialog.setModal(true);
     heliumDialog.exec();
 }
