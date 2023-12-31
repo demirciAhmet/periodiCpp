@@ -1,4 +1,5 @@
 #include "table.h"
+#include <QDebug>
 #include <QTextStream>
 
 QVector<Element*> Table::elements;
@@ -43,33 +44,36 @@ void Table::CSVToElements() {
             QString discoveredBy = list[21];
             QString bohrModelmage = QString(list[22]);
             QString bohrModel3d = QString(list[23]);
-            Element* element = new Element(atomicNumber,
-                                           symbol,
-                                           name,
-                                           atomicMass,
-                                           atomicRadius,
-                                           period,
-                                           group,
-                                           summary,
-                                           category,
-                                           metallicProperty,
-                                           block,
-                                           phase,
-                                           boilingPoint,
-                                           meltingPoint,
-                                           electronicConfiguration,
-                                           electronegativity,
-                                           oxidationStates,
-                                           ionizationEnergy,
-                                           electronAffinity,
-                                           density,
-                                           discoveryYear,
-                                           discoveredBy,
-                                           bohrModelmage,
-                                           bohrModel3d);
+            Element* element = new Element(
+                atomicNumber,
+                symbol,
+                name,
+                atomicMass,
+                atomicRadius,
+                period,
+                group,
+                summary,
+                category,
+                metallicProperty,
+                block,
+                phase,
+                boilingPoint,
+                meltingPoint,
+                electronicConfiguration,
+                electronegativity,
+                oxidationStates,
+                ionizationEnergy,
+                electronAffinity,
+                density,
+                discoveryYear,
+                discoveredBy,
+                bohrModelmage,
+                bohrModel3d);
             elements.append(element);
         }
         CSVFile.close();
+    } else {
+        qDebug() << "The CSV file couldn't open";
     }
 }
 
