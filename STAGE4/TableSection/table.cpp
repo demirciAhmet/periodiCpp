@@ -42,8 +42,6 @@ void Table::CSVToElements() {
             double density = list[19].toDouble();
             int discoveryYear = list[20].toInt();
             QString discoveredBy = list[21];
-            QString bohrModelmage = QString(list[22]);
-            QString bohrModel3d = QString(list[23]);
             Element* element = new Element(
                 atomicNumber,
                 symbol,
@@ -66,9 +64,7 @@ void Table::CSVToElements() {
                 electronAffinity,
                 density,
                 discoveryYear,
-                discoveredBy,
-                bohrModelmage,
-                bohrModel3d);
+                discoveredBy);
             elements.append(element);
         }
         CSVFile.close();

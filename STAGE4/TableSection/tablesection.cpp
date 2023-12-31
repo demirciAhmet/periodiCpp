@@ -26,7 +26,7 @@ TableSection::~TableSection()
 
 void TableSection::on_btnHydrogen_clicked()
 {
-    Element *hydrogen = new Element(1,"H","Hydrogen",1.008,37,1,1,"Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.","nonmetal","nonmetal","s","Gas",20.271,13.99,"1s1" ,2.2,"-1, 1",1312,-73,0.08988,1766,"Cavendish","https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen_srp_th.png","https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb");
+    Element *hydrogen = new Element(1,"H","Hydrogen",1.008,37,1,1,"Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.","nonmetal","nonmetal","s","Gas",20.271,13.99,"1s1" ,2.2,"-1, 1",1312,-73,0.08988,1766,"Cavendish");
     ElementDialog hydrogenDialog(*hydrogen,this);
     hydrogenDialog.setModal(true);
     hydrogenDialog.exec();
@@ -36,7 +36,7 @@ void TableSection::on_btnHydrogen_clicked()
 
 void TableSection::on_btnHelium_clicked()
 {
-    ElementDialog heliumDialog(*Table::elements[23],this);
+    ElementDialog heliumDialog(*Table::elements[10],this);
     heliumDialog.setModal(true);
     heliumDialog.exec();
 }

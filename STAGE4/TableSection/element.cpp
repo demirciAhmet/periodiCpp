@@ -22,8 +22,6 @@ Element::Element(int atomicNumber,
                  double density,
                  int discoveryYear,
                  QString discoveredBy,
-                 QString bohrModelmage,
-                 QString bohrModel3d,
                  QObject *parent
                  ) : QObject{parent}
 {
@@ -49,8 +47,6 @@ Element::Element(int atomicNumber,
     this->density = density;
     this->discoveryYear = discoveryYear;
     this->discoveredBy = discoveredBy;
-    this->bohrModelmage = bohrModelmage;
-    this->bohrModel3d = bohrModel3d;
 }
 
 //getters
@@ -76,5 +72,3 @@ int Element::getElectronAffinity() const { return electronAffinity; }
 double Element::getDensity() const { return density; }
 int Element::getDiscoveryYear() const { return discoveryYear; }
 QString Element::getDiscoveredBy() const { return discoveredBy; }
-QString Element::getBohrModelmage() const { return bohrModelmage; }
-QString Element::getBohrModel3d() const { return bohrModel3d; }

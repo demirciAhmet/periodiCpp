@@ -33,16 +33,13 @@ private:
     double density;
     int discoveryYear;
     QString discoveredBy;
-    QString bohrModelmage;
-    QString bohrModel3d;
 
 public:
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
             int period,int group,QString summary,QString category,QString metallicProperty,
             QString block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
-            double density,int discoveryYear,QString discoveredBy,QString bohrModelmage,
-            QString bohrModel3d,QObject *parent = nullptr);
+            double density,int discoveryYear,QString discoveredBy,QObject *parent = nullptr);
     //getters
     int getAtomicNumber() const;
     QString getSymbol() const ;
@@ -66,8 +63,6 @@ public:
     double getDensity() const ;
     int getDiscoveryYear() const ;
     QString getDiscoveredBy() const ;
-    QString getBohrModelmage() const ;
-    QString getBohrModel3d() const ;
 
 signals:
 };
