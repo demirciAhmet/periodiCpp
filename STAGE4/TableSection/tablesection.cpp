@@ -58,24 +58,28 @@ TableSection::~TableSection()
 
 void TableSection::on_rbtnCategories_clicked()
 {
+    updateLegend();
     updateButtonProperties();
 }
 
 
 void TableSection::on_rbtnMetallic_Properties_clicked()
 {
+    updateLegend();
     updateButtonProperties();
 }
 
 
 void TableSection::on_rbtnBlocks_clicked()
 {
+    updateLegend();
     updateButtonProperties();
 }
 
 
 void TableSection::on_rbtnPhases_clicked()
 {
+    updateLegend();
     updateButtonProperties();
 }
 
@@ -140,6 +144,110 @@ void TableSection::updateButtonProperties()
         //setColorForButton(ui->gridLayout->itemAt(i-1)->widget(), color);
 
         //setColorForButton(ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()->findChild<QPushButton*>(), color);
+    }
+}
+
+void TableSection::updateLegend() {
+    if (ui->rbtnCategories->isChecked()) {
+        ui->lblColor->setStyleSheet("background-color: " + categoryColorMap["Alkali Metal"]);
+        ui->lbl->setText("Alkali Metal");
+        ui->lblColor2->setStyleSheet("background-color: " + categoryColorMap["Alkaline Earth Metal"]);
+        ui->lbl2->setText("Alkaline Earth Metal");
+        ui->lblColor3->setStyleSheet("background-color: " + categoryColorMap["Transition Metal"]);
+        ui->lbl3->setText("Transition Metal");
+        ui->lblColor4->setStyleSheet("background-color: " + categoryColorMap["Post-Transition Metal"]);
+        ui->lbl4->setText("Post-Transition Metal");
+        ui->lblColor5->setStyleSheet("background-color: " + categoryColorMap["Lanthanide"]);
+        ui->lbl5->setText("Lanthanide");
+        ui->lblColor6->setStyleSheet("background-color: " + categoryColorMap["Actinide"]);
+        ui->lbl6->setText("Actinide");
+        ui->lblColor7->setStyleSheet("background-color: " + categoryColorMap["Metalloid"]);
+        ui->lbl7->setText("Metalloid");
+        ui->lblColor8->setStyleSheet("background-color: " + categoryColorMap["Halogen"]);
+        ui->lbl8->setText("Halogen");
+        ui->lblColor9->setStyleSheet("background-color: " + categoryColorMap["Non Metal"]);
+        ui->lbl9->setText("Non Metal");
+        ui->lblColor10->setStyleSheet("background-color: " + categoryColorMap["Noble Gas"]);
+        ui->lbl10->setText("Noble Gas");
+        ui->lblColor11->setStyleSheet("background-color: " + categoryColorMap["(undefined)"]);
+        ui->lbl11->setText("(undefined)");
+        ui->lblColor11->setStyleSheet("");
+        ui->lbl12->setText("");
+    } else if (ui->rbtnMetallic_Properties->isChecked()) {
+        ui->lblColor->setStyleSheet("background-color: " + metallicPropertyColorMap["metal"]);
+        ui->lbl->setText("metal");
+        ui->lblColor2->setStyleSheet("background-color: " + metallicPropertyColorMap["metalloid"]);
+        ui->lbl2->setText("metalloid");
+        ui->lblColor3->setStyleSheet("background-color: " + metallicPropertyColorMap["nonmetal"]);
+        ui->lbl3->setText("nonmetal");
+        ui->lblColor4->setStyleSheet("background-color: " + metallicPropertyColorMap["(unknown)"]);
+        ui->lbl4->setText("(unknown)");
+        ui->lblColor5->setStyleSheet("");
+        ui->lbl5->setText("");
+        ui->lblColor6->setStyleSheet("");
+        ui->lbl6->setText("");
+        ui->lblColor7->setStyleSheet("");
+        ui->lbl7->setText("");
+        ui->lblColor8->setStyleSheet("");
+        ui->lbl8->setText("");
+        ui->lblColor9->setStyleSheet("");
+        ui->lbl9->setText("");
+        ui->lblColor10->setStyleSheet("");
+        ui->lbl10->setText("");
+        ui->lblColor11->setStyleSheet("");
+        ui->lbl11->setText("");
+        ui->lblColor12->setStyleSheet("");
+        ui->lbl12->setText("");
+    } else if (ui->rbtnBlocks->isChecked()) {
+        ui->lblColor->setStyleSheet("background-color: " + blockColorMap["s"]);
+        ui->lbl->setText("s");
+        ui->lblColor2->setStyleSheet("background-color: " + blockColorMap["p"]);
+        ui->lbl2->setText("p");
+        ui->lblColor3->setStyleSheet("background-color: " + blockColorMap["d"]);
+        ui->lbl3->setText("d");
+        ui->lblColor4->setStyleSheet("background-color: " + blockColorMap["f"]);
+        ui->lbl4->setText("f");
+        ui->lblColor5->setStyleSheet("");
+        ui->lbl5->setText("");
+        ui->lblColor6->setStyleSheet("");
+        ui->lbl6->setText("");
+        ui->lblColor7->setStyleSheet("");
+        ui->lbl7->setText("");
+        ui->lblColor8->setStyleSheet("");
+        ui->lbl8->setText("");
+        ui->lblColor9->setStyleSheet("");
+        ui->lbl9->setText("");
+        ui->lblColor10->setStyleSheet("");
+        ui->lbl10->setText("");
+        ui->lblColor11->setStyleSheet("");
+        ui->lbl11->setText("");
+        ui->lblColor12->setStyleSheet("");
+        ui->lbl12->setText("");
+    } else if (ui->rbtnPhases->isChecked()) {
+        ui->lblColor->setStyleSheet("background-color: " + phaseColorMap["Solid"]);
+        ui->lbl->setText("Solid");
+        ui->lblColor2->setStyleSheet("background-color: " + phaseColorMap["Liquid"]);
+        ui->lbl2->setText("Liquid");
+        ui->lblColor3->setStyleSheet("background-color: " + phaseColorMap["Gas"]);
+        ui->lbl3->setText("Gas");
+        ui->lblColor4->setStyleSheet("");
+        ui->lbl4->setText("");
+        ui->lblColor5->setStyleSheet("");
+        ui->lbl5->setText("");
+        ui->lblColor6->setStyleSheet("");
+        ui->lbl6->setText("");
+        ui->lblColor7->setStyleSheet("");
+        ui->lbl7->setText("");
+        ui->lblColor8->setStyleSheet("");
+        ui->lbl8->setText("");
+        ui->lblColor9->setStyleSheet("");
+        ui->lbl9->setText("");
+        ui->lblColor10->setStyleSheet("");
+        ui->lbl10->setText("");
+        ui->lblColor11->setStyleSheet("");
+        ui->lbl11->setText("");
+        ui->lblColor12->setStyleSheet("");
+        ui->lbl12->setText("");
     }
 }
 

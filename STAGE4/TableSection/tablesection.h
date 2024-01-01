@@ -20,6 +20,21 @@ public:
     TableSection(QWidget *parent = nullptr);
     ~TableSection();
 
+private:
+    Ui::TableSection *ui;
+
+    // Color maps
+    QMap<QString, QString> categoryColorMap;
+    QMap<QString, QString> metallicPropertyColorMap;
+    QMap<QString, QString> blockColorMap;
+    QMap<QString, QString> phaseColorMap;
+
+    // Other helper methods
+    void setColorForButton(QPushButton* button, const QString& color);
+    void updateButtonProperties();
+    void updateLegend();
+
+
 private slots:
 
     void on_rbtnCategories_clicked();
@@ -270,17 +285,6 @@ private slots:
 
     void on_btnOganesson_clicked();
 
-private:
-    Ui::TableSection *ui;
 
-    // Color maps
-    QMap<QString, QString> categoryColorMap;
-    QMap<QString, QString> metallicPropertyColorMap;
-    QMap<QString, QString> blockColorMap;
-    QMap<QString, QString> phaseColorMap;
-
-    // Other helper methods
-    void setColorForButton(QPushButton* button, const QString& color);
-    void updateButtonProperties();
 };
 #endif // TABLESECTION_H
