@@ -1,5 +1,4 @@
 #include "tablesection.h"
-#include "forms/ui_tablesection.h"
 #include "periodictable.h"
 #include "elementdialog.h"
 
@@ -7,8 +6,9 @@ TableSection::TableSection(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::TableSection)
 {
-    //initialize the Periodic Table
     ui->setupUi(this);
+
+    //initialize the Periodic Table
     ui->rbtnCategories->setChecked(true);
     PeriodicTable periodicTable = PeriodicTable(this);
 
@@ -49,35 +49,36 @@ TableSection::TableSection(QWidget *parent)
 
     connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
 
-
 }
 TableSection::~TableSection()
 {
     delete ui;
 }
 
-void TableSection::on_Categories_toggled(bool checked)
+
+void TableSection::on_rbtnCategories_clicked()
 {
     updateButtonProperties();
 }
 
 
-void TableSection::on_Metallic_Properties_toggled(bool checked)
+void TableSection::on_rbtnMetallic_Properties_clicked()
 {
     updateButtonProperties();
 }
 
 
-void TableSection::on_Blocks_toggled(bool checked)
+void TableSection::on_rbtnBlocks_clicked()
 {
     updateButtonProperties();
 }
 
 
-void TableSection::on_Phases_toggled(bool checked)
+void TableSection::on_rbtnPhases_clicked()
 {
     updateButtonProperties();
 }
+
 
 void TableSection::onElementPropertySelected(int index)
 {
@@ -93,32 +94,54 @@ void TableSection::setColorForButton(QPushButton* button, const QString& color)
 
 void TableSection::updateButtonProperties()
 {
-    // Iterate through buttons and update properties based on user selections"
-    QList<QPushButton*> buttons = ui->gridLayout->findChildren<QPushButton*>();
+    //QString property = ui->comboBoxElementProperty->currentText();
 
-    for (QPushButton* button : buttons) {
-        // Retrieve element properties
-        QString category = button->property("category").toString();
-        QString metallicProperty = button->property("metallicProperty").toString();
-        QString block = button->property("block").toString();
-        QString phase = button->property("phase").toString();
-
-        // Determine color based on user selection
+    // Set colors for each button
+    for (int i = 1; i <= 118; i++)
+    {
+        Element* element = PeriodicTable::elements[i];
         QString color;
-        if (ui->rbtnCategories->isChecked()) {
-            color = categoryColorMap.value(category, "");
-        } else if (ui->rbtnMetallic_Properties->isChecked()) {
-            color = metallicPropertyColorMap.value(metallicProperty, "");
-        } else if (ui->rbtnBlocks->isChecked()) {
-            color = blockColorMap.value(block, "");
-        } else if (ui->rbtnPhases->isChecked()) {
-            color = phaseColorMap.value(phase, "");
+        if (ui->rbtnCategories->isChecked())
+        {
+            color = categoryColorMap[element->getCategory()];
+            qDebug() << "color = category of the element";
+        }
+        else if (ui->rbtnMetallic_Properties->isChecked())
+        {
+            color = metallicPropertyColorMap[element->getMetallicProperty()];
+            qDebug() << "color = metallic property of the element";
+        }
+        else if (ui->rbtnBlocks->isChecked())
+        {
+            color = blockColorMap[element->getBlock()];
+            qDebug() << "color = block of the element";
+        }
+        else if (ui->rbtnPhases->isChecked())
+        {
+            color = phaseColorMap[element->getPhase()];
+            qDebug() << "color = phase of the element";
+        }
+        else
+        {
+            color = "#979ea8";
         }
 
-        // Set color for the button
-        setColorForButton(button, color);
+        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAt(i-1)->widget()))
+        {
+            setColorForButton(button, color);
+        }
+        else
+        {
+            qDebug() << "Widget is not a QPushButton for element at position" << element->getPeriod()-1 << "," << element->getGroup()-1;
+        }
+
+        //qDebug() << ui->gridLayout->itemAt(i-1)->widget()->findChild<QPushButton*>();
+        //setColorForButton(ui->gridLayout->itemAt(i-1)->widget(), color);
+
+        //setColorForButton(ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()->findChild<QPushButton*>(), color);
     }
 }
+
 //Element *hydrogen = new Element(1,"H","Hydrogen",1.008,37,1,1,"Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.","nonmetal","nonmetal","s","Gas",20.271,13.99,"1s1" ,2.2,"-1, 1",1312,-73,0.08988,1766,"Cavendish");
 //ElementDialog hydrogenDialog(*hydrogen,this);
 
@@ -949,8 +972,3 @@ void TableSection::on_btnOganesson_clicked()
     oganessonDialog.setModal(true);
     oganessonDialog.exec();
 }
-
-
-
-
-

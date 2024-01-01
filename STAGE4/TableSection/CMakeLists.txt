@@ -18,7 +18,7 @@ set(PROJECT_SOURCES
         tablesection.h
         forms/tablesection.ui
         forms/periodictable.ui
-)
+    )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(TableSection
@@ -28,6 +28,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         element.h element.cpp
         elementdialog.h elementdialog.cpp forms/elementdialog.ui
         resources.qrc
+
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET TableSection APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

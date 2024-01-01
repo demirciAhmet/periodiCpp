@@ -1,6 +1,7 @@
 #ifndef TABLESECTION_H
 #define TABLESECTION_H
 
+#include "forms/ui_tablesection.h"
 #include <QButtonGroup>
 #include <QPushButton>
 #include <QWidget>
@@ -21,13 +22,13 @@ public:
 
 private slots:
 
-    void on_Categories_toggled(bool checked);
+    void on_rbtnCategories_clicked();
 
-    void on_Metallic_Properties_toggled(bool checked);
+    void on_rbtnMetallic_Properties_clicked();
 
-    void on_Blocks_toggled(bool checked);
+    void on_rbtnBlocks_clicked();
 
-    void on_Phases_toggled(bool checked);
+    void on_rbtnPhases_clicked();
 
     void onElementPropertySelected(int index);
 

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1634</width>
-    <height>1071</height>
+    <width>1440</width>
+    <height>575</height>
    </rect>
   </property>
   <property name="font">
@@ -36,7 +36,7 @@
      <number>0</number>
     </property>
     <item row="5" column="9">
-     <widget class="QPushButton" name="btnPLATUM">
+     <widget class="QPushButton" name="btnPlatinum">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -1169,7 +1169,7 @@
      </widget>
     </item>
     <item row="2" column="12">
-     <widget class="QPushButton" name="btnAluminium">
+     <widget class="QPushButton" name="btnAluminum">
       <property name="enabled">
        <bool>true</bool>
       </property>
@@ -1894,7 +1894,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1634</width>
+     <width>1440</width>
      <height>23</height>
     </rect>
    </property>
