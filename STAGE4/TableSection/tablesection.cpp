@@ -7,21 +7,117 @@ TableSection::TableSection(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::TableSection)
 {
+    //initialize the Periodic Table
     ui->setupUi(this);
-    ui->Categories->setChecked(true);
+    ui->rbtnCategories->setChecked(true);
     PeriodicTable periodicTable = PeriodicTable(this);
-    QFont font;
-    font.setPointSize(16);
-    ui->btnHydrogen->setFont(font);
-    ui->btnHydrogen->setStyleSheet("background-color: blue; color: white;");
-    ui->btnHelium->setFont(font);
-    ui->btnHelium->setStyleSheet("background-color: blue; color: white;");
-    ui->btnLithium->setFont(font);
-    ui->btnLithium->setStyleSheet("background-color: blue; color: white;");
+
+    // Initialize color maps
+    categoryColorMap = {
+        {"Alkali Metal", "#ff0303"},
+        {"Alkaline Earth Metal", "#ff7503"},
+        {"Transition Metal", "#ffbf03"},
+        {"Post-Transition Metal", "#a0ee03"},
+        {"Lanthanide", "#d916a8"},
+        {"Actinide", "#ba23f6"},
+        {"Metalloid", "#008a0e"},
+        {"Halogen", "#1071e5"},
+        {"Non Metal", "#3935ad"},
+        {"Noble Gas", "#700b57"},
+        {"(undefined)", "#979ea8"}
+    };
+
+    metallicPropertyColorMap = {
+        {"metal", "#ff7503"},
+        {"metalloid", "#008a0e"},
+        {"nonmetal", "#3935ad"},
+        {"(unknown)", "#979ea8"}
+    };
+
+    blockColorMap = {
+        {"s", "#ff7503"},
+        {"p", "#008a0e"},
+        {"d", "#3935ad"},
+        {"f", "#700b57"}
+    };
+
+    phaseColorMap = {
+        {"Solid", "#ff7503"},
+        {"Liquid", "#008a0e"},
+        {"Gas", "#700b57"}
+    };
+
+    connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
+
+
 }
 TableSection::~TableSection()
 {
     delete ui;
+}
+
+void TableSection::on_Categories_toggled(bool checked)
+{
+    updateButtonProperties();
+}
+
+
+void TableSection::on_Metallic_Properties_toggled(bool checked)
+{
+    updateButtonProperties();
+}
+
+
+void TableSection::on_Blocks_toggled(bool checked)
+{
+    updateButtonProperties();
+}
+
+
+void TableSection::on_Phases_toggled(bool checked)
+{
+    updateButtonProperties();
+}
+
+void TableSection::onElementPropertySelected(int index)
+{
+    Q_UNUSED(index);
+    updateButtonProperties();
+}
+
+void TableSection::setColorForButton(QPushButton* button, const QString& color)
+{
+    QString styleSheet = QString("background-color: %1").arg(color);
+    button->setStyleSheet(styleSheet);
+}
+
+void TableSection::updateButtonProperties()
+{
+    // Iterate through buttons and update properties based on user selections
+    QList<QPushButton*> buttons = ui->gridLayout->findChildren<QPushButton*>();
+
+    for (QPushButton* button : buttons) {
+        // Retrieve element properties
+        QString category = button->property("category").toString();
+        QString metallicProperty = button->property("metallicProperty").toString();
+        QString block = button->property("block").toString();
+        QString phase = button->property("phase").toString();
+
+        // Determine color based on user selection
+        QString color;
+        if (ui->rbtnCategories->isChecked()) {
+            color = categoryColorMap.value(category, "");
+        } else if (ui->rbtnMetallic_Properties->isChecked()) {
+            color = metallicPropertyColorMap.value(metallicProperty, "");
+        } else if (ui->rbtnBlocks->isChecked()) {
+            color = blockColorMap.value(block, "");
+        } else if (ui->rbtnPhases->isChecked()) {
+            color = phaseColorMap.value(phase, "");
+        }
+
+        // Set color for the button
+        setColorForButton(button, color);
+    }
 }
 
 void TableSection::on_btnHydrogen_clicked()
@@ -48,4 +144,6 @@ void TableSection::on_btnLithium_clicked()
     lithiumDialog.setModal(true);
     lithiumDialog.exec();
 }
+
+
 

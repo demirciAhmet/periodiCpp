@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>836</width>
-    <height>431</height>
+    <width>988</width>
+    <height>634</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -119,10 +119,75 @@
        </spacer>
       </item>
       <item>
-       <widget class="QComboBox" name="comboBox">
+       <widget class="QComboBox" name="comboBoxElementProperty">
         <item>
          <property name="text">
           <string>Simple</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Element Name</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Atomic Mass</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Atomic Radius</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Boiling Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Melting Point</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Electron Configuration</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Electronegativity</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Oxidation State</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Ionization Energy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Electron Affinity</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Density</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Discovery Year</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Discovered By</string>
          </property>
         </item>
        </widget>
@@ -206,7 +271,7 @@
        </spacer>
       </item>
       <item>
-       <widget class="QRadioButton" name="Categories">
+       <widget class="QRadioButton" name="rbtnCategories">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -216,7 +281,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="Metallic_Properties">
+       <widget class="QRadioButton" name="rbtnMetallic_Properties">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -226,7 +291,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="Blocks">
+       <widget class="QRadioButton" name="rbtnBlocks">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
@@ -242,7 +307,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QRadioButton" name="Phases">
+       <widget class="QRadioButton" name="rbtnPhases">
         <property name="layoutDirection">
          <enum>Qt::LeftToRight</enum>
         </property>
