@@ -17,6 +17,7 @@ set(PROJECT_SOURCES
         tablesection.cpp
         tablesection.h
         forms/tablesection.ui
+        forms/periodictable.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

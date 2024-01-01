@@ -93,7 +93,7 @@ void TableSection::setColorForButton(QPushButton* button, const QString& color)
 
 void TableSection::updateButtonProperties()
 {
-    // Iterate through buttons and update properties based on user selections
+    // Iterate through buttons and update properties based on user selections"
     QList<QPushButton*> buttons = ui->gridLayout->findChildren<QPushButton*>();
 
     for (QPushButton* button : buttons) {
