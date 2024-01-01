@@ -17,13 +17,13 @@ TableSection::TableSection(QWidget *parent)
         {"Alkali Metal", "#ff0303"},
         {"Alkaline Earth Metal", "#ff7503"},
         {"Transition Metal", "#ffbf03"},
-        {"Post-Transition Metal", "#a0ee03"},
-        {"Lanthanide", "#d916a8"},
-        {"Actinide", "#ba23f6"},
-        {"Metalloid", "#008a0e"},
-        {"Halogen", "#1071e5"},
-        {"Non Metal", "#3935ad"},
-        {"Noble Gas", "#700b57"},
+        {"Post-Transition Metal", "#008a0e"},
+        {"Lanthanide", "#700b57"},
+        {"Actinide", "#d916a8"},
+        {"Metalloid", "#008573"},
+        {"Halogen", "#3935ad"},
+        {"Non Metal", "#1071e5"},
+        {"Noble Gas", "#ba23f6"},
         {"(undefined)", "#979ea8"}
     };
 
@@ -113,29 +113,29 @@ void TableSection::updateButtonProperties()
         if (ui->rbtnCategories->isChecked())
         {
             color = categoryColorMap[element->getCategory()];
-            qDebug() << "color = category of the element";
+            //qDebug() << "color = category of the element";
         }
         else if (ui->rbtnMetallic_Properties->isChecked())
         {
             color = metallicPropertyColorMap[element->getMetallicProperty()];
-            qDebug() << "color = metallic property of the element";
+            //qDebug() << "color = metallic property of the element";
         }
         else if (ui->rbtnBlocks->isChecked())
         {
             color = blockColorMap[element->getBlock()];
-            qDebug() << "color = block of the element";
+            //qDebug() << "color = block of the element";
         }
         else if (ui->rbtnPhases->isChecked())
         {
             color = phaseColorMap[element->getPhase()];
-            qDebug() << "color = phase of the element";
+            //qDebug() << "color = phase of the element";
         }
         else
         {
             color = "#979ea8";
         }
 
-        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAt(i-1)->widget()))
+        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()))
         {
             setColorForButton(button, color);
         }
@@ -145,9 +145,11 @@ void TableSection::updateButtonProperties()
         }
 
         //qDebug() << ui->gridLayout->itemAt(i-1)->widget()->findChild<QPushButton*>();
+
+        //ui->gridLayout->itemAt(i-1)->widget()
+        //ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()
         //setColorForButton(ui->gridLayout->itemAt(i-1)->widget(), color);
 
-        //setColorForButton(ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()->findChild<QPushButton*>(), color);
     }
 }
 
@@ -200,7 +202,7 @@ void TableSection::updateLegend() {
         ui->lblColor10->setStyleSheet("background-color: " + categoryColorMap["Noble Gas"]);
         ui->lbl10->setText("Noble Gas");
         ui->lblColor11->setStyleSheet("background-color: " + categoryColorMap["(undefined)"]);
-        ui->lbl11->setText("(undefined)");
+        ui->lbl11->setText("(unknown)");
         ui->lblColor12->hide();
         ui->lbl12->hide();
     } else if (ui->rbtnMetallic_Properties->isChecked()) {
