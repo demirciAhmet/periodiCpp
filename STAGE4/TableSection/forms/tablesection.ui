@@ -155,7 +155,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -210,7 +210,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -234,7 +234,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -258,7 +258,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -344,7 +344,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -492,7 +492,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -516,7 +516,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -540,7 +540,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -564,7 +564,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -588,7 +588,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -643,7 +643,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
@@ -729,7 +729,7 @@
            </property>
            <property name="font">
             <font>
-             <family>Roboto Slab</family>
+             <family>Fira Sans</family>
             </font>
            </property>
            <property name="text">
