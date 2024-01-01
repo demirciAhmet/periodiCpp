@@ -105,10 +105,10 @@ void TableSection::updateButtonProperties()
     //QString property = ui->comboBoxElementProperty->currentText();
 
     // Set colors for each button
-    int j=1;
-    for (int i = 1; i <= 118; i++)
+    auto size_t = 1;
+    for (size_t; size_t <= 118; size_t++)
     {
-        Element* element = PeriodicTable::elements[i];
+        Element* element = PeriodicTable::elements[size_t];
         QString color;
         if (ui->rbtnCategories->isChecked())
         {
@@ -144,9 +144,18 @@ void TableSection::updateButtonProperties()
             qDebug() << "Widget is not a QPushButton for element at position" << element->getPeriod()-1 << "," << element->getGroup()-1;
         }
 
+
+        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getDisplayRow()-1,element->getDisplayColumn()-1)->widget()))
+        {
+            setColorForButton(button, color);
+        }
+        else {
+            qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
+        }
+
         //qDebug() << ui->gridLayout->itemAt(i-1)->widget()->findChild<QPushButton*>();
 
-        //ui->gridLayout->itemAt(i-1)->widget()
+        //ui->gridLayout->itemAt(size_t-1)->widget()
         //ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()
         //setColorForButton(ui->gridLayout->itemAt(i-1)->widget(), color);
 
@@ -232,13 +241,13 @@ void TableSection::updateLegend() {
         ui->lbl12->hide();
     } else if (ui->rbtnBlocks->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + blockColorMap["s"]);
-        ui->lbl->setText("s");
+        ui->lbl->setText("s Block");
         ui->lblColor2->setStyleSheet("background-color: " + blockColorMap["p"]);
-        ui->lbl2->setText("p");
+        ui->lbl2->setText("p Block");
         ui->lblColor3->setStyleSheet("background-color: " + blockColorMap["d"]);
-        ui->lbl3->setText("d");
+        ui->lbl3->setText("d Block");
         ui->lblColor4->setStyleSheet("background-color: " + blockColorMap["f"]);
-        ui->lbl4->setText("f");
+        ui->lbl4->setText("f Block");
         ui->lblColor5->hide();
         ui->lbl5->hide();
         ui->lblColor6->hide();

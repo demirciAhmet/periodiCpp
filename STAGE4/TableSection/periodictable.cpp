@@ -42,6 +42,8 @@ void PeriodicTable::CSVToElements() {
             double density = list[19].toDouble();
             int discoveryYear = list[20].toInt();
             QString discoveredBy = list[21];
+            int displayRow = list[22].toInt();
+            int displayColumn = list[23].toInt();
             Element* element = new Element(
                 atomicNumber,
                 symbol,
@@ -64,7 +66,9 @@ void PeriodicTable::CSVToElements() {
                 electronAffinity,
                 density,
                 discoveryYear,
-                discoveredBy);
+                discoveredBy,
+                displayRow,
+                displayColumn);
             elements.append(element);
         }
         CSVFile.close();

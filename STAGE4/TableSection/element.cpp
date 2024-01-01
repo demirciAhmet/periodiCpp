@@ -22,6 +22,8 @@ Element::Element(int atomicNumber,
                  double density,
                  int discoveryYear,
                  QString discoveredBy,
+                 int displayRow,
+                 int displayColumn,
                  QObject *parent
                  ) : QObject{parent}
 {
@@ -47,6 +49,8 @@ Element::Element(int atomicNumber,
     this->density = density;
     this->discoveryYear = discoveryYear;
     this->discoveredBy = discoveredBy;
+    this->displayRow = displayRow;
+    this->displayColumn = displayColumn;
 }
 
 //getters
@@ -72,3 +76,5 @@ int Element::getElectronAffinity() const { return electronAffinity; }
 double Element::getDensity() const { return density; }
 int Element::getDiscoveryYear() const { return discoveryYear; }
 QString Element::getDiscoveredBy() const { return discoveredBy; }
+int Element::getDisplayRow() const { return displayRow; }
+int Element::getDisplayColumn() const { return displayColumn; }

@@ -10,7 +10,6 @@ class Element : public QObject
 {
     Q_OBJECT
 private:
-//atomicNumber,symbol,name,atomicMass,atomicRadius,period,group,summary,category,metallicProperty,block,phase,boilingPoint,meltingPoint,electronicConfiguration,electronegativity,oxidationStates,ionizationEnergy,electronAffinity,density,discoveryYear,discoveredBy,bohr_model_image,bohr_model_3d
     int atomicNumber;
     QString symbol;
     QString name;
@@ -33,13 +32,15 @@ private:
     double density;
     int discoveryYear;
     QString discoveredBy;
+    int displayRow;
+    int displayColumn;
 
 public:
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
             int period,int group,QString summary,QString category,QString metallicProperty,
             QString block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
-            double density,int discoveryYear,QString discoveredBy,QObject *parent = nullptr);
+            double density,int discoveryYear,QString discoveredBy, int displayRow, int displayColumn,QObject *parent = nullptr);
     //getters
     int getAtomicNumber() const;
     QString getSymbol() const ;
@@ -63,6 +64,8 @@ public:
     double getDensity() const ;
     int getDiscoveryYear() const ;
     QString getDiscoveredBy() const ;
+    int getDisplayRow() const ;
+    int getDisplayColumn() const;
 
 signals:
 };
