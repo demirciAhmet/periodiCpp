@@ -97,6 +97,7 @@ void TableSection::updateButtonProperties()
     //QString property = ui->comboBoxElementProperty->currentText();
 
     // Set colors for each button
+    int j=1;
     for (int i = 1; i <= 118; i++)
     {
         Element* element = PeriodicTable::elements[i];
