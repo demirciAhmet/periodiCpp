@@ -47,6 +47,10 @@ TableSection::TableSection(QWidget *parent)
         {"Gas", "#700b57"}
     };
 
+    //initialize colors and legend
+    updateLegend();
+    updateButtonProperties();
+
     connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
 
 }
@@ -148,6 +152,32 @@ void TableSection::updateButtonProperties()
 }
 
 void TableSection::updateLegend() {
+
+    ui->lblColor->show();
+    ui->lbl->show();
+    ui->lblColor2->show();
+    ui->lbl2->show();
+    ui->lblColor3->show();
+    ui->lbl3->show();
+    ui->lblColor4->show();
+    ui->lbl4->show();
+    ui->lblColor5->show();
+    ui->lbl5->show();
+    ui->lblColor6->show();
+    ui->lbl6->show();
+    ui->lblColor7->show();
+    ui->lbl7->show();
+    ui->lblColor8->show();
+    ui->lbl8->show();
+    ui->lblColor9->show();
+    ui->lbl9->show();
+    ui->lblColor10->show();
+    ui->lbl10->show();
+    ui->lblColor11->show();
+    ui->lbl11->show();
+    ui->lblColor12->show();
+    ui->lbl12->show();
+
     if (ui->rbtnCategories->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + categoryColorMap["Alkali Metal"]);
         ui->lbl->setText("Alkali Metal");
@@ -171,8 +201,8 @@ void TableSection::updateLegend() {
         ui->lbl10->setText("Noble Gas");
         ui->lblColor11->setStyleSheet("background-color: " + categoryColorMap["(undefined)"]);
         ui->lbl11->setText("(undefined)");
-        ui->lblColor11->setStyleSheet("");
-        ui->lbl12->setText("");
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnMetallic_Properties->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + metallicPropertyColorMap["metal"]);
         ui->lbl->setText("metal");
@@ -182,22 +212,22 @@ void TableSection::updateLegend() {
         ui->lbl3->setText("nonmetal");
         ui->lblColor4->setStyleSheet("background-color: " + metallicPropertyColorMap["(unknown)"]);
         ui->lbl4->setText("(unknown)");
-        ui->lblColor5->setStyleSheet("");
-        ui->lbl5->setText("");
-        ui->lblColor6->setStyleSheet("");
-        ui->lbl6->setText("");
-        ui->lblColor7->setStyleSheet("");
-        ui->lbl7->setText("");
-        ui->lblColor8->setStyleSheet("");
-        ui->lbl8->setText("");
-        ui->lblColor9->setStyleSheet("");
-        ui->lbl9->setText("");
-        ui->lblColor10->setStyleSheet("");
-        ui->lbl10->setText("");
-        ui->lblColor11->setStyleSheet("");
-        ui->lbl11->setText("");
-        ui->lblColor12->setStyleSheet("");
-        ui->lbl12->setText("");
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnBlocks->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + blockColorMap["s"]);
         ui->lbl->setText("s");
@@ -207,22 +237,22 @@ void TableSection::updateLegend() {
         ui->lbl3->setText("d");
         ui->lblColor4->setStyleSheet("background-color: " + blockColorMap["f"]);
         ui->lbl4->setText("f");
-        ui->lblColor5->setStyleSheet("");
-        ui->lbl5->setText("");
-        ui->lblColor6->setStyleSheet("");
-        ui->lbl6->setText("");
-        ui->lblColor7->setStyleSheet("");
-        ui->lbl7->setText("");
-        ui->lblColor8->setStyleSheet("");
-        ui->lbl8->setText("");
-        ui->lblColor9->setStyleSheet("");
-        ui->lbl9->setText("");
-        ui->lblColor10->setStyleSheet("");
-        ui->lbl10->setText("");
-        ui->lblColor11->setStyleSheet("");
-        ui->lbl11->setText("");
-        ui->lblColor12->setStyleSheet("");
-        ui->lbl12->setText("");
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnPhases->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + phaseColorMap["Solid"]);
         ui->lbl->setText("Solid");
@@ -230,24 +260,24 @@ void TableSection::updateLegend() {
         ui->lbl2->setText("Liquid");
         ui->lblColor3->setStyleSheet("background-color: " + phaseColorMap["Gas"]);
         ui->lbl3->setText("Gas");
-        ui->lblColor4->setStyleSheet("");
-        ui->lbl4->setText("");
-        ui->lblColor5->setStyleSheet("");
-        ui->lbl5->setText("");
-        ui->lblColor6->setStyleSheet("");
-        ui->lbl6->setText("");
-        ui->lblColor7->setStyleSheet("");
-        ui->lbl7->setText("");
-        ui->lblColor8->setStyleSheet("");
-        ui->lbl8->setText("");
-        ui->lblColor9->setStyleSheet("");
-        ui->lbl9->setText("");
-        ui->lblColor10->setStyleSheet("");
-        ui->lbl10->setText("");
-        ui->lblColor11->setStyleSheet("");
-        ui->lbl11->setText("");
-        ui->lblColor12->setStyleSheet("");
-        ui->lbl12->setText("");
+        ui->lblColor4->hide();
+        ui->lbl4->hide();
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     }
 }
 

@@ -39,8 +39,8 @@
      </property>
      <property name="minimumSize">
       <size>
-       <width>300</width>
-       <height>300</height>
+       <width>150</width>
+       <height>150</height>
       </size>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,0,2,5,3">
@@ -82,7 +82,7 @@
         </property>
         <property name="minimumSize">
          <size>
-          <width>520</width>
+          <width>0</width>
           <height>0</height>
          </size>
         </property>
@@ -94,7 +94,7 @@
           <number>0</number>
          </property>
          <property name="topMargin">
-          <number>0</number>
+          <number>20</number>
          </property>
          <property name="rightMargin">
           <number>0</number>
@@ -102,8 +102,11 @@
          <property name="bottomMargin">
           <number>0</number>
          </property>
-         <property name="spacing">
-          <number>0</number>
+         <property name="horizontalSpacing">
+          <number>6</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>4</number>
          </property>
          <item row="5" column="2">
           <widget class="QLabel" name="lblColor12">
@@ -125,6 +128,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -133,16 +142,21 @@
          <item row="1" column="1">
           <widget class="QLabel" name="lbl2">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -169,6 +183,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -177,16 +197,21 @@
          <item row="3" column="3">
           <widget class="QLabel" name="lbl10">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -196,16 +221,21 @@
          <item row="5" column="1">
           <widget class="QLabel" name="lbl6">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -215,16 +245,21 @@
          <item row="1" column="3">
           <widget class="QLabel" name="lbl8">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -251,6 +286,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -276,6 +317,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -284,16 +331,21 @@
          <item row="4" column="3">
           <widget class="QLabel" name="lbl11">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -320,6 +372,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -344,6 +402,12 @@
            </property>
            <property name="frameShape">
             <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
            </property>
            <property name="text">
             <string/>
@@ -370,6 +434,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -395,6 +465,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -403,16 +479,21 @@
          <item row="2" column="3">
           <widget class="QLabel" name="lbl9">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -422,16 +503,21 @@
          <item row="0" column="3">
           <widget class="QLabel" name="lbl7">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -441,16 +527,21 @@
          <item row="5" column="3">
           <widget class="QLabel" name="lbl12">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -460,16 +551,21 @@
          <item row="4" column="1">
           <widget class="QLabel" name="lbl5">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -479,16 +575,21 @@
          <item row="3" column="1">
           <widget class="QLabel" name="lbl4">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -515,6 +616,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -523,16 +630,21 @@
          <item row="2" column="1">
           <widget class="QLabel" name="lbl3">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -559,6 +671,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -584,6 +702,12 @@
            <property name="frameShape">
             <enum>QFrame::Box</enum>
            </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
            <property name="text">
             <string/>
            </property>
@@ -592,16 +716,21 @@
          <item row="0" column="1">
           <widget class="QLabel" name="lbl">
            <property name="sizePolicy">
-            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
              <horstretch>0</horstretch>
              <verstretch>0</verstretch>
             </sizepolicy>
            </property>
            <property name="minimumSize">
             <size>
-             <width>100</width>
-             <height>30</height>
+             <width>80</width>
+             <height>10</height>
             </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Roboto Slab</family>
+            </font>
            </property>
            <property name="text">
             <string>TextLabel</string>
@@ -627,6 +756,12 @@
            </property>
            <property name="frameShape">
             <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
            </property>
            <property name="text">
             <string/>
