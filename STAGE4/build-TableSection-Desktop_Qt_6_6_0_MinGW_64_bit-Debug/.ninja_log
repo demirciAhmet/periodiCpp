@@ -1,0 +1,15 @@
+# ninja log v5
+23	2570	7259239939354433	TableSection_autogen/timestamp	bf39afcc3a331de1
+23	2570	7259239939354433	TableSection_autogen/mocs_compilation.cpp	bf39afcc3a331de1
+23	2570	7259239939354433	C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TableSection_autogen/timestamp	bf39afcc3a331de1
+23	2570	7259239939354433	C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TableSection_autogen/mocs_compilation.cpp	bf39afcc3a331de1
+2572	2738	7259239947302505	TableSection_autogen/EWIEGA46WW/qrc_resources.cpp	7845017134238f1d
+2572	2738	7259239947302505	C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TableSection_autogen/EWIEGA46WW/qrc_resources.cpp	7845017134238f1d
+2928	3188	7259239951813347	CMakeFiles/TableSection.dir/TableSection_autogen/EWIEGA46WW/qrc_resources.cpp.obj	8e5942f839962ee3
+2849	7133	7259239991242517	CMakeFiles/TableSection.dir/element.cpp.obj	3812cb91bbbcf5fa
+2827	8605	7259240005961130	CMakeFiles/TableSection.dir/periodictable.cpp.obj	64ddd1b70b4ba517
+2760	8641	7259240006321221	CMakeFiles/TableSection.dir/main.cpp.obj	d6b027ed1d408fcb
+2882	9038	7259240010292116	CMakeFiles/TableSection.dir/elementdialog.cpp.obj	94d5a377856e0ab3
+2739	9922	7259240019135926	CMakeFiles/TableSection.dir/TableSection_autogen/mocs_compilation.cpp.obj	1b068019fe1dee2d
+2781	11830	7259240038171978	CMakeFiles/TableSection.dir/tablesection.cpp.obj	60c6319410105184
+11830	12956	7259240049429433	TableSection.exe	b54fb4b7dba764d6

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QuizSection</class>
+ <widget class="QWidget" name="QuizSection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QuizSection</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Welcome to Quiz! There are two options in this section:
+
+1-Level Mode: 
+
+*There are 5 different levels in this mode.
+
+*As you level up, the questions in the levels become more difficult. You must get all the questions right to pass a level.
+
+2-Challenge Mode: 
+
+*In this mode there are 50 questions and 5 minutes to solve them.
+
+*There is also a score keeper and a high score section.
+
+*You will be penalized -1 point for every second that passes and -3 points for every mistake you make.
+
+*You will get +5 points for every question you get right. You can give up if you wish.
+
+*But if you give up, every question you fail will be recorded as incorrect. </string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Next</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

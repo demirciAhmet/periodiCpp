@@ -19,15 +19,15 @@ QVector<int> ScoreManager::sortScores(QVector<int> vec)
 
 void ScoreManager::onButtonClicked()
 {
-        QVector<int> challengeScores = Challenge::scores;
+    QVector<int> challengeScores = Challenge::scores;
 
-        if (!challengeScores.isEmpty()) {
-            // Sort the scores and get the highest score
-            QVector<int> sortedScores = sortScores(challengeScores);
-            highestScore = sortedScores.last();  // Use last() instead of at(size - 1) to handle empty lists
-        } else {
-            highestScore = 0;  // Default value when there are no scores
-        }
+    if (!challengeScores.isEmpty()) {
+        // Sort the scores and get the highest score
+        QVector<int> sortedScores = sortScores(challengeScores);
+        highestScore = sortedScores.last();  // Use last() instead of at(size - 1) to handle empty lists
+    } else {
+        highestScore = 0;  // Default value when there are no scores
+    }
 
     QDialog scoreDialog;
     QVBoxLayout *scoreLayout = new QVBoxLayout(&scoreDialog);
