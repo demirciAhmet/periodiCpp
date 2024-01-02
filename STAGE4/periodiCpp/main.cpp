@@ -16,6 +16,8 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     loadStyle();
     MainMenu menu;
+    menu.resize(900, 620);
+    menu.setWindowTitle("The Object Orianted Project");
     menu.show();
     return a.exec();
 }
