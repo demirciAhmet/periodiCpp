@@ -36,6 +36,7 @@ private:
 
 
 private slots:
+    //element buttons
 
     void on_rbtnCategories_clicked();
 
@@ -46,8 +47,6 @@ private slots:
     void on_rbtnPhases_clicked();
 
     void onElementPropertySelected(int index);
-
-    //element buttons
 
     void on_btnHydrogen_clicked();
 

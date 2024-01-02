@@ -1,6 +1,7 @@
 <RCC>
     <qresource prefix="/stylesheets">
         <file>resources/style.qss</file>
+        <file>resources/style_tableSection.qss</file>
     </qresource>
     <qresource prefix="/data">
         <file>resources/Element-Data.csv</file>

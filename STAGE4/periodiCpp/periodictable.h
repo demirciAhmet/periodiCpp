@@ -10,7 +10,7 @@ class PeriodicTable : public QObject
 {
     Q_OBJECT
 public:
-    explicit PeriodicTable(QObject *parent = nullptr);
+    PeriodicTable(QObject *parent = nullptr);
     static QVector<Element*> elements;
     void CSVToElements();
 };
