@@ -1,5 +1,4 @@
 #include "tablesection.h"
-
 #include <QApplication>
 
 int main(int argc, char *argv[])
