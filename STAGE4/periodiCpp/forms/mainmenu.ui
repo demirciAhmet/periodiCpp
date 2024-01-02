@@ -207,7 +207,7 @@
        <number>0</number>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="page_1">
        <layout class="QGridLayout" name="gridLayout_2">
@@ -249,21 +249,7 @@
          <number>0</number>
         </property>
         <item row="0" column="0">
-         <widget class="QWidget" name="QuizSection" native="true">
-          <widget class="QLabel" name="label">
-           <property name="geometry">
-            <rect>
-             <x>300</x>
-             <y>290</y>
-             <width>66</width>
-             <height>18</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string>TextLabel</string>
-           </property>
-          </widget>
-         </widget>
+         <widget class="QuizSection" name="QuizSection" native="true"/>
         </item>
        </layout>
       </widget>
@@ -277,6 +263,12 @@
    <class>TableSection</class>
    <extends>QWidget</extends>
    <header>tablesection.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>QuizSection</class>
+   <extends>QWidget</extends>
+   <header>quizsection.h</header>
    <container>1</container>
   </customwidget>
  </customwidgets>

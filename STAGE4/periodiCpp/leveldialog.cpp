@@ -104,7 +104,7 @@ void LevelDialog::onButtonClicked() {
                 showResultDialog(true, 0, 1);
                 button2->setEnabled(true);
             }else{
-               showResultDialog(false, 5 - count, 1);
+                showResultDialog(false, 5 - count, 1);
             }
 
         } else if (clickedButton->text() == "Level-2") {
@@ -122,10 +122,10 @@ void LevelDialog::onButtonClicked() {
             int count = 0;
             level1->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
-               showResultDialog(true, 0, 2);
-               button3->setEnabled(true);
+                showResultDialog(true, 0, 2);
+                button3->setEnabled(true);
             }else{
-               showResultDialog(false, 5 - count, 2);
+                showResultDialog(false, 5 - count, 2);
             }
 
         } else if (clickedButton->text() == "Level-3") {
@@ -143,10 +143,10 @@ void LevelDialog::onButtonClicked() {
             int count = 0;
             level1->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
-               showResultDialog(true, 0, 3);
-               button4->setEnabled(true);
+                showResultDialog(true, 0, 3);
+                button4->setEnabled(true);
             }else{
-               showResultDialog(false, 5 - count, 3);
+                showResultDialog(false, 5 - count, 3);
             }
 
         }
@@ -165,36 +165,36 @@ void LevelDialog::onButtonClicked() {
             int count = 0;
             level1->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
-               showResultDialog(true, 0, 4);
-               button5->setEnabled(true);
+                showResultDialog(true, 0, 4);
+                button5->setEnabled(true);
             }else{
-               showResultDialog(false, 5 - count, 4);
+                showResultDialog(false, 5 - count, 4);
             }
 
         }
         else if (clickedButton->text() == "Level-5") {
             try {
-               Question *question1 = new Question("At 1000 celcius, which one is solid?", {"Beryllium", "Magnesium", "Calcium", "Strontium", "Barium"}, 1);
-               Question *question2 = new Question("At 1000 celcius, which one is not gas?", {"Silicon", "Phosphorus", "Sulfur", "Chlorine", "Argon"}, 2);
-               Question *question3 = new Question("Which one was discovered earlier?", {"Hydrogen", "Carbon", "Silicon", "Neon", "Nickel"}, 3);
-               Question *question4 = new Question("Which element was last discovered?", {"Roentgenium", "Copernicium", "Tennessine", "Nobelium", "Einsteinium"}, 4);
-               Question *question5 = new Question("Which one has higher Young modulus coefficient?", {"Mercury", "Thallium", "Tennessine", "Iridium", "Lawrencium"}, 5);
-               Level *level1 = new Level({question1, question2, question3, question4, question5});
-               QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Beryllium", this),
-                                        new QuestionDialog(*question2, "Sodium", this),
-                                        new QuestionDialog(*question3, "Carbon", this),
-                                        new QuestionDialog(*question4, "Tennessine",  this),
-                                        new QuestionDialog(*question5,  "Iridium",  this)};
-               int count = 0;
-               level1->executionOfQuestionDialogs(arr,  count);
-               if (count == 5) {
-                   showResultDialog(true, 0, 5);
-               }else{
-                   showResultDialog(false, 5 - count, 5);
-               }
+                Question *question1 = new Question("At 1000 celcius, which one is solid?", {"Beryllium", "Magnesium", "Calcium", "Strontium", "Barium"}, 1);
+                Question *question2 = new Question("At 1000 celcius, which one is not gas?", {"Silicon", "Phosphorus", "Sulfur", "Chlorine", "Argon"}, 2);
+                Question *question3 = new Question("Which one was discovered earlier?", {"Hydrogen", "Carbon", "Silicon", "Neon", "Nickel"}, 3);
+                Question *question4 = new Question("Which element was last discovered?", {"Roentgenium", "Copernicium", "Tennessine", "Nobelium", "Einsteinium"}, 4);
+                Question *question5 = new Question("Which one has higher Young modulus coefficient?", {"Mercury", "Thallium", "Tennessine", "Iridium", "Lawrencium"}, 5);
+                Level *level1 = new Level({question1, question2, question3, question4, question5});
+                QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Beryllium", this),
+                                         new QuestionDialog(*question2, "Sodium", this),
+                                         new QuestionDialog(*question3, "Carbon", this),
+                                         new QuestionDialog(*question4, "Tennessine",  this),
+                                         new QuestionDialog(*question5,  "Iridium",  this)};
+                int count = 0;
+                level1->executionOfQuestionDialogs(arr,  count);
+                if (count == 5) {
+                    showResultDialog(true, 0, 5);
+                }else{
+                    showResultDialog(false, 5 - count, 5);
+                }
             }
             catch (...) {
-               qDebug() << "";
+                qDebug() << "";
             }
 
         }

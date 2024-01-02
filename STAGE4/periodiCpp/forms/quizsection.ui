@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Dialog</class>
- <widget class="QDialog" name="Dialog">
+ <class>QuizSection</class>
+ <widget class="QWidget" name="QuizSection">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,15 +11,13 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>QuizSection</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout">
-     <item>
-      <widget class="QLabel" name="label_2">
-       <property name="text">
-        <string>Welcome to Quiz! There are two options in this section:
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Welcome to Quiz! There are two options in this section:
 
 1-Level Mode: 
 
@@ -38,10 +36,8 @@
 *You will get +5 points for every question you get right. You can give up if you wish.
 
 *But if you give up, every question you fail will be recorded as incorrect. </string>
-       </property>
-      </widget>
-     </item>
-    </layout>
+     </property>
+    </widget>
    </item>
    <item>
     <widget class="QPushButton" name="pushButton">

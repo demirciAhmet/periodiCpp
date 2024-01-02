@@ -5,6 +5,8 @@ MainMenu::MainMenu(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    ui->btnTable->setChecked(true);
+    ui->Windows->setCurrentIndex(0);
 }
 
 MainMenu::~MainMenu()

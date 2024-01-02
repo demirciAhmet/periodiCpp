@@ -1,5 +1,5 @@
 //#include "tablesection.h"
-//#include "dialog.h"
+//#include "quizsection.h"
 
 #include "mainmenu.h"
 #include <QApplication>
@@ -22,8 +22,6 @@ int main(int argc, char *argv[])
     menu.show();
     //TableSection table;
     //table.show();
-    //Dialog dialog;
-    //dialog.show();
     return a.exec();
 }
 

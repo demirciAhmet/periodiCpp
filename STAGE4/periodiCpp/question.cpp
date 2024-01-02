@@ -21,7 +21,7 @@ QVector<QString> Question::getOptions() const
     return options;
 }
 
- int Question::getOrderOfQuestion() const
+int Question::getOrderOfQuestion() const
 {
     return orderOfQuestion;
 }
