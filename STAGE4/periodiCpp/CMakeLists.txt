@@ -21,6 +21,18 @@ set(PROJECT_SOURCES_TABLE_SECTION
         forms/elementdialog.ui
 )
 
+set(PROJECT_SOURCES_QUIZ_SECTION
+        dialog.h dialog.cpp
+        question.h question.cpp
+        questiondialog.h questiondialog.cpp
+        level.h level.cpp
+        leveldialog.h leveldialog.cpp
+        challenge.h challenge.cpp
+        challengedialog.h challengedialog.cpp
+        dialoghandler.h dialoghandler.cpp
+        scoremanager.h scoremanager.cpp
+        forms/dialog.ui
+)
 set(PROJECT_SOURCES
         main.cpp
         mainmenu.cpp
@@ -30,6 +42,7 @@ set(PROJECT_SOURCES
         ${PROJECT_SOURCES_TABLE_SECTION}
 
 )
+
 
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
