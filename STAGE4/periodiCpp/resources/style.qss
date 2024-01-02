@@ -1,0 +1,45 @@
+/*= Style for MainWindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #313a46;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for windows widget START
+  ==================================================== */
+	#Windows {
+		background-color: #313a46;
+	}
+/*= END
+  ==================================================== */
+
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#Menu {
+		background-color: #313a46;
+	}
+
+	/* style for QPushButton */
+	#Menu QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#Menu QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#Menu QPushButton:checked {
+		color: #fff;
+	}
+
+/*= END
+  ==================================================== */
+
+

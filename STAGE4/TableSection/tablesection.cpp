@@ -2,6 +2,7 @@
 #include "periodictable.h"
 #include "elementdialog.h"
 
+//constructor
 TableSection::TableSection(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::TableSection)
@@ -9,7 +10,6 @@ TableSection::TableSection(QWidget *parent)
     ui->setupUi(this);
 
     //initialize the Periodic Table
-    ui->rbtnCategories->setChecked(true);
     PeriodicTable periodicTable = PeriodicTable(this);
 
     // Initialize color maps
@@ -47,10 +47,13 @@ TableSection::TableSection(QWidget *parent)
         {"Gas", "#700b57"}
     };
 
+
     //initialize colors and legend
+    ui->rbtnCategories->setChecked(true);
     updateLegend();
     updateButtonProperties();
 
+    //connections
     connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
 
 }
@@ -216,13 +219,13 @@ void TableSection::updateLegend() {
         ui->lbl12->hide();
     } else if (ui->rbtnMetallic_Properties->isChecked()) {
         ui->lblColor->setStyleSheet("background-color: " + metallicPropertyColorMap["metal"]);
-        ui->lbl->setText("metal");
+        ui->lbl->setText("Metal");
         ui->lblColor2->setStyleSheet("background-color: " + metallicPropertyColorMap["metalloid"]);
-        ui->lbl2->setText("metalloid");
+        ui->lbl2->setText("Metalloid");
         ui->lblColor3->setStyleSheet("background-color: " + metallicPropertyColorMap["nonmetal"]);
-        ui->lbl3->setText("nonmetal");
+        ui->lbl3->setText("Nonmetal");
         ui->lblColor4->setStyleSheet("background-color: " + metallicPropertyColorMap["(unknown)"]);
-        ui->lbl4->setText("(unknown)");
+        ui->lbl4->setText("(Unknown)");
         ui->lblColor5->hide();
         ui->lbl5->hide();
         ui->lblColor6->hide();
@@ -291,9 +294,6 @@ void TableSection::updateLegend() {
         ui->lbl12->hide();
     }
 }
-
-//Element *hydrogen = new Element(1,"H","Hydrogen",1.008,37,1,1,"Hydrogen is a chemical element with chemical symbol H and atomic number 1. With an atomic weight of 1.00794 u, hydrogen is the lightest element on the periodic table. Its monatomic form (H) is the most abundant chemical substance in the Universe, constituting roughly 75% of all baryonic mass.","nonmetal","nonmetal","s","Gas",20.271,13.99,"1s1" ,2.2,"-1, 1",1312,-73,0.08988,1766,"Cavendish");
-//ElementDialog hydrogenDialog(*hydrogen,this);
 
 void TableSection::on_btnHydrogen_clicked()
 {
