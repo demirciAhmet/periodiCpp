@@ -1,6 +1,3 @@
-//#include "tablesection.h"
-//#include "quizsection.h"
-
 #include "mainmenu.h"
 #include <QApplication>
 #include <QFile>
@@ -20,8 +17,6 @@ int main(int argc, char *argv[])
     loadStyle();
     MainMenu menu;
     menu.show();
-    //TableSection table;
-    //table.show();
     return a.exec();
 }
 

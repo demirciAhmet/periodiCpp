@@ -3,6 +3,13 @@
 	#MainWindow {
 		background-color: #313a46;
 	}
+        /* Change the font and text color of all elements */
+        * {
+            font-family: 'Roboto Slab', sans-serif; /* Use Roboto Slab font */
+            color: #ffffff; /* Set text color to white */
+            line-height: 1.4; /* Set the line height */
+            }
+
 /*= END
   ==================================================== */
 
