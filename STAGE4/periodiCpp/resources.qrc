@@ -2,4 +2,7 @@
     <qresource prefix="/stylesheets">
         <file>resources/style.qss</file>
     </qresource>
+    <qresource prefix="/data">
+        <file>resources/Element-Data.csv</file>
+    </qresource>
 </RCC>
