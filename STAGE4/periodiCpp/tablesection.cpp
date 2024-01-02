@@ -54,7 +54,7 @@ TableSection::TableSection(QWidget *parent)
     updateButtonProperties();
 
     //connections
-    connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
+    //connect(ui->comboBoxElementProperty, SIGNAL(currentIndexChanged(int)), this, SLOT(onElementPropertySelected(int)));
 
 }
 TableSection::~TableSection()

@@ -5,7 +5,7 @@
 #include "leveldialog.h"
 #include "challenge.h"
 #include "challengedialog.h"
-#include "./ui_dialog.h"
+#include "forms/ui_dialog.h"
 
 Dialog::Dialog(QWidget *parent)
     : QDialog(parent)

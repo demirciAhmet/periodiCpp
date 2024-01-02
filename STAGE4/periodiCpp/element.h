@@ -34,6 +34,7 @@ private:
     QString discoveredBy;
     int displayRow;
     int displayColumn;
+    QString imageFile;
 
 public:
     Element(int atomicNumber,QString symbol,QString name,double atomicMass,double atomicRadius,
@@ -41,6 +42,7 @@ public:
             QString block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
             double density,int discoveryYear,QString discoveredBy, int displayRow, int displayColumn,QObject *parent = nullptr);
+
     //getters
     int getAtomicNumber() const;
     QString getSymbol() const ;
@@ -66,6 +68,7 @@ public:
     QString getDiscoveredBy() const ;
     int getDisplayRow() const ;
     int getDisplayColumn() const;
+
 
 signals:
 };

@@ -40,7 +40,7 @@ set(PROJECT_SOURCES
         forms/mainmenu.ui
         resources.qrc
         ${PROJECT_SOURCES_TABLE_SECTION}
-
+        ${PROJECT_SOURCES_QUIZ_SECTION}
 )
 
 
