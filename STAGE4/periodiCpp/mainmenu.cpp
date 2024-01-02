@@ -1,6 +1,5 @@
 #include "mainmenu.h"
 #include "forms/ui_mainmenu.h"
-
 MainMenu::MainMenu(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)

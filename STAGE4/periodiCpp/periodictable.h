@@ -3,8 +3,8 @@
 
 #include <QFile>
 #include <QVector>
-#include "element.h"
 #include <QObject>
+#include "element.h"
 
 class PeriodicTable : public QObject
 {

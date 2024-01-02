@@ -4,7 +4,7 @@
 #include <QDialog>
 #include <QLabel>
 #include "element.h"
-#include <QVBoxLayout>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {

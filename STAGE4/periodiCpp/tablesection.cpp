@@ -109,7 +109,8 @@ void TableSection::updateButtonProperties()
 
     // Set colors for each button
     auto size_t = 1;
-    for (size_t; size_t <= 118; size_t++)
+    auto elementNumber = PeriodicTable::elements.size() - 1;
+    while (size_t <= elementNumber)
     {
         Element* element = PeriodicTable::elements[size_t];
         QString color;
@@ -156,6 +157,7 @@ void TableSection::updateButtonProperties()
             qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
         }
 
+        size_t++;
         //qDebug() << ui->gridLayout->itemAt(i-1)->widget()->findChild<QPushButton*>();
 
         //ui->gridLayout->itemAt(size_t-1)->widget()

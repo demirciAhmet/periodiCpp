@@ -83,3 +83,5 @@ install(TARGETS periodiCpp
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(periodiCpp)
 endif()
+
+target_include_directories(periodiCpp PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
