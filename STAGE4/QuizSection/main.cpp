@@ -1,11 +1,12 @@
-#include "dialog.h"
+#include "quizsection.h"
 
 #include <QApplication>
+
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    Dialog w;
+    QuizSection w;
     w.show();
     return a.exec();
 }

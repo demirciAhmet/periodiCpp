@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
+<<<<<<< HEAD
 <!-- Written by QtCreator 12.0.1, 2024-01-02T22:20:25. -->
+=======
+<!-- Written by QtCreator 11.0.3, 2024-01-02T23:57:54. -->
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -109,7 +113,11 @@
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
     <value type="int" key="EnableQmlDebugging">0</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-Debug</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\mehme\Documents\QtProjects\build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -165,7 +173,11 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-Release</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\mehme\Documents\QtProjects\build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-Release</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -219,7 +231,11 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-RelWithDebInfo</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\mehme\Documents\QtProjects\build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-RelWithDebInfo</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -274,7 +290,11 @@
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
     <value type="int" key="EnableQmlDebugging">0</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-Profile</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\mehme\Documents\QtProjects\build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-Profile</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -328,7 +348,11 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-MinSizeRel</value>
+=======
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:\Users\mehme\Documents\QtProjects\build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-MinSizeRel</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -392,6 +416,7 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
+<<<<<<< HEAD
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">qtwDeneme-quiz</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.qtwDeneme-quiz</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">qtwDeneme-quiz</value>
@@ -400,6 +425,15 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-QuizSection-Desktop_Qt_6_6_1_GCC_64bit-Debug</value>
+=======
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">QuizSection</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">CMakeProjectManager.CMakeRunConfiguration.QuizSection</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">QuizSection</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">C:/Users/mehme/Documents/QtProjects/build-QuizSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug</value>
+>>>>>>> 03681e15436fae5162fc5915456bad2ed7157a74
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

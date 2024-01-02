@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TableSection_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/TableSection",
+	"CMAKE_SOURCE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/TableSection",
+	"INCLUDE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/TableSection_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/TableSection/resources/Element-Data.csv"
+	],
+	"LOCK_FILE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/TableSection_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.6.0/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/build-TableSection-Desktop_Qt_6_6_0_MinGW_64_bit-Debug/CMakeFiles/TableSection_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/periodiCpp-Storage/STAGE4/TableSection/resources.qrc",
+	"VERBOSITY" : 0
+}

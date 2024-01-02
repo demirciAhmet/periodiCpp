@@ -26,7 +26,6 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
     // Create a layout for the parent dialog
     QVBoxLayout *parentLayout = new QVBoxLayout(&parentDialog);
 
-    // Create a scroll area (if needed)
     QScrollArea *scrollArea = new QScrollArea;
     scrollArea->setWidgetResizable(true);
 
