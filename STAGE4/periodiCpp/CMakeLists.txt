@@ -29,7 +29,7 @@ set(PROJECT_SOURCES_QUIZ_SECTION
         leveldialog.h leveldialog.cpp
         challenge.h challenge.cpp
         challengedialog.h challengedialog.cpp
-        dialoghandler.h dialoghandler.cpp
+        dialoghandler.h
         scoremanager.h scoremanager.cpp
         forms/dialog.ui
 )
@@ -40,7 +40,7 @@ set(PROJECT_SOURCES
         forms/mainmenu.ui
         resources.qrc
         ${PROJECT_SOURCES_TABLE_SECTION}
-
+        ${PROJECT_SOURCES_QUIZ_SECTION}
 )
 
 
