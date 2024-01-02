@@ -78,3 +78,4 @@ int Element::getDiscoveryYear() const { return discoveryYear; }
 QString Element::getDiscoveredBy() const { return discoveredBy; }
 int Element::getDisplayRow() const { return displayRow; }
 int Element::getDisplayColumn() const { return displayColumn; }
+

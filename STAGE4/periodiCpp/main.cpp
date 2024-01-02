@@ -1,8 +1,9 @@
-//#include "tablesection.h"
+#include "tablesection.h"
+//#include "dialog.h"
+
 #include "mainmenu.h"
 #include <QApplication>
 #include <QFile>
-//#include "dialog.h"
 
 //load style.qss
 void loadStyle(){
@@ -19,8 +20,8 @@ int main(int argc, char *argv[])
     loadStyle();
     MainMenu menu;
     menu.show();
-    //TableSection table;
-    //table.show();
+    TableSection table;
+    table.show();
     //Dialog dialog;
     //dialog.show();
     return a.exec();
