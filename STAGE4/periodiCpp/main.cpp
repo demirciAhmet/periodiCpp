@@ -10,7 +10,7 @@ void loadStyle(){
     qApp->setStyleSheet(styleSheet);
 }
 
-
+//initialize project
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);

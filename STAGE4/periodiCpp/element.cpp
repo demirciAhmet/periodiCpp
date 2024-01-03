@@ -1,5 +1,6 @@
 #include "element.h"
 
+//constructors
 Element::Element(int atomicNumber,
                  QString symbol,
                  QString name,
