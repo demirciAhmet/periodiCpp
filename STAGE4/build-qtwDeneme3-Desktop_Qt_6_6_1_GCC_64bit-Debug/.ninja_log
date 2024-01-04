@@ -1,0 +1,11 @@
+# ninja log v5
+0	231	1704173766272117984	qtwDeneme3_autogen/timestamp	b2f991d3140d3f4c
+0	231	1704173766272117984	qtwDeneme3_autogen/mocs_compilation.cpp	b2f991d3140d3f4c
+0	231	1704173766272117984	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-qtwDeneme3-Desktop_Qt_6_6_1_GCC_64bit-Debug/qtwDeneme3_autogen/timestamp	b2f991d3140d3f4c
+0	231	1704173766272117984	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-qtwDeneme3-Desktop_Qt_6_6_1_GCC_64bit-Debug/qtwDeneme3_autogen/mocs_compilation.cpp	b2f991d3140d3f4c
+232	1276	1704173767312163049	CMakeFiles/qtwDeneme3.dir/element.cpp.o	fa0a85b7b074efcf
+231	1577	1704173767612176048	CMakeFiles/qtwDeneme3.dir/main.cpp.o	a116fa286da6a24f
+232	1647	1704173767684179168	CMakeFiles/qtwDeneme3.dir/elementdialog.cpp.o	64a9f8db1f0f90f6
+231	1697	1704173767732181248	CMakeFiles/qtwDeneme3.dir/dialog.cpp.o	c101ef17d860a2af
+231	1749	1704173767784183501	CMakeFiles/qtwDeneme3.dir/qtwDeneme3_autogen/mocs_compilation.cpp.o	dc4cc34c4f228454
+1749	2000	1704173768040194594	qtwDeneme3	9f64d6781d3f06b4

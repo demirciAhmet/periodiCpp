@@ -1,0 +1,28 @@
+{
+	"BUILD_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar",
+	"CMAKE_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar",
+	"INCLUDE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/resource.qrc",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/achievements.png",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/learning.png",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/search.png",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/periodic-table.png",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/menu.png",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/quiz.png"
+	],
+	"LOCK_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/untitled1_autogen.dir/AutoRcc_resource_VRODUE237C_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "VRODUE237C",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/home/ahmet/Qt/6.6.1/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/untitled1_autogen.dir/AutoRcc_resource_VRODUE237C_Used.txt",
+	"SOURCE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/menuBar/icon/resource.qrc",
+	"VERBOSITY" : 0
+}

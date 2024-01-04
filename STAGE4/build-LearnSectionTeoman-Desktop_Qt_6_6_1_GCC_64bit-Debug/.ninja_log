@@ -1,0 +1,7 @@
+# ninja log v5
+0	205	1704144253209003436	LearnSection_autogen/timestamp	44f4b03618236d5e
+0	205	1704144253209003436	LearnSection_autogen/mocs_compilation.cpp	44f4b03618236d5e
+0	205	1704144253209003436	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-LearnSectionTeoman-Desktop_Qt_6_6_1_GCC_64bit-Debug/LearnSection_autogen/timestamp	44f4b03618236d5e
+0	205	1704144253209003436	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-LearnSectionTeoman-Desktop_Qt_6_6_1_GCC_64bit-Debug/LearnSection_autogen/mocs_compilation.cpp	44f4b03618236d5e
+206	1548	1704144254548981392	CMakeFiles/LearnSection.dir/main.cpp.o	999bf044651b7b0b
+205	1593	1704144254592980669	CMakeFiles/LearnSection.dir/LearnSection_autogen/mocs_compilation.cpp.o	31d4bb6a4f76b6ca

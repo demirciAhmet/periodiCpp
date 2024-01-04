@@ -1,0 +1,24 @@
+# ninja log v5
+0	190	1704144361491222111	untitled1_autogen/timestamp	24126c842bdef4e8
+0	190	1704144361491222111	untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+0	190	1704144361491222111	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/timestamp	24126c842bdef4e8
+0	190	1704144361491222111	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+190	205	1704144361507221848	untitled1_autogen/VRODUE237C/qrc_resource.cpp	31601814decfbc02
+190	205	1704144361507221848	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/VRODUE237C/qrc_resource.cpp	31601814decfbc02
+205	477	1704144361775217439	CMakeFiles/untitled1.dir/untitled1_autogen/VRODUE237C/qrc_resource.cpp.o	1f8654dc4acfeaa7
+205	1534	1704144362831200068	CMakeFiles/untitled1.dir/untitled1_autogen/mocs_compilation.cpp.o	2746b68687c6459b
+205	1554	1704144362847199805	CMakeFiles/untitled1.dir/main.cpp.o	c85ad74c7dd066d5
+205	1662	1704144362955198028	CMakeFiles/untitled1.dir/mainwindow.cpp.o	60d7c12dc81580d
+1662	1904	1704144363199194014	untitled1	db11521d13e4d08e
+2	18	1704144522704570029	untitled1_autogen/timestamp	24126c842bdef4e8
+2	18	1704144522704570029	untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+2	18	1704144522704570029	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/timestamp	24126c842bdef4e8
+2	18	1704144522704570029	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+20	1364	1704144524036548117	CMakeFiles/untitled1.dir/mainwindow.cpp.o	60d7c12dc81580d
+1364	1606	1704144524284544038	untitled1	db11521d13e4d08e
+1	19	1704144569403801792	untitled1_autogen/timestamp	24126c842bdef4e8
+1	19	1704144569403801792	untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+1	19	1704144569403801792	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/timestamp	24126c842bdef4e8
+1	19	1704144569403801792	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-menuBar-Desktop_Qt_6_6_1_GCC_64bit-Debug/untitled1_autogen/mocs_compilation.cpp	24126c842bdef4e8
+21	1372	1704144570743779748	CMakeFiles/untitled1.dir/mainwindow.cpp.o	60d7c12dc81580d
+1372	1617	1704144570991775668	untitled1	db11521d13e4d08e
