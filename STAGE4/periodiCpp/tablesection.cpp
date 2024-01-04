@@ -12,6 +12,41 @@ TableSection::TableSection(QWidget *parent)
     //initialize the Periodic Table
     PeriodicTable periodicTable = PeriodicTable(this);
 
+    // Initialize color maps
+    categoryColorMap = {
+        {"Alkali Metal", "#ff0303"},
+        {"Alkaline Earth Metal", "#ff7503"},
+        {"Transition Metal", "#ffbf03"},
+        {"Post-Transition Metal", "#008a0e"},
+        {"Lanthanide", "#700b57"},
+        {"Actinide", "#d916a8"},
+        {"Metalloid", "#008573"},
+        {"Halogen", "#3935ad"},
+        {"Non Metal", "#1071e5"},
+        {"Noble Gas", "#ba23f6"},
+        {"(undefined)", "#979ea8"}
+    };
+
+    metallicPropertyColorMap = {
+        {"metal", "#ff7503"},
+        {"metalloid", "#008a0e"},
+        {"nonmetal", "#3935ad"},
+        {"(unknown)", "#979ea8"}
+    };
+
+    blockColorMap = {
+        {"s", "#ff7503"},
+        {"p", "#008a0e"},
+        {"d", "#3935ad"},
+        {"f", "#700b57"}
+    };
+
+    phaseColorMap = {
+        {"Solid", "#ff7503"},
+        {"Liquid", "#008a0e"},
+        {"Gas", "#700b57"}
+    };
+
     //connections
     connectButtons();
     connect(ui->rbtnCategories, SIGNAL(clicked()), this, SLOT(on_colorButton_clicked()));
@@ -20,7 +55,9 @@ TableSection::TableSection(QWidget *parent)
     connect(ui->rbtnPhases, SIGNAL(clicked()), this, SLOT(on_colorButton_clicked()));
 
     //initialize colors and legend
-    ui->rbtnCategories->click();
+    ui->rbtnCategories->setChecked(true);
+    updateLegend();
+    updateButtonProperties();
 
 }
 
@@ -102,40 +139,32 @@ void TableSection::connectButtons(){
 
 void TableSection::updateLegend() {
 
-//struct of the labels for legend in tablesection.ui
-struct Labels {
-    QLabel* colorLabel;
-    QLabel* textLabel;
-};
+    ui->lblColor->show();
+    ui->lbl->show();
+    ui->lblColor2->show();
+    ui->lbl2->show();
+    ui->lblColor3->show();
+    ui->lbl3->show();
+    ui->lblColor4->show();
+    ui->lbl4->show();
+    ui->lblColor5->show();
+    ui->lbl5->show();
+    ui->lblColor6->show();
+    ui->lbl6->show();
+    ui->lblColor7->show();
+    ui->lbl7->show();
+    ui->lblColor8->show();
+    ui->lbl8->show();
+    ui->lblColor9->show();
+    ui->lbl9->show();
+    ui->lblColor10->show();
+    ui->lbl10->show();
+    ui->lblColor11->show();
+    ui->lbl11->show();
+    ui->lblColor12->show();
+    ui->lbl12->show();
 
-Labels labels[] = {
-    { ui->lblColor, ui->lbl},
-    { ui->lblColor2, ui->lbl2},
-    { ui->lblColor3, ui->lbl3},
-    { ui->lblColor4, ui->lbl4},
-    { ui->lblColor5, ui->lbl5},
-    { ui->lblColor6, ui->lbl6},
-    { ui->lblColor7, ui->lbl7},
-    { ui->lblColor8, ui->lbl8},
-    { ui->lblColor9, ui->lbl9},
-    { ui->lblColor10, ui->lbl10},
-    { ui->lblColor11, ui->lbl11},
-    { ui->lblColor12, ui->lbl12}
-};
-
-    size_t index = 0;
-    size_t length = 12;
-
-    //show hidden labels
-    for(index = 0; index < length ; index++){
-            labels[index].colorLabel->show();
-            labels[index].textLabel->show();
-    }
-
-    size_t numOfHides = 0;
     if (ui->rbtnCategories->isChecked()) {
-        numOfHides = 12 - categoryColorMap.size();
-
         ui->lblColor->setStyleSheet("background-color: " + categoryColorMap["Alkali Metal"]);
         ui->lbl->setText("Alkali Metal");
         ui->lblColor2->setStyleSheet("background-color: " + categoryColorMap["Alkaline Earth Metal"]);
@@ -158,18 +187,9 @@ Labels labels[] = {
         ui->lbl10->setText("Noble Gas");
         ui->lblColor11->setStyleSheet("background-color: " + categoryColorMap["(undefined)"]);
         ui->lbl11->setText("(unknown)");
-
-        //hide unused labels
-        for ( size_t index = length - 1; index >= length - numOfHides; index--){
-            labels[index].colorLabel->hide();
-            labels[index].textLabel->hide();
-        }
-
-
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnMetallic_Properties->isChecked()) {
-
-        numOfHides = 12 - metallicPropertyColorMap.size();
-
         ui->lblColor->setStyleSheet("background-color: " + metallicPropertyColorMap["metal"]);
         ui->lbl->setText("Metal");
         ui->lblColor2->setStyleSheet("background-color: " + metallicPropertyColorMap["metalloid"]);
@@ -178,17 +198,23 @@ Labels labels[] = {
         ui->lbl3->setText("Nonmetal");
         ui->lblColor4->setStyleSheet("background-color: " + metallicPropertyColorMap["(unknown)"]);
         ui->lbl4->setText("(Unknown)");
-
-        //hide unused labels
-        for ( size_t index = length - 1; index >= length - numOfHides; index--){
-            labels[index].colorLabel->hide();
-            labels[index].textLabel->hide();
-        }
-
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnBlocks->isChecked()) {
-
-        numOfHides = 12 - blockColorMap.size();
-
         ui->lblColor->setStyleSheet("background-color: " + blockColorMap["s"]);
         ui->lbl->setText("s Block");
         ui->lblColor2->setStyleSheet("background-color: " + blockColorMap["p"]);
@@ -197,32 +223,48 @@ Labels labels[] = {
         ui->lbl3->setText("d Block");
         ui->lblColor4->setStyleSheet("background-color: " + blockColorMap["f"]);
         ui->lbl4->setText("f Block");
-
-        //hide unused labels
-        for ( size_t index = length - 1; index >= length - numOfHides; index--){
-            labels[index].colorLabel->hide();
-            labels[index].textLabel->hide();
-        }
-
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     } else if (ui->rbtnPhases->isChecked()) {
-
-        numOfHides = 12 - phaseColorMap.size();
-
         ui->lblColor->setStyleSheet("background-color: " + phaseColorMap["Solid"]);
         ui->lbl->setText("Solid");
         ui->lblColor2->setStyleSheet("background-color: " + phaseColorMap["Liquid"]);
         ui->lbl2->setText("Liquid");
         ui->lblColor3->setStyleSheet("background-color: " + phaseColorMap["Gas"]);
         ui->lbl3->setText("Gas");
-
-        //hide unused labels
-        for ( size_t index = length - 1; index >= length - numOfHides; index--){
-            labels[index].colorLabel->hide();
-            labels[index].textLabel->hide();
-        }
-
+        ui->lblColor4->hide();
+        ui->lbl4->hide();
+        ui->lblColor5->hide();
+        ui->lbl5->hide();
+        ui->lblColor6->hide();
+        ui->lbl6->hide();
+        ui->lblColor7->hide();
+        ui->lbl7->hide();
+        ui->lblColor8->hide();
+        ui->lbl8->hide();
+        ui->lblColor9->hide();
+        ui->lbl9->hide();
+        ui->lblColor10->hide();
+        ui->lbl10->hide();
+        ui->lblColor11->hide();
+        ui->lbl11->hide();
+        ui->lblColor12->hide();
+        ui->lbl12->hide();
     }
-
 }
 
 void TableSection::onElementButtonClicked(const Element& element)

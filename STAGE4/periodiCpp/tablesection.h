@@ -37,6 +37,7 @@ public:
 private:
     Ui::TableSection *ui;
 
+<<<<<<< HEAD
     /*!
      * \brief categoryColorMap holds the button colors corresponding the selected property.
      */
@@ -82,6 +83,13 @@ private:
         {"Liquid", "#008a0e"},
         {"Gas", "#700b57"}
     };
+=======
+    // Color maps
+    QMap<QString, QString> categoryColorMap;
+    QMap<QString, QString> metallicPropertyColorMap;
+    QMap<QString, QString> blockColorMap;
+    QMap<QString, QString> phaseColorMap;
+>>>>>>> parent of 27015ac (code improvements)
 
     /*!
      * \brief setColorForButton is a helper method for updating
