@@ -60,10 +60,14 @@ TableSection::TableSection(QWidget *parent)
     updateButtonProperties();
 
 }
+TableSection::~TableSection()
+{
+    delete ui;
+}
 
 void TableSection::on_colorButton_clicked(){
     updateLegend();
-    updateButtonColors();
+    updateButtonProperties();
 }
 
 void TableSection::setColorForButton(QPushButton* button, const QString& color)
@@ -72,7 +76,7 @@ void TableSection::setColorForButton(QPushButton* button, const QString& color)
     button->setStyleSheet(styleSheet);
 }
 
-void TableSection::updateButtonColors()
+void TableSection::updateButtonProperties()
 {
     //QString property = ui->comboBoxElementProperty->currentText();
 
@@ -86,18 +90,22 @@ void TableSection::updateButtonColors()
         if (ui->rbtnCategories->isChecked())
         {
             color = categoryColorMap[element->getCategory()];
+            categoryKeys.insert(element->getCategory());
         }
         else if (ui->rbtnMetallic_Properties->isChecked())
         {
             color = metallicPropertyColorMap[element->getMetallicProperty()];
+            metallicPropertyKeys.insert(element->getMetallicProperty());
         }
         else if (ui->rbtnBlocks->isChecked())
         {
             color = blockColorMap[element->getBlock()];
+            blockPropertyKeys.insert(element->getBlock());
         }
         else if (ui->rbtnPhases->isChecked())
         {
             color = phaseColorMap[element->getPhase()];
+            phaseKeys.insert(element->getPhase());
         }
         else
         {
@@ -114,6 +122,11 @@ void TableSection::updateButtonColors()
         }
 
         size_t++;
+        //qDebug() << ui->gridLayout->itemAt(i-1)->widget()->findChild<QPushButton*>();
+
+        //ui->gridLayout->itemAt(size_t-1)->widget()
+        //ui->gridLayout->itemAtPosition(element->getPeriod()-1,element->getGroup()-1)->widget()
+        //setColorForButton(ui->gridLayout->itemAt(i-1)->widget(), color);
 
     }
 }

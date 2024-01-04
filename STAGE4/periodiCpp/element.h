@@ -1,6 +1,7 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
 
+#include <QImage>
 #include <QObject>
 #include <QString>
 
@@ -42,7 +43,6 @@ public:
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
             double density,int discoveryYear,QString discoveredBy, int displayRow, int displayColumn,QObject *parent = nullptr);
 
-    ~Element();
     //getters
     int getAtomicNumber() const;
     QString getSymbol() const ;
