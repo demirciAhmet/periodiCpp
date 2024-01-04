@@ -13,6 +13,59 @@
   <property name="windowTitle">
    <string>MainMenu</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">/*= Style for MainWindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #313a46;
+	}
+        /* Change the font and text color of all elements */
+        * {
+            font-family: 'Roboto Slab', sans-serif; /* Use Roboto Slab font */
+            color: #ffffff; /* Set text color to white */
+            line-height: 1.4; /* Set the line height */
+            }
+
+/*= END
+  ==================================================== */
+
+/*= Style for Windows widget START
+  ==================================================== */
+	#Windows {
+                background-color: #282a33;
+	}
+
+/*= END
+==================================================== */
+
+
+/*= Style for menu  START
+  ==================================================== */
+	/* style for widget */
+	#Menu {
+		background-color: #313a46;
+	}
+
+	/* style for QPushButton */
+	#Menu QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#Menu QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#Menu QPushButton:checked {
+		color: #fff;
+	}
+
+/*= END
+  ==================================================== */</string>
+  </property>
   <widget class="QWidget" name="CentralWidget">
    <layout class="QGridLayout" name="gridLayout_4" rowstretch="0,0">
     <property name="leftMargin">
