@@ -10,6 +10,7 @@ PeriodicTable::PeriodicTable(QObject *parent)
     CSVToElements();
 }
 
+
 void PeriodicTable::CSVToElements() {
 
     QFile CSVFile(":/data/resources/Element-Data.csv");

@@ -3,7 +3,6 @@
 
 #include <QObject>
 #include <QDialog>
-#include "challenge.h"
 
 class ScoreManager : public QDialog
 {

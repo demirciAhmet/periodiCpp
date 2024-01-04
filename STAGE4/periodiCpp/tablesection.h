@@ -7,12 +7,22 @@
 #include <QWidget>
 #include <element.h>
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class TableSection;
 }
 QT_END_NAMESPACE
 
+/*!
+* @file tablesection.h
+* @author Ahmet Kaan Demirci
+* @date 04 Jan, 2024
+*
+*/
+/*!
+ * \brief The TableSection class is the main class for the "Table" section. It extends QWidget to be able to use in main menu.
+ */
 class TableSection : public QWidget
 {
     Q_OBJECT
@@ -24,15 +34,9 @@ public:
 private:
     Ui::TableSection *ui;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     /*!
      * \brief categoryColorMap holds the button colors corresponding the selected property.
      */
-=======
-    // Color maps
->>>>>>> parent of bc400a7 (add doxygen lines)
     QMap<QString, QString> categoryColorMap = {
         {"Alkali Metal", "#ff0303"},
         {"Alkaline Earth Metal", "#ff7503"},
@@ -46,53 +50,70 @@ private:
         {"Noble Gas", "#ba23f6"},
         {"(undefined)", "#979ea8"}
     };
+
+    /*!
+     * \brief metallicPropertyColorMap holds the button colors corresponding the selected property.
+     */
     QMap<QString, QString> metallicPropertyColorMap = {
         {"metal", "#ff7503"},
         {"metalloid", "#008a0e"},
         {"nonmetal", "#3935ad"},
         {"(unknown)", "#979ea8"}
     };
+
+    /*!
+     * \brief blockColorMap holds the button colors corresponding the selected property.
+     */
     QMap<QString, QString> blockColorMap = {
         {"s", "#ff7503"},
         {"p", "#008a0e"},
         {"d", "#3935ad"},
         {"f", "#700b57"}
     };
+
+    /*!
+     * \brief phaseColorMap holds the button colors corresponding the selected property.
+     */
     QMap<QString, QString> phaseColorMap = {
         {"Solid", "#ff7503"},
         {"Liquid", "#008a0e"},
         {"Gas", "#700b57"}
     };
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 27015ac (code improvements)
-    // Color maps
-    QMap<QString, QString> categoryColorMap;
-    QMap<QString, QString> metallicPropertyColorMap;
-    QMap<QString, QString> blockColorMap;
-    QMap<QString, QString> phaseColorMap;
-<<<<<<< HEAD
->>>>>>> parent of 27015ac (code improvements)
-=======
->>>>>>> parent of 27015ac (code improvements)
-=======
-    QSet<QString> categoryKeys;
-    QSet<QString> metallicPropertyKeys;
-    QSet<QString> blockPropertyKeys;
-    QSet<QString> phaseKeys;
->>>>>>> parent of bc400a7 (add doxygen lines)
 
-    // Other helper methods
+    /*!
+     * \brief setColorForButton is a helper method for updating
+     * \param button
+     * \param color
+     */
     void setColorForButton(QPushButton* button, const QString& color);
-    void updateButtonProperties();
+
+    /*!
+     * \brief updateButtonColors is the method that updates the colors of buttons when  a property selected
+     */
+    void updateButtonColors();
+
+    /*!
+     * \brief updateLegend is the method that updates the colors of buttons when a property selected
+     */
     void updateLegend();
+
+    /*!
+     * \brief connectButtons connects the buttons in the form file (tablesection.ui) with click method.
+     */
     void connectButtons();
 
 
 private slots:
-    //element buttons
+
+    /*!
+     * \brief on_colorButton_clicked is the method to handle the color button click event
+     */
     void on_colorButton_clicked();
+
+    /*!
+     * \brief onElementButtonClicked is the method to handle the element button click event
+     * \param element
+     */
     void onElementButtonClicked(const Element& element);
 
 };

@@ -1,4 +1,7 @@
+#include "level.h"
 #include "leveldialog.h"
+#include "question.h"
+#include "questiondialog.h"
 
 QVector<bool> LevelDialog::flags = {true ,false, false, false ,false};
 

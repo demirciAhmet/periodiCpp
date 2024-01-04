@@ -7,9 +7,6 @@
 #include <QVBoxLayout>
 #include <QPushButton>
 #include <QWidget>
-#include "level.h"
-#include "question.h"
-#include "questiondialog.h"
 
 class LevelDialog : public QDialog
 {

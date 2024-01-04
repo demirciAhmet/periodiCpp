@@ -5,7 +5,16 @@
 #include <QObject>
 #include <QString>
 
-
+/*!
+*
+* @file element.h
+* @author Ahmet Kaan Demirci
+* @date 04 Jan, 2024
+*
+*/
+/*!
+* \brief The Element class is responsible for hold the attributies of an element. The element
+*/
 class Element : public QObject
 {
     Q_OBJECT

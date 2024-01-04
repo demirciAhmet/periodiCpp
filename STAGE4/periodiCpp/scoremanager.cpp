@@ -1,3 +1,4 @@
+#include "challenge.h"
 #include "scoremanager.h"
 
 ScoreManager::ScoreManager(QDialog *parent)

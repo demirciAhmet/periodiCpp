@@ -1,9 +1,5 @@
 #include "quizsection.h"
-#include "question.h"
-#include "questiondialog.h"
-#include "level.h"
 #include "leveldialog.h"
-#include "challenge.h"
 #include "challengedialog.h"
 #include "forms/ui_quizsection.h"
 
