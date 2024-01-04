@@ -38,6 +38,7 @@ private:
     Ui::TableSection *ui;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /*!
      * \brief categoryColorMap holds the button colors corresponding the selected property.
      */
@@ -84,11 +85,16 @@ private:
         {"Gas", "#700b57"}
     };
 =======
+=======
+>>>>>>> parent of 27015ac (code improvements)
     // Color maps
     QMap<QString, QString> categoryColorMap;
     QMap<QString, QString> metallicPropertyColorMap;
     QMap<QString, QString> blockColorMap;
     QMap<QString, QString> phaseColorMap;
+<<<<<<< HEAD
+>>>>>>> parent of 27015ac (code improvements)
+=======
 >>>>>>> parent of 27015ac (code improvements)
 
     /*!
