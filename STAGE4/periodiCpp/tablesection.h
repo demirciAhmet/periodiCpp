@@ -105,8 +105,15 @@ private:
      * \brief searchElements method is a helper method to search elements
      * \param input
      */
-    void searchElements(const QString &input);
 
+    QString convertSearchedText(const QString &input);
+
+    void searchElements(const QString &input);
+    /*!
+     * \brief convertSearchedText a helper method for searching elements from the search bar
+     * \param input
+     * \return
+     */
 
 private slots:
 
@@ -122,5 +129,6 @@ private slots:
     void onElementButtonClicked(const Element& element);
 
     void on_SearchBar_textEdited(const QString &arg1);
+    void on_SearchButton_clicked();
 };
 #endif // TABLESECTION_H

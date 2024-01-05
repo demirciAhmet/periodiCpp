@@ -89,25 +89,6 @@ void TableSection::updateButtonColors()
     }
 }
 
-void TableSection::connectButtons(){
-    auto size_t = 1;
-    auto elementNumber = PeriodicTable::elements.size() - 1;
-    while (size_t <= elementNumber)
-    {
-        Element* element = PeriodicTable::elements[size_t];
-
-        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getDisplayRow()-1,element->getDisplayColumn()-1)->widget()))
-        {
-            connect(button, &QPushButton::clicked, this, [this, element]() { onElementButtonClicked(*element);}  );
-        }
-        else {
-            qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
-        }
-
-        size_t++;
-    }
-}
-
 void TableSection::updateLegend() {
 
 //struct of the labels for legend in tablesection.ui
@@ -232,21 +213,22 @@ Labels labels[] = {
     }
 
 }
+QString TableSection::convertSearchedText(const QString &input){
+    QString upperInput;
+    if(!input.isEmpty()){
+        upperInput = input[0].toUpper() + input.mid(1).toLower();
+    }
+    return upperInput;
+}
 
 void TableSection::searchElements(const QString &input){
 
     updateButtonColors();
 
+    QString upperInput = convertSearchedText(input);
+
     size_t index = 1;
     size_t elementNumber = PeriodicTable::elements.size() - 1;
-
-    QString upperInput;
-
-    //conver the input to desired values
-    if(!input.isEmpty()){
-        upperInput = input[0].toUpper() + input.mid(1).toLower();
-    }
-
 
     if(!upperInput.isEmpty() )
     {
@@ -259,6 +241,11 @@ void TableSection::searchElements(const QString &input){
 
                 if(!(element->getSymbol().contains(upperInput) || element->getName().contains(upperInput))){
                     setColorForButton(button, "#1f2c38");
+                } else if (element->getSymbol() == upperInput || element->getName() == upperInput){
+
+                }
+                else {
+                    qDebug() << "There is no element that contains:" << upperInput;
                 }
 
             }
@@ -268,6 +255,24 @@ void TableSection::searchElements(const QString &input){
     }
 }
 
+void TableSection::connectButtons(){
+    size_t index = 1;
+    auto elementNumber = PeriodicTable::elements.size() - 1;
+    while (index <= elementNumber)
+    {
+        Element* element = PeriodicTable::elements[index];
+
+        if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getDisplayRow()-1,element->getDisplayColumn()-1)->widget()))
+        {
+            connect(button, &QPushButton::clicked, this, [this, element]() { onElementButtonClicked(*element);}  );
+        }
+        else {
+            qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
+        }
+
+        index++;
+    }
+}
 
 void TableSection::onElementButtonClicked(const Element& element)
 {
@@ -277,10 +282,37 @@ void TableSection::onElementButtonClicked(const Element& element)
 }
 
 
-
-
 void TableSection::on_SearchBar_textEdited(const QString &arg1)
 {
     searchElements(arg1);
 }
+
+
+void TableSection::on_SearchButton_clicked()
+{
+    QString input = ui->SearchBar->text();
+    size_t index = 1;
+    size_t elementNumber = PeriodicTable::elements.size() - 1;
+
+    QString upperInput = convertSearchedText(input);
+
+
+    if(!upperInput.isEmpty() )
+    {
+        while (index <= elementNumber)
+        {
+            Element *element = PeriodicTable::elements[index];
+
+            if (element->getSymbol() == upperInput || element->getName() == upperInput){
+                ElementDialog elementDialog(*element, this);
+                elementDialog.setModal(true);
+                elementDialog.exec();
+            }
+
+            index++;
+
+        }
+    }
+}
+
 
