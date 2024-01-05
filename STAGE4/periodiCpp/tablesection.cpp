@@ -45,7 +45,6 @@ void TableSection::setColorForButton(QPushButton* button, const QString& color)
 
 void TableSection::updateButtonColors()
 {
-    //QString property = ui->comboBoxElementProperty->currentText();
 
     // Set colors for each button
     auto size_t = 1;
@@ -244,9 +243,6 @@ void TableSection::searchElements(const QString &input){
                 } else if (element->getSymbol() == upperInput || element->getName() == upperInput){
 
                 }
-                else {
-                    qDebug() << "There is no element that contains:" << upperInput;
-                }
 
             }
             index++;
@@ -265,9 +261,6 @@ void TableSection::connectButtons(){
         if (QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getDisplayRow()-1,element->getDisplayColumn()-1)->widget()))
         {
             connect(button, &QPushButton::clicked, this, [this, element]() { onElementButtonClicked(*element);}  );
-        }
-        else {
-            qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
         }
 
         index++;
