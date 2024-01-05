@@ -5,4 +5,7 @@
     <qresource prefix="/data">
         <file>resources/Element-Data.csv</file>
     </qresource>
+    <qresource prefix="/icons">
+        <file>resources/icnSearch.png</file>
+    </qresource>
 </RCC>

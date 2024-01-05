@@ -31,6 +31,12 @@ void TableSection::on_colorButton_clicked(){
     updateButtonColors();
 }
 
+void TableSection::setBorderForButton(QPushButton* button, const QString& color)
+{
+    QString styleSheet = QString("border: %1").arg(color);
+    button->setStyleSheet(styleSheet);
+}
+
 void TableSection::setColorForButton(QPushButton* button, const QString& color)
 {
     QString styleSheet = QString("background-color: %1").arg(color);
@@ -99,7 +105,7 @@ void TableSection::connectButtons(){
         }
 
         size_t++;
-}
+    }
 }
 
 void TableSection::updateLegend() {
@@ -227,9 +233,54 @@ Labels labels[] = {
 
 }
 
+void TableSection::searchElements(const QString &input){
+
+    updateButtonColors();
+
+    size_t index = 1;
+    size_t elementNumber = PeriodicTable::elements.size() - 1;
+
+    QString upperInput;
+
+    //conver the input to desired values
+    if(!input.isEmpty()){
+        upperInput = input[0].toUpper() + input.mid(1).toLower();
+    }
+
+
+    if(!upperInput.isEmpty() )
+    {
+        while (index <= elementNumber)
+        {
+            Element* element = PeriodicTable::elements[index];
+
+            //hide other elements
+            if(QPushButton* button = qobject_cast<QPushButton*>(ui->gridLayout->itemAtPosition(element->getDisplayRow()-1,element->getDisplayColumn()-1)->widget())){
+
+                if(!(element->getSymbol().contains(upperInput) || element->getName().contains(upperInput))){
+                    setColorForButton(button, "#1f2c38");
+                }
+
+            }
+            index++;
+
+        }
+    }
+}
+
+
 void TableSection::onElementButtonClicked(const Element& element)
 {
     ElementDialog elementDialog(element, this);
     elementDialog.setModal(true);
     elementDialog.exec();
 }
+
+
+
+
+void TableSection::on_SearchBar_textEdited(const QString &arg1)
+{
+    searchElements(arg1);
+}
+

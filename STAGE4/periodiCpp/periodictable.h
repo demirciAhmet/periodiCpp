@@ -8,14 +8,8 @@
 
 
 /*!
-*
-* @file periodictable.h
-* @author Ahmet Kaan Demirci
-* @date 04 Jan, 2024
-*
-*/
-/*!
  * \brief The PeriodicTable class contains the methods about the periodic table for using in TableSection.
+ * It is separate from the element class because of optimization and flexibility.
  */
 class PeriodicTable : public QObject
 {

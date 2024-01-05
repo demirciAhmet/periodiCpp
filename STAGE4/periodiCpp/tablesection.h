@@ -15,12 +15,6 @@ class TableSection;
 QT_END_NAMESPACE
 
 /*!
-* @file tablesection.h
-* @author Ahmet Kaan Demirci
-* @date 04 Jan, 2024
-*
-*/
-/*!
  * \brief The TableSection class is the main class for the "Table" section. It extends QWidget to be able to use in main menu.
  */
 class TableSection : public QWidget
@@ -81,7 +75,13 @@ private:
     };
 
     /*!
-     * \brief setColorForButton is a helper method for updating
+     * \brief setBorderForButton is a helper method for updating button borders
+     * \param button
+     * \param color
+     */
+    void setBorderForButton(QPushButton* button, const QString& color);
+    /*!
+     * \brief setColorForButton is a helper method for updating button colors
      * \param button
      * \param color
      */
@@ -101,6 +101,11 @@ private:
      * \brief connectButtons connects the buttons in the form file (tablesection.ui) with click method.
      */
     void connectButtons();
+    /*!
+     * \brief searchElements method is a helper method to search elements
+     * \param input
+     */
+    void searchElements(const QString &input);
 
 
 private slots:
@@ -116,5 +121,6 @@ private slots:
      */
     void onElementButtonClicked(const Element& element);
 
+    void on_SearchBar_textEdited(const QString &arg1);
 };
 #endif // TABLESECTION_H

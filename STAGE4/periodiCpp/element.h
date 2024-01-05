@@ -13,7 +13,7 @@
 *
 */
 /*!
-* \brief The Element class is responsible for hold the attributies of an element. The element
+* \brief The Element class is responsible for hold the attributies of an element.
 */
 class Element : public QObject
 {
