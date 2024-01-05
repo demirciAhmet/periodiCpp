@@ -9,7 +9,7 @@
 
 ---
 
-![vid1]/https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/GUI-Recording-1.mkv)
+[vid1]/https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/GUI-Recording-1.mkv)
 
 ---
 # Introduction
