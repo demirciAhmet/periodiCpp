@@ -1,12 +1,15 @@
 
 
-
 /* style_tableSection.qss */
 
 /* Basic button styling */
 QPushButton {
     color: #ffffff;
     border-radius: 8px;
+}
+
+QPushButton:checked {
+    background-color: #282a33; /* Set the background color when toggled */
 }
 
 /* Hover effect */

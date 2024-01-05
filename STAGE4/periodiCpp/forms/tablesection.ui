@@ -46,8 +46,9 @@ QPushButton:disabled {
     border: 1px solid #95a5a6;
 }
 
-
-
+QPushButton:focus {
+    outline: 3px solid #fff;
+}
 /* Apply border-radius to labels with &quot;lblColor&quot; in their name */
 QLabel {
     border-radius: 7px;
@@ -57,6 +58,8 @@ QLabel {
 QDialog {
     background-color: #313a46; /* Set the background color for dialogs */
 }
+/*================================================================*/
+
 
 
 

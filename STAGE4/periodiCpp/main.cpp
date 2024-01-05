@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     loadStyle();
     MainMenu menu;
     menu.resize(900, 620);
-    menu.setWindowTitle("The Object Orianted Project");
+    menu.setWindowTitle(" ");
     menu.show();
     return a.exec();
 }
