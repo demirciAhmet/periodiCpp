@@ -305,21 +305,7 @@
          <number>0</number>
         </property>
         <item row="0" column="0">
-         <widget class="QuizSection" name="QuizSection" native="true">
-          <widget class="QPushButton" name="pushButton">
-           <property name="geometry">
-            <rect>
-             <x>370</x>
-             <y>180</y>
-             <width>87</width>
-             <height>26</height>
-            </rect>
-           </property>
-           <property name="text">
-            <string>PushButton</string>
-           </property>
-          </widget>
-         </widget>
+         <widget class="QuizSection" name="QuizSection" native="true"/>
         </item>
        </layout>
       </widget>

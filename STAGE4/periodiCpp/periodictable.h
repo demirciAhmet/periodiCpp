@@ -11,11 +11,10 @@
  * \brief The PeriodicTable class contains the methods about the periodic table for using in TableSection.
  * It is separate from the element class because of optimization and flexibility.
  */
-class PeriodicTable : public QObject
+class PeriodicTable
 {
-    Q_OBJECT
 public:
-    PeriodicTable(QObject *parent = nullptr);
+    PeriodicTable();
     /*!
      * \brief elements holds vector of elements that contain their datas
      */

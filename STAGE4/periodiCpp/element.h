@@ -6,18 +6,10 @@
 #include <QString>
 
 /*!
-*
-* @file element.h
-* @author Ahmet Kaan Demirci
-* @date 04 Jan, 2024
-*
-*/
-/*!
 * \brief The Element class is responsible for hold the attributies of an element.
 */
-class Element : public QObject
+class Element
 {
-    Q_OBJECT
 private:
     int atomicNumber;
     QString symbol;
@@ -50,7 +42,7 @@ public:
             int period,int group,QString summary,QString category,QString metallicProperty,
             QString block,QString phase,double boilingPoint,double meltingPoint,QString electronicConfiguration,
             double electronegativity,QString oxidationStates,int ionizationEnergy,int electronAffinity,
-            double density,int discoveryYear,QString discoveredBy, int displayRow, int displayColumn,QObject *parent = nullptr);
+            double density,int discoveryYear,QString discoveredBy, int displayRow, int displayColumn);
 
     //getters
     int getAtomicNumber() const;

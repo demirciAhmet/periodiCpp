@@ -24,9 +24,8 @@ Element::Element(int atomicNumber,
                  int discoveryYear,
                  QString discoveredBy,
                  int displayRow,
-                 int displayColumn,
-                 QObject *parent
-                 ) : QObject{parent}
+                 int displayColumn
+                 )
 {
     this->atomicNumber = atomicNumber;
     this->symbol = symbol;

@@ -4,8 +4,7 @@
 
 QVector<Element*> PeriodicTable::elements;
 
-PeriodicTable::PeriodicTable(QObject *parent)
-    : QObject{parent}
+PeriodicTable::PeriodicTable()
 {
     CSVToElements();
 }

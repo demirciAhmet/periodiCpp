@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     loadStyle();
     MainMenu menu;
     menu.resize(900, 620);
-    menu.setWindowTitle(" ");
+    menu.setWindowTitle("periodiCpp v1.01");
     menu.show();
     return a.exec();
 }

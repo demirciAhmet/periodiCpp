@@ -10,7 +10,7 @@ TableSection::TableSection(QWidget *parent)
     ui->setupUi(this);
 
     //initialize the Periodic Table
-    PeriodicTable periodicTable = PeriodicTable(this);
+    PeriodicTable periodicTable = PeriodicTable();
 
     //connections
     connectButtons();
@@ -47,11 +47,11 @@ void TableSection::updateButtonColors()
 {
 
     // Set colors for each button
-    auto size_t = 1;
+    size_t index = 1;
     auto elementNumber = PeriodicTable::elements.size() - 1;
-    while (size_t <= elementNumber)
+    while (index <= elementNumber)
     {
-        Element* element = PeriodicTable::elements[size_t];
+        Element* element = PeriodicTable::elements[index];
         QString color;
         if (ui->rbtnCategories->isChecked())
         {
@@ -83,7 +83,7 @@ void TableSection::updateButtonColors()
             qDebug() << "Widget is not a QPushButton for element at position" << element->getDisplayRow()-1 << element->getDisplayColumn()-1 << element->getName() ;
         }
 
-        size_t++;
+        index++;
 
     }
 }
