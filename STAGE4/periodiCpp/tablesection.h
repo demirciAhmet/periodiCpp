@@ -1,18 +1,15 @@
 #ifndef TABLESECTION_H
 #define TABLESECTION_H
 
-#include "forms/ui_tablesection.h"
 #include <QButtonGroup>
 #include <QPushButton>
 #include <QWidget>
-#include <element.h>
+#include "element.h"
 
 
-QT_BEGIN_NAMESPACE
 namespace Ui {
 class TableSection;
 }
-QT_END_NAMESPACE
 
 /*!
  * \brief The TableSection class is the main class for the "Table" section. It extends QWidget to be able to use in main menu.
@@ -22,7 +19,7 @@ class TableSection : public QWidget
     Q_OBJECT
 
 public:
-    TableSection(QWidget *parent = nullptr);
+    explicit TableSection(QWidget *parent = nullptr);
     ~TableSection();
 
 private:

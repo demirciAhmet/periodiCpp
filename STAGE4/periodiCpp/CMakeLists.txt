@@ -42,8 +42,7 @@ set(PROJECT_SOURCES
         mainmenu.h
         forms/mainmenu.ui
         resources.qrc
-        ${PROJECT_SOURCES_TABLE_SECTION}
-        ${PROJECT_SOURCES_QUIZ_SECTION}
+
 )
 
 
@@ -52,6 +51,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(periodiCpp
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        ${PROJECT_SOURCES_TABLE_SECTION}
+        ${PROJECT_SOURCES_QUIZ_SECTION}
 
     )
 

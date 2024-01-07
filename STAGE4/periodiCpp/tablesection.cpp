@@ -1,3 +1,4 @@
+#include "forms/ui_tablesection.h"
 #include "tablesection.h"
 #include "periodictable.h"
 #include "elementdialog.h"
