@@ -157,6 +157,12 @@
            <underline>false</underline>
           </font>
          </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">text-align: center;</string>
+         </property>
          <property name="text">
           <string>Quiz</string>
          </property>
@@ -211,6 +217,12 @@
            <bold>true</bold>
            <underline>false</underline>
           </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">text-align: center;</string>
          </property>
          <property name="text">
           <string>Table</string>
@@ -283,7 +295,7 @@
          <number>0</number>
         </property>
         <item row="0" column="0">
-         <widget class="TableSection" name="TableSection" native="true"/>
+         <widget class="TableSection" name="pageTable" native="true"/>
         </item>
        </layout>
       </widget>
@@ -305,7 +317,7 @@
          <number>0</number>
         </property>
         <item row="0" column="0">
-         <widget class="QuizSection" name="QuizSection" native="true"/>
+         <widget class="QuizSection" name="pageQuiz" native="true"/>
         </item>
        </layout>
       </widget>
