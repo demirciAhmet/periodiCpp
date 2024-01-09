@@ -16,10 +16,7 @@
 ![GUI3](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/dialog.png)
 
 ---
-<video width="640" height="360" controls>
-  <source src="blob:https://www.youtube.com/eba50577-094c-489b-a86b-955275deb496">
-  Your browser does not support the video [tag.](https://www.youtube.com/watch?v=vmsg-YQF934)
-</video>
+<iframe width="640" height="360" src="blob:https://www.youtube.com/eba50577-094c-489b-a86b-955275deb496" frameborder="0" allowfullscreen></iframe>
 
 
 ---
