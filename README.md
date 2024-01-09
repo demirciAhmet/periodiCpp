@@ -6,7 +6,7 @@
 - Code improvements: Now we have cleaner and more efficient code.
 - Added doxygen documentation lines.
 
-# Images & Videos
+# Images
 ![GUI1](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)
 
 ---
@@ -15,9 +15,10 @@
 ---
 ![GUI3](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/dialog.png)
 
----
+# Videos
 [![youtube-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)](https://www.youtube.com/watch?v=vmsg-YQF934)
 
+---
 
 ---
 
