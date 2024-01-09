@@ -17,7 +17,7 @@
 
 ---
 <video width="640" height="360" controls>
-  <source src="https://raw.githubusercontent.com/username/repository/branch/path/to/your/video.mp4" type="video/mp4">
+  <source src="https://www.youtube.com/eba50577-094c-489b-a86b-955275deb496">
   Your browser does not support the video [tag.](https://www.youtube.com/watch?v=vmsg-YQF934)
 </video>
 
