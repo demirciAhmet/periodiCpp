@@ -17,7 +17,7 @@
 
 ---
 
-**Video 1:** https://raw.githubusercontent.com/terrabladex/periodiCpp-Storage/main/Images%26Videos/GUI-Recording-1.mp4
+**Video 1:** [https://raw.githubusercontent.com/terrabladex/periodiCpp-Storage/main/Images%26Videos/GUI-Recording-1.mp4](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/GUI-Recording-1.mp4)
 ---
 
 # Introduction
