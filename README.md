@@ -16,7 +16,7 @@
 ![GUI3](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/dialog.png)
 
 # Videos
-[![youtube-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)](https://www.youtube.com/watch?v=vmsg-YQF934)
+[![youtube-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/thumbnail-1.png)](https://www.youtube.com/watch?v=vmsg-YQF934)
 
 ---
 
