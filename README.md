@@ -6,12 +6,6 @@
 - Code improvements: Now we have cleaner and more efficient code.
 - Added doxygen documentation lines.
 
-# Group members:
-
-- Mehmet Emre Cebeci - 21050111037
-- Ahmet Kaan Demirci - 21050111031
-- Mustafa Özdemir - 21050111016
-
 # Images & Videos
 ![GUI1](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)
 
@@ -34,3 +28,8 @@
 
 # Conclusion
 
+# Group members:
+
+- Mehmet Emre Cebeci - 21050111037
+- Ahmet Kaan Demirci - 21050111031
+- Mustafa Özdemir - 21050111016
