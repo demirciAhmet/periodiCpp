@@ -16,8 +16,12 @@
 ![GUI3](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/dialog.png)
 
 ---
+<video width="640" height="360" controls>
+  <source src="https://raw.githubusercontent.com/username/repository/branch/path/to/your/video.mp4" type="video/mp4">
+  Your browser does not support the video [tag.](https://www.youtube.com/watch?v=vmsg-YQF934)
+</video>
 
-**Video 1:** [https://raw.githubusercontent.com/terrabladex/periodiCpp-Storage/main/Images%26Videos/GUI-Recording-1.mp4](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/GUI-Recording-1.mp4)
+
 ---
 
 # Introduction
