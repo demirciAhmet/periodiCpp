@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.h"
+#include "../../../../../clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.h"
 #include <QtGui/qtextcursor.h>
 #include <QtCore/qmetatype.h>
 

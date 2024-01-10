@@ -1,9 +1,9 @@
-/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/EWIEGA46WW/moc_scoremanager.cpp: /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/moc_predefs.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/challenge.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/dialoghandler.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/question.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/questiondialog.h \
+/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/EWIEGA46WW/moc_scoremanager.cpp: /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/moc_predefs.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/challenge.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/dialoghandler.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/question.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/questiondialog.h \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QCoreApplication \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QDebug \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QFile \

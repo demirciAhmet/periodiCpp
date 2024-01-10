@@ -158,14 +158,12 @@ public:
         btnChoice = new QPushButton(ChallangeChoice);
         btnChoice->setObjectName("btnChoice");
         btnChoice->setMinimumSize(QSize(0, 48));
-        btnChoice->setStyleSheet(QString::fromUtf8("background-color: rgb(26, 95, 180);"));
 
         verticalLayout_3->addWidget(btnChoice);
 
         btnChoice2 = new QPushButton(ChallangeChoice);
         btnChoice2->setObjectName("btnChoice2");
         btnChoice2->setMinimumSize(QSize(0, 48));
-        btnChoice2->setStyleSheet(QString::fromUtf8(""));
 
         verticalLayout_3->addWidget(btnChoice2);
 
@@ -198,17 +196,6 @@ public:
         font1.setPointSize(16);
         font1.setBold(true);
         btnLevel->setFont(font1);
-        btnLevel->setStyleSheet(QString::fromUtf8("# background-color: rgb(51, 209, 122);\n"
-"\n"
-"\n"
-"/* Stylesheet for QPushButton */\n"
-"QPushButton {\n"
-"    background-color: rgb(51, 209, 122);; /* Default background color for enabled state */\n"
-"}\n"
-"\n"
-"QPushButton:disabled {\n"
-"    background-color: #FF5733; /* Background color for disabled state */\n"
-"}"));
 
         verticalLayout->addWidget(btnLevel);
 
@@ -216,17 +203,6 @@ public:
         btnLevel2->setObjectName("btnLevel2");
         btnLevel2->setMinimumSize(QSize(0, 48));
         btnLevel2->setFont(font1);
-        btnLevel2->setStyleSheet(QString::fromUtf8("# background-color: rgb(51, 209, 122);\n"
-"\n"
-"\n"
-"/* Stylesheet for QPushButton */\n"
-"QPushButton {\n"
-"    background-color: rgb(51, 209, 122);; /* Default background color for enabled state */\n"
-"}\n"
-"\n"
-"QPushButton:disabled {\n"
-"    background-color: #FF5733; /* Background color for disabled state */\n"
-"}"));
 
         verticalLayout->addWidget(btnLevel2);
 
@@ -234,17 +210,6 @@ public:
         btnLevel3->setObjectName("btnLevel3");
         btnLevel3->setMinimumSize(QSize(0, 48));
         btnLevel3->setFont(font1);
-        btnLevel3->setStyleSheet(QString::fromUtf8("# background-color: rgb(51, 209, 122);\n"
-"\n"
-"\n"
-"/* Stylesheet for QPushButton */\n"
-"QPushButton {\n"
-"    background-color: rgb(51, 209, 122);; /* Default background color for enabled state */\n"
-"}\n"
-"\n"
-"QPushButton:disabled {\n"
-"    background-color: #FF5733; /* Background color for disabled state */\n"
-"}"));
 
         verticalLayout->addWidget(btnLevel3);
 
@@ -252,17 +217,6 @@ public:
         btnLevel4->setObjectName("btnLevel4");
         btnLevel4->setMinimumSize(QSize(0, 48));
         btnLevel4->setFont(font1);
-        btnLevel4->setStyleSheet(QString::fromUtf8("# background-color: rgb(51, 209, 122);\n"
-"\n"
-"\n"
-"/* Stylesheet for QPushButton */\n"
-"QPushButton {\n"
-"    background-color: rgb(51, 209, 122);; /* Default background color for enabled state */\n"
-"}\n"
-"\n"
-"QPushButton:disabled {\n"
-"    background-color: #FF5733; /* Background color for disabled state */\n"
-"}"));
 
         verticalLayout->addWidget(btnLevel4);
 
@@ -270,17 +224,6 @@ public:
         btnLevel5->setObjectName("btnLevel5");
         btnLevel5->setMinimumSize(QSize(0, 48));
         btnLevel5->setFont(font1);
-        btnLevel5->setStyleSheet(QString::fromUtf8("# background-color: rgb(51, 209, 122);\n"
-"\n"
-"\n"
-"/* Stylesheet for QPushButton */\n"
-"QPushButton {\n"
-"    background-color: rgb(51, 209, 122);; /* Default background color for enabled state */\n"
-"}\n"
-"\n"
-"QPushButton:disabled {\n"
-"    background-color: #FF5733; /* Background color for disabled state */\n"
-"}"));
 
         verticalLayout->addWidget(btnLevel5);
 
@@ -296,7 +239,7 @@ public:
 
         retranslateUi(quizSection);
 
-        Pages->setCurrentIndex(3);
+        Pages->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(quizSection);

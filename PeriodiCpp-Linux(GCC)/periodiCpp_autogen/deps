@@ -1,34 +1,34 @@
 periodiCpp_autogen/timestamp: \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/CMakeLists.txt \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/challenge.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/challenge.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/dialoghandler.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/element.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/element.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/elementdialog.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/elementdialog.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/level.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/level.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/main.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/mainmenu.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/mainmenu.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/periodictable.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/periodictable.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/question.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/question.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/questiondialog.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/questiondialog.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/quizsection.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/quizsection.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources.qrc \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/tablesection.cpp \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/tablesection.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/moc_predefs.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/CMakeLists.txt \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/challenge.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/challenge.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/dialoghandler.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/element.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/element.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/elementdialog.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/elementdialog.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/level.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/level.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/main.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/mainmenu.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/mainmenu.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/periodictable.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/periodictable.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/question.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/question.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/questiondialog.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/questiondialog.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/quizsection.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/quizsection.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/resources.qrc \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/tablesection.cpp \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/tablesection.h \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/.qtc/package-manager/auto-setup.cmake \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.27.7/CMakeSystem.cmake \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/moc_predefs.h \
 	/home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QCoreApplication \
 	/home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QDebug \
 	/home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/QFile \
@@ -838,8 +838,8 @@ periodiCpp_autogen/timestamp: \
 	/usr/lib/llvm-14/lib/clang/14.0.0/include/stdarg.h \
 	/usr/lib/llvm-14/lib/clang/14.0.0/include/stdbool.h \
 	/usr/lib/llvm-14/lib/clang/14.0.0/include/stddef.h \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/forms/elementdialog.ui \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/forms/mainmenu.ui \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/forms/quizsection.ui \
-	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/forms/tablesection.ui \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/forms/elementdialog.ui \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/forms/mainmenu.ui \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/forms/quizsection.ui \
+	/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/forms/tablesection.ui \
 	/home/ahmet/Qt/Tools/CMake/bin/cmake

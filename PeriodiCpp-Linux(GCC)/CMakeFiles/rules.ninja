@@ -7,14 +7,14 @@
 
 # =============================================================================
 # Project: periodiCpp
-# Configurations: Debug
+# Configurations: Release
 # =============================================================================
 # =============================================================================
 
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__periodiCpp_unscanned_Debug
+rule CXX_COMPILER__periodiCpp_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/usr/bin/clang++-14 $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule CXX_COMPILER__periodiCpp_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__periodiCpp_Debug
+rule CXX_EXECUTABLE_LINKER__periodiCpp_Release
   command = $PRE_LINK && /usr/bin/clang++-14 $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/ahmet/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)" -B/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug
+  command = /home/ahmet/Qt/Tools/CMake/bin/cmake --regenerate-during-build -S/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes -B/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release
   description = Re-running CMake...
   generator = 1
 

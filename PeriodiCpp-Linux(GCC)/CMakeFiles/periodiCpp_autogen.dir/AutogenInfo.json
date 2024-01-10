@@ -1,68 +1,17 @@
 {
-	"BUILD_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen",
-	"CMAKE_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)",
+	"BUILD_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes",
 	"CMAKE_EXECUTABLE" : "/home/ahmet/Qt/Tools/CMake/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/CMakeLists.txt",
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeSystem.cmake.in",
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeNinjaFindMake.cmake",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/CMakeLists.txt",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/.qtc/package-manager/auto-setup.cmake",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.27.7/CMakeSystem.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-Determine-CXX.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang-FindBinUtils.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -79,18 +28,6 @@
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake",
-		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"/home/ahmet/Qt/6.6.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"/home/ahmet/Qt/6.6.1/gcc_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"/home/ahmet/Qt/6.6.1/gcc_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -452,90 +389,90 @@
 		"/home/ahmet/Qt/6.6.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessTargets.cmake",
 		"/home/ahmet/Qt/6.6.1/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsMacros.cmake",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources.qrc"
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/resources.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)",
-	"DEP_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes",
+	"DEP_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "periodiCpp_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/challenge.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/challenge.h",
 			"MU",
 			"EWIEGA46WW/moc_challenge.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/dialoghandler.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/dialoghandler.h",
 			"MU",
 			"EWIEGA46WW/moc_dialoghandler.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/element.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/element.h",
 			"MU",
 			"EWIEGA46WW/moc_element.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/elementdialog.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/elementdialog.h",
 			"MU",
 			"EWIEGA46WW/moc_elementdialog.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/level.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/level.h",
 			"MU",
 			"EWIEGA46WW/moc_level.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/mainmenu.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/mainmenu.h",
 			"MU",
 			"EWIEGA46WW/moc_mainmenu.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/periodictable.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/periodictable.h",
 			"MU",
 			"EWIEGA46WW/moc_periodictable.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/question.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/question.h",
 			"MU",
 			"EWIEGA46WW/moc_question.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/questiondialog.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/questiondialog.h",
 			"MU",
 			"EWIEGA46WW/moc_questiondialog.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/quizsection.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/quizsection.h",
 			"MU",
 			"EWIEGA46WW/moc_quizsection.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.h",
 			"MU",
 			"EWIEGA46WW/moc_scoremanager.cpp",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/tablesection.h",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/tablesection.h",
 			"MU",
 			"EWIEGA46WW/moc_tablesection.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/include",
-	"MOC_COMPILATION_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
+	"INCLUDE_DIR" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -545,7 +482,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)",
+		"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes",
 		"/home/ahmet/Qt/6.6.1/gcc_64/include/QtCore",
 		"/home/ahmet/Qt/6.6.1/gcc_64/include",
 		"/home/ahmet/Qt/6.6.1/gcc_64/mkspecs/linux-g++",
@@ -578,76 +515,76 @@
 		"-c",
 		"/home/ahmet/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/periodiCpp_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/periodiCpp_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/home/ahmet/Qt/6.6.1/gcc_64/./libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/home/ahmet/Qt/6.6.1/gcc_64/./libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/CMakeFiles/periodiCpp_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/CMakeFiles/periodiCpp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/challenge.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/challenge.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/element.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/element.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/elementdialog.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/elementdialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/level.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/level.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/main.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/main.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/mainmenu.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/mainmenu.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/periodictable.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/periodictable.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/question.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/question.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/questiondialog.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/questiondialog.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/quizsection.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/quizsection.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/scoremanager.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/scoremanager.cpp",
 			"MU",
 			null
 		],
 		[
-			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/tablesection.cpp",
+			"/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/tablesection.cpp",
 			"MU",
 			null
 		]

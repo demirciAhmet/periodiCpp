@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../../clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/tablesection.h"
+#include "../../../../../clone/periodiCpp-Storage/Project-Source-Codes/tablesection.h"
 #include <QtCore/qmetatype.h>
 
 #if __has_include(<QtCore/qtmochelpers.h>)

@@ -1,5 +1,5 @@
-/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/EWIEGA46WW/moc_mainmenu.cpp: /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/mainmenu.h \
-  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Debug/periodiCpp_autogen/moc_predefs.h \
+/home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/EWIEGA46WW/moc_mainmenu.cpp: /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/clone/periodiCpp-Storage/Project-Source-Codes/mainmenu.h \
+  /home/ahmet/Obsidian-Notes/Lectures/Lecture-Files/CENG201-Files/OO-Project/Git/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_GCC_64bit-Release/periodiCpp_autogen/moc_predefs.h \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/q20functional.h \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/q20memory.h \
   /home/ahmet/Qt/6.6.1/gcc_64/include/QtCore/q20type_traits.h \
