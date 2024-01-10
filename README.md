@@ -5,6 +5,7 @@
 - **Quiz Section:** The highest score holder is now in a txt file. When you close the application, the highest score data will still exist.
 - Code improvements: Now we have cleaner and more efficient code.
 - Added doxygen documentation lines.
+- Since we have completed the core application, we can easily add new features and sections.
 
 # Images
 ![GUI1](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)
