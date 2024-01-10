@@ -1,0 +1,24 @@
+{
+	"BUILD_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/periodiCpp_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)",
+	"CMAKE_SOURCE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)",
+	"INCLUDE_DIR" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/periodiCpp_autogen/include",
+	"INPUTS" : 
+	[
+		"C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources/Element-Data.csv",
+		"C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources/style.qss",
+		"C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources/icnSearch.png"
+	],
+	"LOCK_FILE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/periodiCpp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.6.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/CMakeFiles/periodiCpp_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx9/periodiCpp-Storage/STAGE4/periodiCpp(Guncel)/resources.qrc",
+	"VERBOSITY" : 0
+}

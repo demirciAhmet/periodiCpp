@@ -1,0 +1,22 @@
+# ninja log v5
+22	3396	7266116955798159	periodiCpp_autogen/timestamp	412755bcb794a749
+22	3396	7266116955798159	periodiCpp_autogen/mocs_compilation.cpp	412755bcb794a749
+22	3396	7266116955798159	C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/periodiCpp_autogen/timestamp	412755bcb794a749
+22	3396	7266116955798159	C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/periodiCpp_autogen/mocs_compilation.cpp	412755bcb794a749
+3397	3572	7266116959284754	periodiCpp_autogen/EWIEGA46WW/qrc_resources.cpp	95f0cabe4b776f7e
+3397	3572	7266116959284754	C:/Users/mehme/Desktop/Programlama/periodiCPP/klonx5/periodiCpp-Storage/STAGE4/build-periodiCpp-Desktop_Qt_6_6_1_MinGW_64_bit-Debug/periodiCpp_autogen/EWIEGA46WW/qrc_resources.cpp	95f0cabe4b776f7e
+3852	9194	7266117015616855	CMakeFiles/periodiCpp.dir/question.cpp.obj	3649e03546ce414d
+3595	9408	7266117017417779	CMakeFiles/periodiCpp.dir/main.cpp.obj	3fb59f5bc3cae51d
+3888	9479	7266117018048501	CMakeFiles/periodiCpp.dir/questiondialog.cpp.obj	541f2f0efd5c91b1
+3740	9625	7266117019868417	CMakeFiles/periodiCpp.dir/element.cpp.obj	95de2885a984fc57
+3703	10046	7266117023309780	CMakeFiles/periodiCpp.dir/periodictable.cpp.obj	f833549fca91e1bc
+9625	10258	7266117025836806	CMakeFiles/periodiCpp.dir/periodiCpp_autogen/EWIEGA46WW/qrc_resources.cpp.obj	76cb2d4b572b0ab6
+3766	11558	7266117039206149	CMakeFiles/periodiCpp.dir/elementdialog.cpp.obj	d7f9a11d50dacba9
+3814	11664	7266117040316873	CMakeFiles/periodiCpp.dir/quizsection.cpp.obj	e6596493dbc16266
+3573	11820	7266117041938505	CMakeFiles/periodiCpp.dir/periodiCpp_autogen/mocs_compilation.cpp.obj	9b8c3e2c6d02e944
+3631	11945	7266117043148247	CMakeFiles/periodiCpp.dir/mainmenu.cpp.obj	89857a9346bd0adc
+3667	14218	7266117065892976	CMakeFiles/periodiCpp.dir/tablesection.cpp.obj	b39cc6d4b1201bd4
+9202	14746	7266117071152361	CMakeFiles/periodiCpp.dir/level.cpp.obj	cc2c6a4c68842b9
+9411	15346	7266117077136144	CMakeFiles/periodiCpp.dir/challenge.cpp.obj	fbacc5a62208f89d
+9480	15470	7266117078430245	CMakeFiles/periodiCpp.dir/scoremanager.cpp.obj	2728d8b6501283a1
+15471	17128	7266117094902356	periodiCpp.exe	18e4c9c0b60cbbeb
