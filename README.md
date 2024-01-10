@@ -38,7 +38,8 @@ PeriodiCpp is a comprehensive periodic table application with several features: 
 
 # Conclusion
 
-In this project, we implement our first complete GUI application with C++. Since we didn't know Qt(or similar) enough, it was challenging to learn it from scratch. The hardest parts of the project were Qt related.
+In this project, we implement our first complete GUI application with C++. Since we didn't know Qt(or similar) enough, it was challenging to learn it from scratch. The hardest parts of the project were mostly Qt related.
+
 # Group 03 Members:
 
 - Mehmet Emre Cebeci - 21050111037
