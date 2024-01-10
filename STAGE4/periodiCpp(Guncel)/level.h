@@ -9,6 +9,11 @@
 #include "question.h"
 #include "questiondialog.h"
 
+/*!
+ * \brief The Level class contains questions and answer.
+ * This class implements DialogHandler, so it must use executionOfQuestionDialogs method.
+ */
+
 class Level : public QObject, public DialogHandler
 {
 private:
@@ -18,9 +23,9 @@ private:
 public:
     explicit Level(QVector<Question*> questions,  QObject *parent = nullptr);
 
-    QVector<Question *> getQuestions() const;
+    QVector<Question *> getQuestions() const;   //Getter for questions
 
-    void executionOfQuestionDialogs(QuestionDialog *arr[], int &count) override;
+    void executionOfQuestionDialogs(QuestionDialog *arr[], int &count) override;  //Method that execute the question dialogs.
 
 signals:
 

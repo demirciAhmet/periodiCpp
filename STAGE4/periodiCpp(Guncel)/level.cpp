@@ -18,7 +18,7 @@ void Level::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
     // Create a layout for the parent dialog
     QVBoxLayout *parentLayout = new QVBoxLayout(&parentDialog);
 
-    // Create a scroll area (if needed)
+    // Create a scroll area
     QScrollArea *scrollArea = new QScrollArea;
     scrollArea->setWidgetResizable(true);
 
@@ -34,7 +34,7 @@ void Level::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
         layout->addWidget(arr[i]);
     }
 
-    // Set the widget for the scroll area (if needed)
+    // Set the widget for the scroll area
     if (scrollArea) {
         scrollArea->setWidget(scrollWidget);
         parentLayout->addWidget(scrollArea);
@@ -45,13 +45,14 @@ void Level::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
     QPushButton *nextButton = new QPushButton("Next", &parentDialog);
     parentLayout->addWidget(nextButton);
 
-    // Connect the "Next" button to a slot (e.g., handleNextButtonClick)
+    // Connect the "Next" button to a slot
     connect(nextButton, &QPushButton::clicked, &parentDialog, &QDialog::accept);
 
-    // Show the parent dialog
+    // Wait for the parent dialog to finish execution and check if it was accepted
     if (parentDialog.exec() == QDialog::Accepted) {
 
         for (int i = 0; i < 5; i++) {
+             //Keep these for comparison of markedOption and correctOption
             QVector<QString> markedOptions = arr[i]->getMarkedOptions();
             QString correctOption = arr[i]->getCorrectOption();
 

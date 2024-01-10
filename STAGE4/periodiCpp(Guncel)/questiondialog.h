@@ -10,6 +10,10 @@
 #include <QObject>
 #include "question.h"
 
+/*!
+ * \brief The QuestionDialog class represents the frontend part of the questions.
+ */
+
 class QuestionDialog : public QDialog
 {
 private:
@@ -24,6 +28,7 @@ private:
 public:
     explicit QuestionDialog(const Question& question, QString correctOption, QWidget *parent = nullptr);
 
+    //Getters
     QVector<QString> getMarkedOptions() const;
 
     QString getCorrectOption() const;

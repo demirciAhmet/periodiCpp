@@ -11,8 +11,9 @@ QVector<Question *> Challenge::getQuestions() const
     return questions;
 }
 
-int Challenge::calculateTheScore(int time, int usedTime, int correctOptions, int wrongAnswer)
+int Challenge::calculateTheScore(int usedTime, int correctOptions, int wrongAnswer)
 {
+    //Compute a score based on the time used, the number of correct and incorrect answers
     return -usedTime + (12 * correctOptions) -(wrongAnswer * 3);
 }
 
@@ -30,6 +31,7 @@ void Challenge::saveToFile(const QString& fileName) const {
         qDebug() << "Could not open the file for writing: " << file.errorString();
     }
 }
+
 void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
 {
     QDialog parentDialog;
@@ -37,7 +39,7 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
     // Create a layout for the parent dialog
     QVBoxLayout *parentLayout = new QVBoxLayout(&parentDialog);
 
-    // Create a scroll area (if needed)
+    // Create a scroll area
     QScrollArea *scrollArea = new QScrollArea;
     scrollArea->setWidgetResizable(true);
 
@@ -58,7 +60,7 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
         layout->addWidget(arr[i]);
     }
 
-    // Set the widget for the scroll area (if needed)
+    // Set the widget for the scroll area
     if (scrollArea) {
         scrollArea->setWidget(scrollWidget);
         parentLayout->addWidget(scrollArea);
@@ -106,7 +108,7 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
 
     connect(nextButton, &QPushButton::clicked, &parentDialog, &QDialog::accept);
 
-
+    // Create a single "Give Up" button
     QPushButton *giveUpButton = new QPushButton("Give Up", &parentDialog);
     parentLayout->addWidget(giveUpButton);
     connect(giveUpButton, &QPushButton::clicked, &parentDialog, &QDialog::accept);
@@ -114,9 +116,12 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
     // Process events to ensure the timer updates are displayed
     QCoreApplication::processEvents();
 
+    // Wait for the parent dialog to finish execution and check if it was accepted
     if (parentDialog.exec() == QDialog::Accepted) {
+        //If it is accepted stop the timer
         timer.stop();
         for (int i = 0; i < 50; i++) {
+            //Keep these for comparison of markedOption and correctOption
             QVector<QString> markedOptions = arr[i]->getMarkedOptions();
             QString correctOption = arr[i]->getCorrectOption();
 
@@ -126,9 +131,11 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
             }
         }
 
-        lastScore = calculateTheScore(300, 300 - remainingTime, count, 50 - count);
+        lastScore = calculateTheScore(300 - remainingTime, count, 50 - count);
+        //Save the last score on scores.txt
         saveToFile("scores.txt");
 
+        //Create Dialog for show the last score.
         QDialog scoreDialog;
         QVBoxLayout *scoreLayout = new QVBoxLayout(&scoreDialog);
 

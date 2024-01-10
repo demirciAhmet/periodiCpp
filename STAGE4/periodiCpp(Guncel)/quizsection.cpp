@@ -1,6 +1,7 @@
 #include "quizsection.h"
 #include "forms/ui_quizsection.h"
 
+//Use this levelFlags to enable or disable the levels
 QVector<bool> QuizSection::levelFlags = {true ,false, false, false ,false};
 
 QuizSection::QuizSection(QWidget *parent)
@@ -10,14 +11,17 @@ QuizSection::QuizSection(QWidget *parent)
     ui->setupUi(this);
     ui->Pages->setCurrentIndex(0);
     ScoreManager* scoreManager = new ScoreManager(parent);
+    //Set up connect to show the score, when click the "Show Highest Score" button
     connect(ui->btnChoice2, &QPushButton::clicked, scoreManager, &ScoreManager::onButtonClicked);
 
+    // //Set up connect to open levels
     connect(ui->btnLevel, &QPushButton::clicked, this, &QuizSection::on_btnLevelMode_clicked);
     connect(ui->btnLevel2, &QPushButton::clicked, this, &QuizSection::on_btnLevelMode_clicked);
     connect(ui->btnLevel3, &QPushButton::clicked, this, &QuizSection::on_btnLevelMode_clicked);
     connect(ui->btnLevel4, &QPushButton::clicked, this, &QuizSection::on_btnLevelMode_clicked);
     connect(ui->btnLevel5, &QPushButton::clicked, this, &QuizSection::on_btnLevelMode_clicked);
 
+    //If levelFlags[index] is true, then index.level open
     if(levelFlags[1] == true) ui->btnLevel2->setEnabled(true);
     else ui->btnLevel2->setDisabled(true);
 
@@ -32,6 +36,7 @@ QuizSection::QuizSection(QWidget *parent)
 }
 
 
+//To set transitions in QuizSection, use ui->Pages->setCurrentIndex(index);
 void QuizSection::on_pushButton_clicked()
 {
     ui->Pages->setCurrentIndex(1);
@@ -56,8 +61,6 @@ void QuizSection::on_pushButton_2_clicked()
 }
 
 
-
-
 void QuizSection::on_btnChallangeMode_clicked()
 {
     ui->Pages->setCurrentIndex(2);
@@ -66,6 +69,7 @@ void QuizSection::on_btnChallangeMode_clicked()
 
 void QuizSection::on_btnChoice_clicked()
 {
+    //Generate questions
     Question *question1 = new Question("Which one is not noble gase?", {"Xenon", "Argon", "Hellium", "Lithium", "Radon"}, 1);
     Question *question2 = new Question("Which one is not metal?", {"Hydrogen", "Gallium", "Sodium", "Lithium", "Indium"}, 2);
     Question *question3 = new Question("Which one is not lanthanoid?", {"Cerium", "Zinc", "Holmium", "Terbium", "Lutetium"}, 3);
@@ -117,12 +121,14 @@ void QuizSection::on_btnChoice_clicked()
     Question *question49 = new Question("Which one has lower young modulus coefficient?", {"Scandium", "Vanadium", "Cobalt", "Galium", "Zinc"}, 49);
     Question *question50 = new Question("Which one has lower conductivity?", {"Xenon", "Krypton", "Argon", "Neon", "Helium"}, 50);
 
+    //Generate challenge object from Challenge class to keep the questions
     challenge = new Challenge({question1, question2, question3, question4, question5, question6, question7,question8,question9,
                                question10, question11, question12, question13, question14,question15, question16, question17, question18,question19,
                                question20, question21, question22, question23, question24,question25, question26, question27, question28,question29,
                                question30, question31, question32, question33, question34,question35, question36, question37, question38,question39,
                                question40, question41, question42, question43, question44,question45, question46, question47, question48,question49, question50});
 
+    //Create an array from the QuestionDialog class for visual representation of the questions and hold to answers of the the questions
     QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Lithium", this),
                              new QuestionDialog(*question2, "Hydrogen", this),
                              new QuestionDialog(*question3, "Zinc", this),
@@ -174,6 +180,7 @@ void QuizSection::on_btnChoice_clicked()
                              new QuestionDialog(*question49,  "Scandium",  this),
                              new QuestionDialog(*question50,  "Xenon",  this)};
 
+    //Create count for number of correct answers
     int count = 0;
     challenge->executionOfQuestionDialogs(arr,  count);
 }
@@ -182,24 +189,29 @@ void QuizSection::on_btnChoice_clicked()
 
 void QuizSection::showResultDialog(bool success, int remainingMistakes, int whichLevelIs)
 {
+    //Create result dialog for which message to show when the level ends
     QDialog *resultDialog = new QDialog(this);
     QVBoxLayout *layout = new QVBoxLayout(resultDialog);
 
     QLabel *lblResultText;
     QPushButton *btnResult;
 
-    if (success) {
+    if (success) {  //If all questions on the level were done correctly
         if(whichLevelIs != 5){
             lblResultText = new QLabel("Congratulations! You can pass to level " + QString::number(whichLevelIs + 1), this);
             btnResult = new QPushButton("Next");
+
+            //Activate the next level
             levelFlags[whichLevelIs] = true;
         }
         else{
+            //Since level 5 is the last level, show the last message that is:
             lblResultText = new QLabel("Congratulations! You passed all the levels");
             btnResult = new QPushButton("Next");
         }
 
     } else {
+        //If there is wrong answer show the number of mistakes and show this message:
         lblResultText = new QLabel("Unfortunately you couldn't pass. You have " + QString::number(remainingMistakes) + " mistakes");
         btnResult = new QPushButton("Next");
         levelFlags[whichLevelIs] = false;
@@ -215,13 +227,14 @@ void QuizSection::showResultDialog(bool success, int remainingMistakes, int whic
     // Show the resultDialog as a modal dialog
     resultDialog->exec();
 
-    // Close the resultDialog after it's accepted (Next button is clicked)
+    // Close the resultDialog after it's accepted
     resultDialog->close();
 }
 
 void QuizSection::on_btnLevelMode_clicked()
 {
     ui->Pages->setCurrentIndex(3);
+
     // Identify the sender button using qobject_cast
     QPushButton *clickedButton = qobject_cast<QPushButton*>(sender());
 
@@ -243,6 +256,7 @@ void QuizSection::on_btnLevelMode_clicked()
             level1->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
                 showResultDialog(true, 0, 1);
+                //All questions were answered correctly because the count was 5 so enable the next level.
                 ui->btnLevel2->setEnabled(true);
             }else{
                 showResultDialog(false, 5 - count, 1);
@@ -254,14 +268,14 @@ void QuizSection::on_btnLevelMode_clicked()
             Question *question3 = new Question("Which one has no electronegativity?", {"Neon", "Nitrogen", "Aluminium", "Gallium", "Zinc"}, 3);
             Question *question4 = new Question("Which one has higher electronegativity?", {"Iodine", "Bromine", "Chlorine", "Fluorine", "Nitrogen"}, 4);
             Question *question5 = new Question("Which one has lower electronegativity?", {"Hydrogen", "Lithium", "Sodium", "Potassium", "Rubidium"}, 5);
-            Level *level1 = new Level({question1, question2, question3, question4, question5});
+            Level *level2 = new Level({question1, question2, question3, question4, question5});
             QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Rubidium", this),
                                      new QuestionDialog(*question2, "Fluorine", this),
                                      new QuestionDialog(*question3, "Nitrogen", this),
                                      new QuestionDialog(*question4, "Fluorine",  this),
                                      new QuestionDialog(*question5,  "Rubidium",  this)};
             int count = 0;
-            level1->executionOfQuestionDialogs(arr,  count);
+            level2->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
                 showResultDialog(true, 0, 2);
                 ui->btnLevel3->setEnabled(true);
@@ -275,14 +289,14 @@ void QuizSection::on_btnLevelMode_clicked()
             Question *question3 = new Question("Which one has higher electron affinity?", {"Fluorine", "Chlorine", "Bromine", "Iodine", "Astatine"}, 3);
             Question *question4 = new Question("Which one has lower electron affinity?", {"Lanthanum", "Cerium", "Praseodymium", "Neodymium", "Promethium"}, 4);
             Question *question5 = new Question("Which one has higher density?", {"Chromium", "Manganese", "Iron", "Cobalt", "Nickel"}, 5);
-            Level *level1 = new Level({question1, question2, question3, question4, question5});
+            Level *level3 = new Level({question1, question2, question3, question4, question5});
             QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Neon", this),
                                      new QuestionDialog(*question2, "Sodium", this),
                                      new QuestionDialog(*question3, "Chlorine", this),
                                      new QuestionDialog(*question4, "Lanthanum",  this),
                                      new QuestionDialog(*question5,  "Nickel",  this)};
             int count = 0;
-            level1->executionOfQuestionDialogs(arr,  count);
+            level3->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
                 showResultDialog(true, 0, 3);
                 ui->btnLevel4->setEnabled(true);
@@ -297,14 +311,14 @@ void QuizSection::on_btnLevelMode_clicked()
             Question *question3 = new Question("Which one has the higher Van der Waals radius?", {"Hydrogen", "Lithium", "Sodium", "Potassium", "Caesium"}, 3);
             Question *question4 = new Question("Which one has the higher empirical radius?", {"Actinium", "Thorium", "Protactinium", "Neptunium", "Uranium"}, 4);
             Question *question5 = new Question("Which one has the higher covalent radius?", {"Nitrogen", "Phosphorus", "Arsenic", "Antimony", "Bismuth"}, 5);
-            Level *level1 = new Level({question1, question2, question3, question4, question5});
+            Level *level4 = new Level({question1, question2, question3, question4, question5});
             QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Carbon", this),
                                      new QuestionDialog(*question2, "Xenon", this),
                                      new QuestionDialog(*question3, "Potassium", this),
                                      new QuestionDialog(*question4, "Actinium",  this),
                                      new QuestionDialog(*question5,  "Bismuth",  this)};
             int count = 0;
-            level1->executionOfQuestionDialogs(arr,  count);
+            level4->executionOfQuestionDialogs(arr,  count);
             if (count == 5) {
                 showResultDialog(true, 0, 4);
                 ui->btnLevel5->setEnabled(true);
@@ -314,20 +328,24 @@ void QuizSection::on_btnLevelMode_clicked()
 
         }
         else if (clickedButton->text() == "Level 5") {
+            /* Total number of levels is 5. showResultDialog method will try to open the next level.
+             * But the compiler will give index out of range error. Because there is no level 6.
+             * Therefore use try-catch block.
+             */
             try {
                 Question *question1 = new Question("At 1000 celcius, which one is solid?", {"Beryllium", "Magnesium", "Calcium", "Strontium", "Barium"}, 1);
                 Question *question2 = new Question("At 1000 celcius, which one is not gas?", {"Silicon", "Phosphorus", "Sulfur", "Chlorine", "Argon"}, 2);
                 Question *question3 = new Question("Which one was discovered earlier?", {"Hydrogen", "Carbon", "Silicon", "Neon", "Nickel"}, 3);
                 Question *question4 = new Question("Which element was last discovered?", {"Roentgenium", "Copernicium", "Tennessine", "Nobelium", "Einsteinium"}, 4);
                 Question *question5 = new Question("Which one has higher Young modulus coefficient?", {"Mercury", "Thallium", "Tennessine", "Iridium", "Lawrencium"}, 5);
-                Level *level1 = new Level({question1, question2, question3, question4, question5});
+                Level *level5 = new Level({question1, question2, question3, question4, question5});
                 QuestionDialog* arr[] = {new QuestionDialog(*question1,  "Beryllium", this),
                                          new QuestionDialog(*question2, "Sodium", this),
                                          new QuestionDialog(*question3, "Carbon", this),
                                          new QuestionDialog(*question4, "Tennessine",  this),
                                          new QuestionDialog(*question5,  "Iridium",  this)};
                 int count = 0;
-                level1->executionOfQuestionDialogs(arr,  count);
+                level5->executionOfQuestionDialogs(arr,  count);
                 if (count == 5) {
                     showResultDialog(true, 0, 5);
                 }else{

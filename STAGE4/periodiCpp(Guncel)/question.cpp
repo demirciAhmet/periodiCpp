@@ -1,7 +1,7 @@
 #include "question.h"
 
 
-
+//constructor
 Question::Question(QString questionText, QVector<QString> options, int orderOfQuestion, QObject *parent)
     : QObject{parent}
 {
@@ -10,6 +10,7 @@ Question::Question(QString questionText, QVector<QString> options, int orderOfQu
     this->orderOfQuestion = orderOfQuestion;
 }
 
+//getters
 QString Question::getQuestionText() const
 {
     return questionText;

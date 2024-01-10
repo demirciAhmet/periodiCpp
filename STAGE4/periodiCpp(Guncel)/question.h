@@ -3,6 +3,10 @@
 
 #include <QObject>
 
+/*!
+ * \brief The Question class represents the backend part of the questions.
+ */
+
 class Question : public QObject
 {
 private:
@@ -14,6 +18,7 @@ private:
 public:
     explicit Question(QString questionText, QVector<QString> options, int orderOfQuestion, QObject *parent = nullptr);
 
+    //Getters
     QString getQuestionText() const;
 
     QVector<QString> getOptions() const;
