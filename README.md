@@ -19,7 +19,7 @@
 
 # Videos
 [![youtube-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/thumbnail-1.png)](https://www.youtube.com/watch?v=vmsg-YQF934)
-
+[![drive-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/thumbnail-2.png)](https://drive.google.com/file/d/1bGTderI94wLy3AZxFVH3SCE07SR-N0VC/view?usp=sharing)
 ---
 
 ---
