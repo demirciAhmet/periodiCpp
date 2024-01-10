@@ -1,0 +1,52 @@
+\hypertarget{classChallenge}{}\doxysection{Challenge Class Reference}
+\label{classChallenge}\index{Challenge@{Challenge}}
+
+
+The \mbox{\hyperlink{classChallenge}{Challenge}} class contains questions, answers and timer. This class implements \mbox{\hyperlink{classDialogHandler}{Dialog\+Handler}}, so it must use execution\+Of\+Question\+Dialogs method. It is separate from the \mbox{\hyperlink{classLevel}{Level}} class because this class use QTimer to create questions against time and determines a score at the end of the test.  
+
+
+
+
+{\ttfamily \#include $<$challenge.\+h$>$}
+
+
+
+Inheritance diagram for Challenge\+:
+% FIG 0
+
+
+Collaboration diagram for Challenge\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChallenge_ab315adafd88c4a8a6fd33b318d574fd4}\label{classChallenge_ab315adafd88c4a8a6fd33b318d574fd4}} 
+{\bfseries Challenge} (QVector$<$ \mbox{\hyperlink{classQuestion}{Question}} $\ast$ $>$ questions, QObject $\ast$parent=nullptr)
+\item 
+\mbox{\Hypertarget{classChallenge_aee32c293bf5b0d104d2643b7dfe8ab98}\label{classChallenge_aee32c293bf5b0d104d2643b7dfe8ab98}} 
+QVector$<$ \mbox{\hyperlink{classQuestion}{Question}} $\ast$ $>$ {\bfseries get\+Questions} () const
+\item 
+\mbox{\Hypertarget{classChallenge_a59702923a7029d6cf6f667a04d24ecc9}\label{classChallenge_a59702923a7029d6cf6f667a04d24ecc9}} 
+void {\bfseries execution\+Of\+Question\+Dialogs} (\mbox{\hyperlink{classQuestionDialog}{Question\+Dialog}} $\ast$arr\mbox{[}$\,$\mbox{]}, int \&count) override
+\item 
+\mbox{\Hypertarget{classChallenge_a71e0381971edfc2e5f51749c894b9900}\label{classChallenge_a71e0381971edfc2e5f51749c894b9900}} 
+int {\bfseries calculate\+The\+Score} (int used\+Time, int correct\+Options, int wrong\+Answer)
+\item 
+\mbox{\Hypertarget{classChallenge_a18505c4373167f7d63b3ae00e99af74a}\label{classChallenge_a18505c4373167f7d63b3ae00e99af74a}} 
+void {\bfseries save\+To\+File} (const QString \&file\+Name) const
+\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classChallenge_a4326f96bdd431d36f037428392bc6de7}\label{classChallenge_a4326f96bdd431d36f037428392bc6de7}} 
+class {\bfseries Score\+Manager}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The \mbox{\hyperlink{classChallenge}{Challenge}} class contains questions, answers and timer. This class implements \mbox{\hyperlink{classDialogHandler}{Dialog\+Handler}}, so it must use execution\+Of\+Question\+Dialogs method. It is separate from the \mbox{\hyperlink{classLevel}{Level}} class because this class use QTimer to create questions against time and determines a score at the end of the test. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+challenge.\+h\item 
+challenge.\+cpp\end{DoxyCompactItemize}
