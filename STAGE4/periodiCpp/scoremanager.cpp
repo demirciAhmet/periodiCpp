@@ -1,8 +1,7 @@
-#include "challenge.h"
 #include "scoremanager.h"
 
-ScoreManager::ScoreManager(QDialog *parent)
-    : QDialog{parent} {}
+ScoreManager::ScoreManager(QWidget *parent)
+    : QWidget{parent} {}
 
 QVector<int> ScoreManager::sortScores(QVector<int> vec)
 {
@@ -20,25 +19,40 @@ QVector<int> ScoreManager::sortScores(QVector<int> vec)
 
 void ScoreManager::onButtonClicked()
 {
-    QVector<int> challengeScores = Challenge::scores;
+    QVector<int> challengeScores;
 
-    if (!challengeScores.isEmpty()) {
-        // Sort the scores and get the highest score
-        QVector<int> sortedScores = sortScores(challengeScores);
-        highestScore = sortedScores.last();  // Use last() instead of at(size - 1) to handle empty lists
-    } else {
-        highestScore = 0;  // Default value when there are no scores
+    QFile file("scores.txt");
+    if (file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+
+        QTextStream in(&file);
+
+        while (!in.atEnd()) {
+            QString line = in.readLine();
+            int value = line.toInt();
+            challengeScores.append(value);
+        }
+        file.close();
+
+        int highestScore = 0;
+
+        if (!challengeScores.isEmpty()) {
+            // Sort the scores and get the highest score
+            QVector<int> sortedScores = sortScores(challengeScores);
+            highestScore = sortedScores.last();  // Use last() instead of at(size - 1) to handle empty lists
+        }
+
+        QDialog scoreDialog;
+        QVBoxLayout *scoreLayout = new QVBoxLayout(&scoreDialog);
+
+        QLabel *highestScoreLabel = new QLabel("Highest score is: " + QString::number(highestScore));
+        scoreLayout->addWidget(highestScoreLabel);
+
+        QPushButton *okButton = new QPushButton("OK", &scoreDialog);
+        scoreLayout->addWidget(okButton);
+
+        connect(okButton, &QPushButton::clicked, &scoreDialog, &QDialog::accept);
+        scoreDialog.exec();
+
     }
-
-    QDialog scoreDialog;
-    QVBoxLayout *scoreLayout = new QVBoxLayout(&scoreDialog);
-
-    QLabel *highestScoreLabel = new QLabel("Highest score is: " + QString::number(highestScore));
-    scoreLayout->addWidget(highestScoreLabel);
-
-    QPushButton *okButton = new QPushButton("OK", &scoreDialog);
-    scoreLayout->addWidget(okButton);
-
-    connect(okButton, &QPushButton::clicked, &scoreDialog, &QDialog::accept);
-    scoreDialog.exec();
 }
+

@@ -3,17 +3,18 @@
 
 #include <QObject>
 #include <QDialog>
+#include <QWidget>
+#include "challenge.h"
 
-class ScoreManager : public QDialog
+class ScoreManager : public QWidget
 {
 private:
     Q_OBJECT
     int highestScore;
 public:
-    explicit ScoreManager(QDialog *parent = nullptr);
+    explicit ScoreManager(QWidget *parent = nullptr);
 
     QVector<int> sortScores(QVector<int> vec);
-
 
 signals:
 

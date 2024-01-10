@@ -10,11 +10,10 @@
 #include <QVBoxLayout>
 #include <QWidget>
 #include <QDialog>
-#include "challengedialog.h"
+#include <QFile>
 #include "dialoghandler.h"
 #include "question.h"
 #include "questiondialog.h"
-#include "scoremanager.h"
 
 class Challenge : public QObject, public DialogHandler
 {
@@ -26,8 +25,8 @@ private:
     QTimer *timer;
     QLabel *timeLabel;
     int remainingTime;
-    static QVector<int> scores;
     int lastScore;
+    int highestScore;
 
 public:
     explicit Challenge(QVector<Question*> questions, QObject *parent = nullptr);
@@ -37,6 +36,9 @@ public:
     void executionOfQuestionDialogs(QuestionDialog *arr[], int &count) override;
 
     int calculateTheScore(int time, int usedTime, int correctOptions, int wrongAnswer);
+
+    void saveToFile(const QString& fileName) const;
+
 
 signals:
 };

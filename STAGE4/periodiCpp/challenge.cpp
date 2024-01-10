@@ -1,5 +1,4 @@
 #include "challenge.h"
-QVector<int> Challenge::scores;
 
 Challenge::Challenge(QVector<Question*> questions, QObject *parent )
     : QObject{parent}
@@ -18,7 +17,19 @@ int Challenge::calculateTheScore(int time, int usedTime, int correctOptions, int
 }
 
 
+// Save score to a file
+void Challenge::saveToFile(const QString& fileName) const {
 
+    QFile file(fileName);
+
+    if (file.open(QIODevice::Append | QIODevice::Text)) {
+        QTextStream out(&file);
+        out << lastScore << "\n";
+        file.close();
+    } else {
+        qDebug() << "Could not open the file for writing: " << file.errorString();
+    }
+}
 void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
 {
     QDialog parentDialog;
@@ -114,8 +125,9 @@ void Challenge::executionOfQuestionDialogs(QuestionDialog *arr[], int &count)
                 count++;
             }
         }
+
         lastScore = calculateTheScore(300, 300 - remainingTime, count, 50 - count);
-        scores.push_back(lastScore);
+        saveToFile("scores.txt");
 
         QDialog scoreDialog;
         QVBoxLayout *scoreLayout = new QVBoxLayout(&scoreDialog);

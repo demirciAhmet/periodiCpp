@@ -26,9 +26,7 @@ set(PROJECT_SOURCES_QUIZ_SECTION
         question.h question.cpp
         questiondialog.h questiondialog.cpp
         level.h level.cpp
-        leveldialog.h leveldialog.cpp
         challenge.h challenge.cpp
-        challengedialog.h challengedialog.cpp
         dialoghandler.h
         scoremanager.h scoremanager.cpp
         forms/quizsection.ui
