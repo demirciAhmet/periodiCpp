@@ -11,7 +11,7 @@
 # Installation
 
 1. Clone the repository
-2. Select corresponding build directory (PeriodiCpp-*) for operating system you are using. 
+2. Select corresponding build directory that starts with `PeriodiCpp-*` for operating system you are using. 
 3. Run the executable.
 
 # Images
