@@ -1,7 +1,7 @@
 
 # Introduction
 
-PeriodiCpp is a comprehensive periodic table application with several features: A user-friendly interface allows you to interact with the periodic table by clicking to the element form the periodic table or just by searching it from search bar. The integrated quizzes help you to learn the periodic table. "periodiCpp" has two interesting quiz modes: "Level Mode" and "Challenge Mode" where users can test their knowledge against the clock, earn points and do their best.
+PeriodiCpp is a comprehensive periodic table application with several features: A user-friendly interface allows you to interact with the periodic table by clicking to the element form the periodic table or just by searching it from search bar. The integrated quizzes help you to learn the periodic table. "periodiCpp" has two interesting quiz modes: "Level Mode" and "Challenge Mode" where users can test their knowledge with built-in levels or against the clock, earn points and do their best. 
 
 # Updates After the Presentation:
 
