@@ -36,6 +36,9 @@ PeriodiCpp is a comprehensive periodic table application with several features: 
 ## Quiz Section
 [![drive-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/thumbnail-2.png)](https://drive.google.com/file/d/1bGTderI94wLy3AZxFVH3SCE07SR-N0VC/view?usp=sharing)
 
+# Doxygen
+I used the APT package for Doxygen.
+
 # Conclusion
 
 In this project, we implement our first complete GUI application with C++. Since we didn't know Qt(or similar) enough, it was challenging to learn it from scratch. The hardest parts of the project were mostly Qt related.
