@@ -19,7 +19,7 @@ PeriodiCpp is a periodic table application with several features: A user-friendl
 2. Select corresponding build directory that starts with `PeriodiCpp-*` for operating system you are using. 
 3. Run the executable.
 
-**Note:** If you encounter any problems, you can use the source code to run the project:
+**Note:** If you encounter any problems, you can use the source codes in `https://github.com/terrabladex/periodiCpp-Storage/tree/main/Project-Source-Codes` to run the project:
 1. Open the project in QT Creator.
 2. Build and run the project. 
 
