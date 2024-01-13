@@ -1,7 +1,7 @@
 
 # Introduction
 
-PeriodiCpp is a comprehensive periodic table application with several features: A user-friendly interface allows you to interact with the periodic table by clicking to the element form the periodic table or just by searching it from search bar. The integrated quizzes help you to learn the periodic table. "periodiCpp" has two interesting quiz modes: "Level Mode" and "Challenge Mode" where users can test their knowledge with built-in levels or against the clock, earn points and do their best. 
+PeriodiCpp is a periodic table application with several features: A user-friendly interface allows you to interact with the periodic table by clicking to the element form the periodic table or just by searching it from search bar. The integrated quizzes help you to learn the periodic table. PeriodiCpp has two interesting quiz modes: "Level Mode" and "Challenge Mode" where users can test their knowledge with built-in levels or against the clock, earn points and do their best. 
 
 # Updates After the Presentation:
 
@@ -19,6 +19,10 @@ PeriodiCpp is a comprehensive periodic table application with several features: 
 2. Select corresponding build directory that starts with `PeriodiCpp-*` for operating system you are using. 
 3. Run the executable.
 
+**Note:** If you encounter any problems, you can use the source codes in `https://github.com/terrabladex/periodiCpp-Storage/tree/main/Project-Source-Codes` to run the project:
+1. Open the project in QT Creator.
+2. Build and run the project. 
+
 # Images
 ![GUI1](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)
 
@@ -35,6 +39,9 @@ PeriodiCpp is a comprehensive periodic table application with several features: 
 
 ## Quiz Section
 [![drive-video](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/thumbnail-2.png)](https://drive.google.com/file/d/1bGTderI94wLy3AZxFVH3SCE07SR-N0VC/view?usp=sharing)
+
+# Doxygen
+I used the APT package for Doxygen.
 
 # Conclusion
 
