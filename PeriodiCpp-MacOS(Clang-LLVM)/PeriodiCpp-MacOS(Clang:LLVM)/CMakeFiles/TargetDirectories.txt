@@ -1,0 +1,5 @@
+/Users/mustafaozdemir/Qt_project/build-periodiCpp-Qt_6_6_1_macos-Release/CMakeFiles/periodiCpp.dir
+/Users/mustafaozdemir/Qt_project/build-periodiCpp-Qt_6_6_1_macos-Release/CMakeFiles/install.dir
+/Users/mustafaozdemir/Qt_project/build-periodiCpp-Qt_6_6_1_macos-Release/CMakeFiles/periodiCpp_autogen.dir
+/Users/mustafaozdemir/Qt_project/build-periodiCpp-Qt_6_6_1_macos-Release/CMakeFiles/ALL_BUILD.dir
+/Users/mustafaozdemir/Qt_project/build-periodiCpp-Qt_6_6_1_macos-Release/CMakeFiles/ZERO_CHECK.dir
