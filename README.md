@@ -1,7 +1,7 @@
 
 # Introduction
 
-PeriodiCpp is a periodic table application with several features: A user-friendly interface allows you to interact with the periodic table by clicking to the element form the periodic table or just by searching it from search bar. The integrated quizzes help you to learn the periodic table. PeriodiCpp has two interesting quiz modes: "Level Mode" and "Challenge Mode" where users can test their knowledge with built-in levels or against the clock, earn points and do their best. 
+This is a four-member group project for the Object-Oriented Programming course. The application allows you to choose an appropriate coloring based on the selected periodic table property. The GUI enables interaction with the periodic table by clicking on elements directly or by searching for them using the search bar. The project encompasses the software development process (analysis, design, development, testing, and documentation).
 
 # Updates After the Presentation:
 
