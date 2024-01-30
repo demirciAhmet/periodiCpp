@@ -12,16 +12,6 @@ This is a four-member group project for the Object-Oriented Programming course. 
 - Added doxygen documentation lines.
 - Since we have completed the core application, we can easily add new features and sections.
 
-# Installation
-
-1. Clone the repository
-2. Select corresponding build directory that starts with `PeriodiCpp-*` for operating system you are using. 
-3. Run the executable.
-
-**Note:** If you encounter any problems, you can use the source codes in `https://github.com/demirciAhmet/periodiCpp/tree/main/src` to build and run the project:
-1. Open the project in QT Creator.
-2. Build and run the project. 
-
 # Images
 ![GUI1](https://github.com/terrabladex/periodiCpp-Storage/blob/main/Images%26Videos/table.png)
 
